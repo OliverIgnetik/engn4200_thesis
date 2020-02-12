@@ -1,0 +1,61 @@
+\SetPicSubDir{ch-Review}
+\SetExpSubDir{ch-Review}
+
+\chapter{Literature Review}
+\label{ch:review}
+\vspace{2em}
+
+\section{Signal Processing Techniques}
+\subsection{Sampling Theorem}
+
+The sampling theorem is a consequence of digitizing analogue signals. Sampling an analogue signal stores quantized values of the amplitude of a continuous signal at regular intervals determined by the sampling rate. 
+
+The sampling theorem says that to avoid higher frequency components aliasing as lower frequencies components the following must be satisfied. Considering a sampling frequency $F_{s}$ and Nyquist frequency $F_{N}$. 
+
+\begin{equation}
+    F_{s} > 2\cdot F_{N}     
+\end{equation}
+
+Where B is the highest frequency expected in the signal. Frequently a sampling rate of 44.1 kHz is used in audio recording because the range of human hearing is from 20-20kHz.  
+
+
+\subsection{Fourier Transform}
+\subsection{Short-Time Fourier Transform}
+
+As in other audio-related applications, the most popular tool for describing the time-varying energy across different frequency bands is the short-time Fourier Transform (STFT), which, when visualized as its magnitude, is known as the spectrogram. 
+
+Formally, let $x$ be a discrete-time signal obtained by uniform sampling a waveform at a sampling rate $F_{s}$ Hz. Using a N-point tapered window $w$ (eg. Hamming $w[n] = 0.5-0.46\cdot cos(\frac{2\pi n}{N})$ for $n\in\left[0,N-1\right]$) and an overlap of half a window length we obtain the STFT. 
+
+\begin{equation}
+  X [m,k] = \sum_{n=0}^{N-1}w[n]\cdot x[n + m\cdot\frac{N}{2}]\cdot exp\{-j\frac{2\pi k n }{N}\} 
+\end{equation}
+
+With $m\in\left[0,T-1\right]$ and $k\in\left[0,K-1\right]$. Here, $T$ determines the number of frames , $K = \frac{N}{2}$ is the index of the last unique frequency value as dictated by the Sampling Theorem. Thus $X[m,k]$ corresponds : 
+
+\begin{align}
+    f_{coeff}(k) &= \frac{k}{N} \cdot F_{s} \;\; Hz\\
+    t_{frame}(m) &= t \cdot \frac{N}{2F_{s}} \;\; s
+\end{align}
+
+$X[m,k]$ is complex-valued, with the phase depending on the alignment of each short-time analysis window. Often it is only the amplitude $\mid X[m,k] \mid$  that is used.
+
+\subsubsection{Log-Frequency Spectrogram}
+
+Note that the Fourier coefficients of $X[m,k]$ are linearly spaced on the frequency axis. Using suitable binning strategies, various approaches switch over to a logarithmically spaced frequency axis, by using mel-frequency bands or pitch bands as seen in \autoref{review:fig:log-STFT-example}. Keeping the linear frequency axis puts greater emphasis on the high-frequency regions of the signal, thus accentuating the aforementioned noise bursts visible as high-frequency content. One simple yet important step often applied in the processing of music signals, is referred to as logarithmic compression. Such a compression not only accounts for the logarithmic nature that describes how humans perceive sound but also balances out the dynamic range of the signal. 
+\cite{spma2011:Klapuri}
+
+\begin{figure}[!ht]
+  \centering
+    \includegraphics[width=.6\linewidth]{\Pic{png}{log-stft-example}}
+    \caption{STFT of a 10s excerpt from Blues in F - Bill Evans Trio recording }
+    \label{review:fig:log-STFT-example}
+\end{figure}
+
+\section{State of the Art Methods}
+\subsection{Non-negative Matrix Factorization}
+\subsection{Neural Networks}
+\lipsum[1]
+
+\section{Summary}
+
+Literature review Summary

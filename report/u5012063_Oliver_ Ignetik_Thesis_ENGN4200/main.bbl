@@ -1,0 +1,470 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{amt2019:Benetos}{article}{}
+      \name{author}{4}{}{%
+        {{hash=8303301ae3549296509a0c4d335b75d3}{%
+           family={Benetos},
+           familyi={B\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=5afd8de39ec9fe4a5c00fd9332e898db}{%
+           family={Dixon},
+           familyi={D\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=abbdcd9172361305dfe7b36d98b9c59a}{%
+           family={Duan},
+           familyi={D\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=534df54b7aea3e9023911c24383cf8b1}{%
+           family={Ewert},
+           familyi={E\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{10740af405d2c9618f01ca468bae8587}
+      \strng{fullhash}{10740af405d2c9618f01ca468bae8587}
+      \strng{bibnamehash}{10740af405d2c9618f01ca468bae8587}
+      \strng{authorbibnamehash}{10740af405d2c9618f01ca468bae8587}
+      \strng{authornamehash}{10740af405d2c9618f01ca468bae8587}
+      \strng{authorfullhash}{10740af405d2c9618f01ca468bae8587}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE SPS Journal}
+      \field{number}{1}
+      \field{title}{Automatic Music Transcription}
+      \field{volume}{36}
+      \field{year}{2019}
+    \endentry
+    \entry{amtfc2013:Benetos}{article}{}
+      \name{author}{5}{}{%
+        {{hash=8303301ae3549296509a0c4d335b75d3}{%
+           family={Benetos},
+           familyi={B\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=5afd8de39ec9fe4a5c00fd9332e898db}{%
+           family={Dixon},
+           familyi={D\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8e2abff78eee0f6088548b86d154dc57}{%
+           family={Giannoulis},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=77b543892d0d66966c7733202cb64a7d}{%
+           family={Kirchhoff},
+           familyi={K\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=26dbfc16d283b93923ae5d85c91f006e}{%
+           family={Klapuri},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ab4f361f2e9e28ded8d87f05b644021}
+      \strng{fullhash}{5ab4f361f2e9e28ded8d87f05b644021}
+      \strng{bibnamehash}{5ab4f361f2e9e28ded8d87f05b644021}
+      \strng{authorbibnamehash}{5ab4f361f2e9e28ded8d87f05b644021}
+      \strng{authornamehash}{5ab4f361f2e9e28ded8d87f05b644021}
+      \strng{authorfullhash}{5ab4f361f2e9e28ded8d87f05b644021}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J. Intelligent Inform. Syst.}
+      \field{number}{3}
+      \field{title}{Automatic Music Transcription : Challenges and Future Directions}
+      \field{volume}{41}
+      \field{year}{2013}
+      \field{pages}{407\bibrangedash 434}
+      \range{pages}{28}
+    \endentry
+    \entry{spma2011:Klapuri}{article}{}
+      \name{author}{4}{}{%
+        {{hash=835b1fbb43107ab05d062477c10a3889}{%
+           family={Müller},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d9d8b183646b714bb214ad06f0b620d1}{%
+           family={Ellis},
+           familyi={E\bibinitperiod},
+           given={D.\bibnamedelimi P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=26dbfc16d283b93923ae5d85c91f006e}{%
+           family={Klapuri},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e1e87ae6e7db63ef951e83b013c08415}{%
+           family={Richard},
+           familyi={R\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{cfcd42277a6e80a80b59b854b80db2f5}
+      \strng{fullhash}{cfcd42277a6e80a80b59b854b80db2f5}
+      \strng{bibnamehash}{cfcd42277a6e80a80b59b854b80db2f5}
+      \strng{authorbibnamehash}{cfcd42277a6e80a80b59b854b80db2f5}
+      \strng{authornamehash}{cfcd42277a6e80a80b59b854b80db2f5}
+      \strng{authorfullhash}{cfcd42277a6e80a80b59b854b80db2f5}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE J. Sel. Topics Signal Process}
+      \field{number}{6}
+      \field{title}{Signal processing for music analysis}
+      \field{volume}{5}
+      \field{year}{2011}
+      \field{pages}{1088\bibrangedash 110}
+      \range{pages}{31}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{1}
+  \datalist[entry]{none/global//global/global}
+    \entry{TR04:Arasu}{report}{}
+      \name{author}{9}{}{%
+        {{hash=9952b8e81a51db35f393b5fa1ee431c2}{%
+           family={Arasu},
+           familyi={A\bibinitperiod},
+           given={Arvind},
+           giveni={A\bibinitperiod}}}%
+        {{hash=22580e7d23ed228b1cf6f953ae4ad1cd}{%
+           family={Babcock},
+           familyi={B\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+        {{hash=281b1e0a99e70c81d24516138eefc7ac}{%
+           family={Babu},
+           familyi={B\bibinitperiod},
+           given={Shivnath},
+           giveni={S\bibinitperiod}}}%
+        {{hash=74cd089ce8697a81b11c2f5e88a3393b}{%
+           family={Cieslewicz},
+           familyi={C\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f17e8054d27736c19f729c1a014c4132}{%
+           family={Datar},
+           familyi={D\bibinitperiod},
+           given={Mayur},
+           giveni={M\bibinitperiod}}}%
+        {{hash=07bd752fb80c03dd316d239e627300ab}{%
+           family={Ito},
+           familyi={I\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod}}}%
+        {{hash=2f555526320a1c4028ad0f6328953999}{%
+           family={Motwani},
+           familyi={M\bibinitperiod},
+           given={Rajeev},
+           giveni={R\bibinitperiod}}}%
+        {{hash=99bacd74e1852efe72382f4fa520b002}{%
+           family={Srivastava},
+           familyi={S\bibinitperiod},
+           given={Utkarsh},
+           giveni={U\bibinitperiod}}}%
+        {{hash=f5c9bf7d1fe609c7c5aa35cdee017284}{%
+           family={Widom},
+           familyi={W\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Stanford InfoLab}%
+      }
+      \strng{namehash}{f8cbda49db2d2a30d54e16bee5be0cf8}
+      \strng{fullhash}{f8cbda49db2d2a30d54e16bee5be0cf8}
+      \strng{bibnamehash}{f8cbda49db2d2a30d54e16bee5be0cf8}
+      \strng{authorbibnamehash}{f8cbda49db2d2a30d54e16bee5be0cf8}
+      \strng{authornamehash}{f8cbda49db2d2a30d54e16bee5be0cf8}
+      \strng{authorfullhash}{f8cbda49db2d2a30d54e16bee5be0cf8}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{STREAM: The Stanford Data Stream Management System}
+      \field{type}{techreport}
+      \field{year}{2004}
+      \true{nocite}
+    \endentry
+    \entry{nsdi12:Zaharia}{inproceedings}{}
+      \name{author}{9}{}{%
+        {{hash=00dc518b94dfa6349c86e70661a1a5ef}{%
+           family={Zaharia},
+           familyi={Z\bibinitperiod},
+           given={Matei},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c5a8ae0d5f065be17aae440a9eb11c79}{%
+           family={Chowdhury},
+           familyi={C\bibinitperiod},
+           given={Mosharaf},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f8b27ed8b503bc3e7b32fc53bace3697}{%
+           family={Das},
+           familyi={D\bibinitperiod},
+           given={Tathagata},
+           giveni={T\bibinitperiod}}}%
+        {{hash=aec50de877bd49b0c55f7067c573cd4f}{%
+           family={Dave},
+           familyi={D\bibinitperiod},
+           given={Ankur},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c443d4c28f0cacfebd1b66027cee9098}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a7e9bbc361fd067983b764264a12e10e}{%
+           family={McCauley},
+           familyi={M\bibinitperiod},
+           given={Murphy},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2b80efa845ff86794acc83783899dcf0}{%
+           family={Franklin},
+           familyi={F\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=8d2fd528d2484047352789c731e250a5}{%
+           family={Shenker},
+           familyi={S\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod}}}%
+        {{hash=51d9ef26181e2e8a9dc546b401e0bb26}{%
+           family={Stoica},
+           familyi={S\bibinitperiod},
+           given={Ion},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{d9d8555218bf294d2cfe6b3070c6e357}
+      \strng{fullhash}{d9d8555218bf294d2cfe6b3070c6e357}
+      \strng{bibnamehash}{d9d8555218bf294d2cfe6b3070c6e357}
+      \strng{authorbibnamehash}{d9d8555218bf294d2cfe6b3070c6e357}
+      \strng{authornamehash}{d9d8555218bf294d2cfe6b3070c6e357}
+      \strng{authorfullhash}{d9d8555218bf294d2cfe6b3070c6e357}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the USENIX Conference on Networked Systems Design and Implementation (NSDI)}
+      \field{title}{Resilient Distributed Datasets: A Fault-tolerant Abstraction for In-memory Cluster Computing}
+      \field{year}{2012}
+      \true{nocite}
+    \endentry
+    \entry{tods76:Chen}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9f90f0ad8baeb533067f29a90c289ca6}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Peter\bibnamedelima Pin-Shan},
+           giveni={P\bibinitperiod\bibinitdelim P\bibinithyphendelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f90f0ad8baeb533067f29a90c289ca6}
+      \strng{fullhash}{9f90f0ad8baeb533067f29a90c289ca6}
+      \strng{bibnamehash}{9f90f0ad8baeb533067f29a90c289ca6}
+      \strng{authorbibnamehash}{9f90f0ad8baeb533067f29a90c289ca6}
+      \strng{authornamehash}{9f90f0ad8baeb533067f29a90c289ca6}
+      \strng{authorfullhash}{9f90f0ad8baeb533067f29a90c289ca6}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM Transactions on Database Systems (TODS)}
+      \field{number}{1}
+      \field{title}{The Entity-relationship Model\&Mdash;Toward a Unified View of Data}
+      \field{volume}{1}
+      \field{year}{1976}
+      \true{nocite}
+      \field{pages}{9\bibrangedash 36}
+      \range{pages}{28}
+    \endentry
+  \enddatalist
+  \datalist[entry]{nyt/global//global/global}
+    \entry{TR04:Arasu}{report}{}
+      \name{author}{9}{}{%
+        {{hash=9952b8e81a51db35f393b5fa1ee431c2}{%
+           family={Arasu},
+           familyi={A\bibinitperiod},
+           given={Arvind},
+           giveni={A\bibinitperiod}}}%
+        {{hash=22580e7d23ed228b1cf6f953ae4ad1cd}{%
+           family={Babcock},
+           familyi={B\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+        {{hash=281b1e0a99e70c81d24516138eefc7ac}{%
+           family={Babu},
+           familyi={B\bibinitperiod},
+           given={Shivnath},
+           giveni={S\bibinitperiod}}}%
+        {{hash=74cd089ce8697a81b11c2f5e88a3393b}{%
+           family={Cieslewicz},
+           familyi={C\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f17e8054d27736c19f729c1a014c4132}{%
+           family={Datar},
+           familyi={D\bibinitperiod},
+           given={Mayur},
+           giveni={M\bibinitperiod}}}%
+        {{hash=07bd752fb80c03dd316d239e627300ab}{%
+           family={Ito},
+           familyi={I\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod}}}%
+        {{hash=2f555526320a1c4028ad0f6328953999}{%
+           family={Motwani},
+           familyi={M\bibinitperiod},
+           given={Rajeev},
+           giveni={R\bibinitperiod}}}%
+        {{hash=99bacd74e1852efe72382f4fa520b002}{%
+           family={Srivastava},
+           familyi={S\bibinitperiod},
+           given={Utkarsh},
+           giveni={U\bibinitperiod}}}%
+        {{hash=f5c9bf7d1fe609c7c5aa35cdee017284}{%
+           family={Widom},
+           familyi={W\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Stanford InfoLab}%
+      }
+      \strng{namehash}{f8cbda49db2d2a30d54e16bee5be0cf8}
+      \strng{fullhash}{f8cbda49db2d2a30d54e16bee5be0cf8}
+      \strng{bibnamehash}{f8cbda49db2d2a30d54e16bee5be0cf8}
+      \strng{authorbibnamehash}{f8cbda49db2d2a30d54e16bee5be0cf8}
+      \strng{authornamehash}{f8cbda49db2d2a30d54e16bee5be0cf8}
+      \strng{authorfullhash}{f8cbda49db2d2a30d54e16bee5be0cf8}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{STREAM: The Stanford Data Stream Management System}
+      \field{type}{techreport}
+      \field{year}{2004}
+      \true{nocite}
+    \endentry
+    \entry{tods76:Chen}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9f90f0ad8baeb533067f29a90c289ca6}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Peter\bibnamedelima Pin-Shan},
+           giveni={P\bibinitperiod\bibinitdelim P\bibinithyphendelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f90f0ad8baeb533067f29a90c289ca6}
+      \strng{fullhash}{9f90f0ad8baeb533067f29a90c289ca6}
+      \strng{bibnamehash}{9f90f0ad8baeb533067f29a90c289ca6}
+      \strng{authorbibnamehash}{9f90f0ad8baeb533067f29a90c289ca6}
+      \strng{authornamehash}{9f90f0ad8baeb533067f29a90c289ca6}
+      \strng{authorfullhash}{9f90f0ad8baeb533067f29a90c289ca6}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM Transactions on Database Systems (TODS)}
+      \field{number}{1}
+      \field{title}{The Entity-relationship Model\&Mdash;Toward a Unified View of Data}
+      \field{volume}{1}
+      \field{year}{1976}
+      \true{nocite}
+      \field{pages}{9\bibrangedash 36}
+      \range{pages}{28}
+    \endentry
+    \entry{nsdi12:Zaharia}{inproceedings}{}
+      \name{author}{9}{}{%
+        {{hash=00dc518b94dfa6349c86e70661a1a5ef}{%
+           family={Zaharia},
+           familyi={Z\bibinitperiod},
+           given={Matei},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c5a8ae0d5f065be17aae440a9eb11c79}{%
+           family={Chowdhury},
+           familyi={C\bibinitperiod},
+           given={Mosharaf},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f8b27ed8b503bc3e7b32fc53bace3697}{%
+           family={Das},
+           familyi={D\bibinitperiod},
+           given={Tathagata},
+           giveni={T\bibinitperiod}}}%
+        {{hash=aec50de877bd49b0c55f7067c573cd4f}{%
+           family={Dave},
+           familyi={D\bibinitperiod},
+           given={Ankur},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c443d4c28f0cacfebd1b66027cee9098}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a7e9bbc361fd067983b764264a12e10e}{%
+           family={McCauley},
+           familyi={M\bibinitperiod},
+           given={Murphy},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2b80efa845ff86794acc83783899dcf0}{%
+           family={Franklin},
+           familyi={F\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=8d2fd528d2484047352789c731e250a5}{%
+           family={Shenker},
+           familyi={S\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod}}}%
+        {{hash=51d9ef26181e2e8a9dc546b401e0bb26}{%
+           family={Stoica},
+           familyi={S\bibinitperiod},
+           given={Ion},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{d9d8555218bf294d2cfe6b3070c6e357}
+      \strng{fullhash}{d9d8555218bf294d2cfe6b3070c6e357}
+      \strng{bibnamehash}{d9d8555218bf294d2cfe6b3070c6e357}
+      \strng{authorbibnamehash}{d9d8555218bf294d2cfe6b3070c6e357}
+      \strng{authornamehash}{d9d8555218bf294d2cfe6b3070c6e357}
+      \strng{authorfullhash}{d9d8555218bf294d2cfe6b3070c6e357}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the USENIX Conference on Networked Systems Design and Implementation (NSDI)}
+      \field{title}{Resilient Distributed Datasets: A Fault-tolerant Abstraction for In-memory Cluster Computing}
+      \field{year}{2012}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

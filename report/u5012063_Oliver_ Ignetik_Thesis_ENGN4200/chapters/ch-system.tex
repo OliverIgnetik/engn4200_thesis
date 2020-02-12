@@ -1,0 +1,105 @@
+\SetPicSubDir{ch-System}
+\SetExpSubDir{ch-System}
+
+\chapter{System Design}
+\label{ch:system}
+\vspace{2em}
+
+\lipsum[1-4]
+
+\section{Preliminaries}
+
+\lipsum[5-8]
+
+\begin{figure}[!t]
+  \centering
+  \includegraphics[width=.5\linewidth]{\Pic{jpg}{rice}}
+  \vspace{\BeforeCaptionVSpace}
+  \caption{A bowl of rice.}
+  \label{Rice:fig:bowl_of_rice}
+\end{figure}
+
+\section{Methodology}
+
+\autoref{Rice:fig:bowl_of_rice} shows a bowl of rice. 
+\autoref{Rice:algo:sample} demonstrates the formatting of pseudo code. 
+Please carefully check the source files and learn how to use this style. 
+Importantly:
+
+\begin{itemize}
+\item Always state your input.
+
+\item State the output if any. 
+
+\item Always number your lines for quick referral.
+
+\item Always declare and initialize your local variables. 
+
+\item Always use \CMD{\gets} (``$\gets$'') for assignments.
+%Always use \textbackslash gets for assignments.
+\end{itemize}
+
+\begin{algorithm}[!t]
+\AlgoFontSize
+\DontPrintSemicolon
+
+\KwGlobal{max. calories of daily intake $\mathcal{C}$}
+\KwGlobal{calories per bowl of rice $\mathcal{B}$}
+\BlankLine
+
+\SetKwFunction{fEatRice}{EatRice}
+\SetKwFunction{fDoExercise}{DoExercise}
+
+\KwIn{number of bowls of rice $n$}
+\KwOut{calories intake}
+\Proc{\fEatRice{$n$}}{
+  $cal \gets n \times \mathcal{B}$\;
+  \uIf{$cal \geq \mathcal{C}$}{
+    \Return $\mathcal{C}$\;
+  }
+  \Else{
+    \Return $cal - \fDoExercise{n}$\;
+  }
+}
+
+\BlankLine
+
+\KwIn{time duration (in minutes) of exercise $t$}
+\KwOut{calories consumed}
+\Func{\fDoExercise{$t$}}{
+  $cal \gets 0$\;
+  \lFor{$i \gets 1$ \To $t$}{$cal \gets cal + i$}
+  \Return $cal$\;
+}
+
+\caption{Sample pseudo code of a dummy algorithm.}
+\label{Rice:algo:sample}
+\end{algorithm}
+
+\section{Evaluation}
+
+\lipsum[16-19]
+
+\begin{figure}[!t]
+  \centering
+  \begin{minipage}[b]{.45\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{\Exp{eps}{taste_with_meals}}
+    \caption{Taste with meal repetition.}
+    \label{Rice:exp:taste_with_meals}
+  \end{minipage}
+  \hspace*{2em}
+  \begin{minipage}[b]{.45\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{\Exp{eps}{taste_with_freshness}}
+    \caption{Taste with meal freshness.}
+    \label{Rice:exp:taste_with_freshness}
+  \end{minipage}
+\end{figure}
+
+\autoref{Rice:exp:taste_with_meals} and \autoref{Rice:exp:taste_with_freshness} show how the taste of rice is affected by meal repetition and freshness respectively. 
+\lipsum[20]
+
+\section{Summary}
+
+\lipsum[21]
