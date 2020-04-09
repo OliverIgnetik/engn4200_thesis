@@ -1,5 +1,4 @@
-\SetPicSubDir{ch-System}
-\SetExpSubDir{ch-System}
+\SetPicSubDir{ch-System} \SetExpSubDir{ch-System}
 
 \chapter{System Design}
 \label{ch:system}
@@ -21,59 +20,43 @@
 
 \section{Methodology}
 
-\autoref{Rice:fig:bowl_of_rice} shows a bowl of rice. 
-\autoref{Rice:algo:sample} demonstrates the formatting of pseudo code. 
-Please carefully check the source files and learn how to use this style. 
-Importantly:
+\autoref{Rice:fig:bowl_of_rice} shows a bowl of rice. \autoref{Rice:algo:sample}
+demonstrates the formatting of pseudo code. Please carefully check the source
+files and learn how to use this style. Importantly:
 
 \begin{itemize}
-\item Always state your input.
+  \item Always state your input.
 
-\item State the output if any. 
+  \item State the output if any.
 
-\item Always number your lines for quick referral.
+  \item Always number your lines for quick referral.
 
-\item Always declare and initialize your local variables. 
+  \item Always declare and initialize your local variables.
 
-\item Always use \CMD{\gets} (``$\gets$'') for assignments.
-%Always use \textbackslash gets for assignments.
+  \item Always use \CMD{\gets} (``$\gets$'') for assignments.
+        %Always use \textbackslash gets for assignments.
 \end{itemize}
 
-\begin{algorithm}[!t]
-\AlgoFontSize
-\DontPrintSemicolon
+\begin{algorithm}[!t] \AlgoFontSize \DontPrintSemicolon
 
-\KwGlobal{max. calories of daily intake $\mathcal{C}$}
-\KwGlobal{calories per bowl of rice $\mathcal{B}$}
-\BlankLine
+  \KwGlobal{max. calories of daily intake $\mathcal{C}$} \KwGlobal{calories per
+    bowl of rice $\mathcal{B}$} \BlankLine
 
-\SetKwFunction{fEatRice}{EatRice}
-\SetKwFunction{fDoExercise}{DoExercise}
+  \SetKwFunction{fEatRice}{EatRice} \SetKwFunction{fDoExercise}{DoExercise}
 
-\KwIn{number of bowls of rice $n$}
-\KwOut{calories intake}
-\Proc{\fEatRice{$n$}}{
-  $cal \gets n \times \mathcal{B}$\;
-  \uIf{$cal \geq \mathcal{C}$}{
-    \Return $\mathcal{C}$\;
-  }
-  \Else{
-    \Return $cal - \fDoExercise{n}$\;
-  }
-}
+  \KwIn{number of bowls of rice $n$} \KwOut{calories intake}
+  \Proc{\fEatRice{$n$}}{$cal \gets n \times \mathcal{B}$\; \uIf{$cal \geq
+        \mathcal{C}$}{\Return $\mathcal{C}$\;} \Else{\Return $cal - \fDoExercise{n}$\;}}
 
-\BlankLine
+  \BlankLine
 
-\KwIn{time duration (in minutes) of exercise $t$}
-\KwOut{calories consumed}
-\Func{\fDoExercise{$t$}}{
-  $cal \gets 0$\;
-  \lFor{$i \gets 1$ \To $t$}{$cal \gets cal + i$}
-  \Return $cal$\;
-}
+  \KwIn{time duration (in minutes) of exercise $t$} \KwOut{calories consumed}
+  \Func{\fDoExercise{$t$}}{$cal \gets 0$\;
+    \lFor{$i \gets 1$ \To $t$}{$cal \gets cal + i$}
+    \Return $cal$\;}
 
-\caption{Sample pseudo code of a dummy algorithm.}
-\label{Rice:algo:sample}
+  \caption{Sample pseudo code of a dummy algorithm.}
+  \label{Rice:algo:sample}
 \end{algorithm}
 
 \section{Evaluation}
@@ -97,7 +80,9 @@ Importantly:
   \end{minipage}
 \end{figure}
 
-\autoref{Rice:exp:taste_with_meals} and \autoref{Rice:exp:taste_with_freshness} show how the taste of rice is affected by meal repetition and freshness respectively. 
+\autoref{Rice:exp:taste_with_meals} and \autoref{Rice:exp:taste_with_freshness}
+show how the taste of rice is affected by meal repetition and freshness
+respectively.
 \lipsum[20]
 
 \section{Summary}
