@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.12)  12 FEB 2020 17:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.12)  9 APR 2020 12:48
 entering extended mode
 **"c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/main.tex"
 ("c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/main.tex"
 LaTeX2e <2020-02-02> patch level 1
-L3 programming layer <2020-02-08> ("c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200\_global_settings.tex" ("c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200\anu-thesis.cls"
+L3 programming layer <2020-02-08> ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\_global_settings.tex" ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\anu-thesis.cls"
 Document Class: anu-thesis 2020/02/11 v1.0 Australian National University Thesis Class
 ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/memoir\memoir.cls"
 Document Class: memoir 2019/11/21 v3.7j configurable book, report, article document class
@@ -1043,7 +1043,7 @@ File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 )))
 \@quotelevel=\count484
 \@quotereset=\count485
- ("c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.aux")
+ ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.aux")
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -1129,7 +1129,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- ("c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.bbl")
+ ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.bbl")
 Package biblatex Info: Reference section=0 on input line 7.
 Package biblatex Info: Reference segment=0 on input line 7.
 LaTeX Info: Redefining \microtypecontext on input line 7.
@@ -1153,121 +1153,114 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
 <pic/signature.png, id=10, 447.17062pt x 450.18187pt>
 File: pic/signature.png Graphic file (type png)
 <use pic/signature.png>
-Package pdftex.def Info: pic/signature.png  used on input line 29.
+Package pdftex.def Info: pic/signature.png  used on input line 27.
 (pdftex.def)             Requested size: 71.78075pt x 72.26999pt.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 29.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 27.
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 29.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 27.
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 29.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 27.
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 29.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 27.
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 29.
+(Font)              <14.4> on input line 27.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 29.
+(Font)              <10> on input line 27.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 29.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
+(Font)              <7> on input line 27.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt-msa.cfg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 29.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 27.
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [2
 
- <c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/signature.png>] [1
+ <c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/signature.png>] ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/acknowledgments.tex" [1
 
 
-] ("c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/acknowledgments.tex" [2
-
-]) ("c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.toc"
+]) ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.toc"
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 3.
-
-Overfull \hbox (0.16273pt too wide) detected at line 9
- \T1/lmr/bx/n/12 viii
- []
-
-[3
+ [2
 
 
-]) ("c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/abstract.tex" [4] [5
+]) ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/abstract.tex" [3] [4
 
-] [6]) ("c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.lof") [7
-
-
-] ("c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.lot") [8
+] [5]) ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.lof") [6
 
 
-] ("c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-intro.tex"pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+] ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.lot") [7
+
+
+] ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-intro.tex"pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.17 \subsection{Project Scope}
+l.36 \subsection{Project Scope}
                                 [1
 
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 32.
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 56.
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bera\t1fvm.fd"
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 10.20007pt on input line 32.
+(Font)              scaled to size 10.20007pt on input line 56.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `fvm' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) ("c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-review.tex"pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
+) ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-review.tex"pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.4 \chapter
+l.3 \chapter
             {Literature Review} [2] [3] [4
 
 ]
-<pic/ch-Review/log-stft-example.png, id=190, 833.1125pt x 318.18875pt>
+<pic/ch-Review/log-stft-example.png, id=185, 833.1125pt x 318.18875pt>
 File: pic/ch-Review/log-stft-example.png Graphic file (type png)
 <use pic/ch-Review/log-stft-example.png>
-Package pdftex.def Info: pic/ch-Review/log-stft-example.png  used on input line 49.
+Package pdftex.def Info: pic/ch-Review/log-stft-example.png  used on input line 74.
 (pdftex.def)             Requested size: 254.43878pt x 97.17607pt.
- [5]) ("c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-system.tex" [6 <c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Review/log-stft-example.png>] [7
+ [5]) ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-system.tex" [6 <c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Review/log-stft-example.png>] [7
 
 ] [8]
-<pic/ch-System/rice.jpg, id=217, 72.27pt x 58.5387pt>
+<pic/ch-System/rice.jpg, id=212, 72.27pt x 58.5387pt>
 File: pic/ch-System/rice.jpg Graphic file (type jpg)
 <use pic/ch-System/rice.jpg>
-Package pdftex.def Info: pic/ch-System/rice.jpg  used on input line 16.
+Package pdftex.def Info: pic/ch-System/rice.jpg  used on input line 15.
 (pdftex.def)             Requested size: 212.03017pt x 171.7542pt.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 30.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 28.
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [9 <c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-System/rice.jpg>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 46.
+(Font)              <10.95> on input line 42.
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 9.30756pt on input line 64.
+(Font)              scaled to size 9.30756pt on input line 50.
  [10]
 Package epstopdf Info: Source file: <exp/ch-System/taste_with_meals.eps>
 (epstopdf)                    date: 2020-02-12 17:07:28
@@ -1276,12 +1269,12 @@ Package epstopdf Info: Source file: <exp/ch-System/taste_with_meals.eps>
 (epstopdf)                    date: 2020-02-12 17:07:28
 (epstopdf)                    size: 4916 bytes
 (epstopdf)             Command: <epstopdf --outfile=exp/ch-System/taste_with_meals-eps-converted-to.pdf exp/ch-System/taste_with_meals.eps>
-(epstopdf)             \includegraphics on input line 87.
+(epstopdf)             \includegraphics on input line 70.
 Package epstopdf Info: Output file is already uptodate.
-<exp/ch-System/taste_with_meals-eps-converted-to.pdf, id=247, 180.675pt x 138.5175pt>
+<exp/ch-System/taste_with_meals-eps-converted-to.pdf, id=242, 180.675pt x 138.5175pt>
 File: exp/ch-System/taste_with_meals-eps-converted-to.pdf Graphic file (type pdf)
 <use exp/ch-System/taste_with_meals-eps-converted-to.pdf>
-Package pdftex.def Info: exp/ch-System/taste_with_meals-eps-converted-to.pdf  used on input line 87.
+Package pdftex.def Info: exp/ch-System/taste_with_meals-eps-converted-to.pdf  used on input line 70.
 (pdftex.def)             Requested size: 190.82585pt x 146.30154pt.
 Package epstopdf Info: Source file: <exp/ch-System/taste_with_freshness.eps>
 (epstopdf)                    date: 2020-02-12 17:07:28
@@ -1290,24 +1283,24 @@ Package epstopdf Info: Source file: <exp/ch-System/taste_with_freshness.eps>
 (epstopdf)                    date: 2020-02-12 17:07:28
 (epstopdf)                    size: 6055 bytes
 (epstopdf)             Command: <epstopdf --outfile=exp/ch-System/taste_with_freshness-eps-converted-to.pdf exp/ch-System/taste_with_freshness.eps>
-(epstopdf)             \includegraphics on input line 94.
+(epstopdf)             \includegraphics on input line 77.
 Package epstopdf Info: Output file is already uptodate.
-<exp/ch-System/taste_with_freshness-eps-converted-to.pdf, id=248, 180.675pt x 138.5175pt>
+<exp/ch-System/taste_with_freshness-eps-converted-to.pdf, id=243, 180.675pt x 138.5175pt>
 File: exp/ch-System/taste_with_freshness-eps-converted-to.pdf Graphic file (type pdf)
 <use exp/ch-System/taste_with_freshness-eps-converted-to.pdf>
-Package pdftex.def Info: exp/ch-System/taste_with_freshness-eps-converted-to.pdf  used on input line 94.
+Package pdftex.def Info: exp/ch-System/taste_with_freshness-eps-converted-to.pdf  used on input line 77.
 (pdftex.def)             Requested size: 190.82585pt x 146.30154pt.
- [11 <c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/exp/ch-System/taste_with_meals-eps-converted-to.pdf> <c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/exp/ch-System/taste_with_freshness-eps-converted-to.pdf>]) ("c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-results.tex" [12] [13
+ [11 <c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/exp/ch-System/taste_with_meals-eps-converted-to.pdf> <c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/exp/ch-System/taste_with_freshness-eps-converted-to.pdf>]) ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-results.tex" [12] [13
 
-] [14] [15] [16] [17]) ("c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-concl.tex" [18] [19
+] [14] [15] [16] [17]) ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-concl.tex" [18] [19
 
-] [20]) [21] ("c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ap-signal-processing-methods.tex" [22
+] [20]) [21] ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ap-signal-processing-methods.tex" [22
 
 ] [23
 
-]) [24] ("c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ap-neural-networks.tex" [25] [26
+]) [24] ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ap-neural-networks.tex" [25] [26
 
-]) ("c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ap-publication.tex"
+]) ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ap-publication.tex"
 \blx@maxsegment@1=\count494
 \blx@sectionciteorder@1=\count495
 Package biblatex Info: Reference section=1 on input line 1.
@@ -1326,30 +1319,30 @@ Package biblatex Info: Reference section=0 on input line 23.
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
- ("c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 55.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
+ ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 53.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  )
 (\end occurred when \if on line 5 was incomplete)
 (\end occurred when \ifdefined on line 1 was incomplete) 
 Here is how much of TeX's memory you used:
- 25264 strings out of 481565
- 432240 string characters out of 2914627
- 1245354 words of memory out of 3000000
- 39819 multiletter control sequences out of 15000+200000
- 628487 words of font info for 153 fonts, out of 3000000 for 9000
+ 25262 strings out of 481565
+ 432269 string characters out of 2914627
+ 1244354 words of memory out of 3000000
+ 39817 multiletter control sequences out of 15000+200000
+ 624225 words of font info for 152 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,16n,48p,1230b,1252s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bera/fvmr8a.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on "c:/Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.pdf" (38 pages, 485890 bytes).
+{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bera/fvmr8a.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
+Output written on "c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.pdf" (37 pages, 484779 bytes).
 PDF statistics:
- 564 PDF objects out of 1000 (max. 8388607)
- 118 named destinations out of 1000 (max. 500000)
- 29082 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 560 PDF objects out of 1000 (max. 8388607)
+ 117 named destinations out of 1000 (max. 500000)
+ 28570 words of extra memory for PDF output out of 29859 (max. 10000000)
 

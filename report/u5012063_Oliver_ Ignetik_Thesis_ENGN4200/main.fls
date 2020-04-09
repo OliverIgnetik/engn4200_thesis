@@ -293,8 +293,6 @@ INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\jknappen\ursfs.f
 INPUT C:\Users\olli\AppData\Local\MiKTeX\2.9\fonts\tfm\public\rsfs\rsfs10.tfm
 INPUT C:\Users\olli\AppData\Local\MiKTeX\2.9\fonts\tfm\public\rsfs\rsfs10.tfm
 INPUT C:\Users\olli\AppData\Local\MiKTeX\2.9\fonts\tfm\public\rsfs\rsfs7.tfm
-INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmri12.tfm
-INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmri12.tfm
 INPUT c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters\acknowledgments.tex
 INPUT c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters\acknowledgments.tex
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmbx12.tfm
@@ -392,6 +390,7 @@ INPUT c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN
 INPUT c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters\ch-results.tex
 INPUT c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters\ch-concl.tex
 INPUT c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters\ch-concl.tex
+INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmri12.tfm
 INPUT c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters\ap-signal-processing-methods.tex
 INPUT c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters\ap-signal-processing-methods.tex
 INPUT c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters\ap-neural-networks.tex
@@ -404,8 +403,8 @@ OUTPUT c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENG
 INPUT c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.aux
 INPUT c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.run.xml
 OUTPUT c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.run.xml
-INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-rm.enc
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-ec.enc
+INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-rm.enc
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-mathit.enc
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-ts1.enc
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-mathex.enc
