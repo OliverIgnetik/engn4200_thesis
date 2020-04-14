@@ -16,6 +16,29 @@ tracking, interpretation of expressive timing and dynamics and score
 typesetting.
 \cite{amt2019:Benetos}
 
+The ultimate goal of and AMT system is to transform and audio signal into a
+sheet music representation which can be readily understood by a musician trained
+in sight reading. This process is shown in \autoref{intro:fig:AMT-process} which
+illustrates the MIDI piano roll representation. Given the task is considered so
+difficult it is not uncommon to map the audio signal to an intermediary domain
+that does not yet indicate high level musical structures such as time signature
+and key.
+
+\begin{figure}[!b]
+    \centering
+    \includegraphics[width=.6\linewidth]{\Pic{jpg}{AMT-process}}
+    \caption{AMT process figure taken from NUS ISMIR 2019 tutorial \cite{ISMIR-tut:Benetos} }
+    \label{intro:fig:AMT-process}
+\end{figure}
+
+
+Many techniques in recent times have be focused around finding the onset time
+and frequency content of the sound event in question. These approaches have been
+shown to be highly effective for individual instruments. As such some commercial
+transcription systems such as Melodyne, Transcribe! and AudioScore exist.
+However, given complex ensemble pieces with multiple instruments the performance
+of these systems is no longer considered acceptable.
+
 A successful AMT system would enable a broad range of interactions between
 people and music, including music education (e.g., through systems for automatic
 instrument tutoring), music creation (e.g., dictating improvised musical ideas

@@ -1,13 +1,3 @@
-@article{spma2011:Klapuri,
-    author      = {M. Müller and D. P. Ellis and A. Klapuri and G. Richard},
-    title       = {Signal processing for music analysis},
-    journal     = {IEEE J. Sel. Topics Signal Process},
-    volume      = {5},
-    number      = {6},
-    year        = {2011},
-    pages       = {1088--110},
-}
-
 @article{amt2019:Benetos,
     author      = {E. Benetos and S. Dixon and Z. Duan and S. Ewert},
     title       = {Automatic Music Transcription},
@@ -28,6 +18,13 @@
     pages       = {407-434},
 }
 
+@book{BOOK:Gray,
+    author      = {Gray, Jim and Reuter, Andreas},
+    title       = {Transaction Processing: Concepts and Techniques},
+    year        = {1992},
+    publisher   = {Morgan Kaufmann Publishers Inc.},
+}
+
 @article{cacm70:Codd,
     author      = {Codd, E. F.},
     title       = {A Relational Model of Data for Large Shared Data Banks},
@@ -38,6 +35,100 @@
     pages       = {377--387},
 }
 
+@inbook{Christensen:2009,
+    author      = {M.G. Christensen and A. Jakobsson},
+    chapter = {Multi-pitch estimation},
+    title       = {Synthesis Lectures on Speech Audio Process},
+    year        = {2009},
+    publisher   = {Morgan and Claypool},
+    address = {San Rafael, CA}
+}
+
+@article{f0estimation2006:Cheveigne,
+    author      = {A. Cheveigne},
+    title       = {Multiple f0 estimation},
+    journal     = {Computational Auditory Scene Analysis},
+    volume      = {},
+    number      = {},
+    year        = {2006},
+    pages       = {},
+}
+
+@article{nmf1999:Seung,
+    author      = {D. Lee and H. Seung },
+    title       = {Leaning the parts of objects by non-negative matrix factorization},
+    journal     = {Nature},
+    volume      = {401},
+    number      = {},
+    year        = {1999},
+    pages       = {788-791},
+}
+
+@article{nmfamt2003:Smaragdis,
+    author      = {P. Smaragdis and J. Brown },
+    title       = {Non-negative matrix factorization for polyphonic music transcription},
+    journal     = {IEEE Workshop Applications Signal Processing Audio and Acoustics},
+    volume      = {},
+    number      = {},
+    year        = {2003},
+    pages       = {177-180},
+}
+
+@inproceedings{nsdi12:Zaharia,
+    author      = {Zaharia, Matei and Chowdhury, Mosharaf and Das, Tathagata and Dave, Ankur and Ma, Justin and McCauley, Murphy and Franklin, Michael J. and Shenker, Scott and Stoica, Ion},
+    title       = {Resilient Distributed Datasets: A Fault-tolerant Abstraction for In-memory Cluster Computing},
+    booktitle   = {Proceedings of the USENIX Conference on Networked Systems Design and Implementation (NSDI)},
+    year        = {2012},
+    pages       = {},
+}
+
+@misc{NUS-perceptual-features:Ye,
+    title = {Perceptual Features in Music Signal Processing},
+    year = {2019},
+    author = {W. Ye},
+    howpublished ={YouTube video of NUS lecture recording},
+}
+
+@Conference{ISMIR-tut:Benetos,
+    title = {ISMIR AMT at NUS},
+    year = {2019},
+    author = {E. Benetos},
+    address = {NUS},
+}
+
+
+@phdthesis{PHD:Pavlo,
+    title       = {On Scalable Transaction Execution in Partitioned Main Memory Database Management Systems},
+    author      = {Andrew Pavlo},
+    school      = {Brown University},
+    year        = {2014},
+}
+
+@inproceedings{sigmod14:Chandramouli,
+    author      = {Chandramouli, Badrish and Goldstein, Jonathan},
+    title       = {Patience is a Virtue: Revisiting Merge and Sort on Modern Processors},
+    booktitle   = {Proceedings of the ACM SIGMOD International Conference on Management of Data (SIGMOD)},
+    year        = {2014},
+    pages       = {},
+}
+
+@article{spma2011:Klapuri,
+    author      = {M. Müller and D. P. Ellis and A. Klapuri and G. Richard},
+    title       = {Signal processing for music analysis},
+    journal     = {IEEE J. Sel. Topics Signal Process},
+    volume      = {5},
+    number      = {6},
+    year        = {2011},
+    pages       = {1088--110},
+}
+
+@book{spmmt:Klapuri,
+    author      = {A. Klapuri and M. Davy},
+    title       = {Signal Processing Methods for Music Transcription},
+    year        = {2006},
+    publisher   = {Springer},
+    address = {New York}
+}
 
 @article{tods76:Chen,
     author      = {Chen, Peter Pin-Shan},
@@ -49,27 +140,9 @@
     pages       = {9--36},
 }
 
-@inproceedings{sigmod14:Chandramouli,
-    author      = {Chandramouli, Badrish and Goldstein, Jonathan},
-    title       = {Patience is a Virtue: Revisiting Merge and Sort on Modern Processors},
-    booktitle   = {Proceedings of the ACM SIGMOD International Conference on Management of Data (SIGMOD)},
-    year        = {2014},
-    pages       = {},
-}
-
-@inproceedings{nsdi12:Zaharia,
-    author      = {Zaharia, Matei and Chowdhury, Mosharaf and Das, Tathagata and Dave, Ankur and Ma, Justin and McCauley, Murphy and Franklin, Michael J. and Shenker, Scott and Stoica, Ion},
-    title       = {Resilient Distributed Datasets: A Fault-tolerant Abstraction for In-memory Cluster Computing},
-    booktitle   = {Proceedings of the USENIX Conference on Networked Systems Design and Implementation (NSDI)},
-    year        = {2012},
-    pages       = {},
-}
-
-@book{BOOK:Gray,
-    author      = {Gray, Jim and Reuter, Andreas},
-    title       = {Transaction Processing: Concepts and Techniques},
-    year        = {1992},
-    publisher   = {Morgan Kaufmann Publishers Inc.},
+@misc{tpc-c,
+    title       = {The TPC-C Benchmark},
+    howpublished= {\url{http://www.tpc.org/tpcc/}},
 }
 
 @techreport{TR04:Arasu,
@@ -77,17 +150,5 @@
     author      = {Arasu, Arvind and Babcock, Brian and Babu, Shivnath and Cieslewicz, John and Datar, Mayur and Ito, Keith and Motwani, Rajeev and Srivastava, Utkarsh and Widom, Jennifer},
     year        = {2004},
     institution = {Stanford InfoLab},
-}
-
-@phdthesis{PHD:Pavlo,
-    title       = {On Scalable Transaction Execution in Partitioned Main Memory Database Management Systems},
-    author      = {Andrew Pavlo},
-    school      = {Brown University},
-    year        = {2014},
-}
-
-@misc{tpc-c,
-    title       = {The TPC-C Benchmark},
-    howpublished= {\url{http://www.tpc.org/tpcc/}},
 }
 

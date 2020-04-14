@@ -4,6 +4,30 @@
 \label{ch:review}
 \vspace{2em}
 
+\section{Musical Concepts}
+\subsection{Pitch and Harmony}
+The existence of sequences of sounds with well-defined fundamental periods is a
+very common feature in music. Most musical instruments such as pianos, guitars,
+flutes and trumpets are constrcuted to allow performers to produce sounds with
+easily controlled fundamental periods. Such a signal is described as a harmonic
+series of sinusoids at multiples of the fundamental frequency and results in the
+perception of a pitch in the mind of the listener.
+
+Although different cultures have developed different musical conventions, a
+common feature is the musical "scale", a set of discrete pitches that repeats
+every octave. In contemporary western music an "equal tempered scale" is used,
+which divides the octave into 12 steps on a logarithmic axis.
+
+The chroma vector is another common concept used in music information retrieval
+which in common terms refers to the pitch class of a sound event. This metric
+can be very useful in chord recognition and key detection.
+\cite{NUS-perceptual-features:Ye}
+
+\subsection{Tempo, Beat and Rhythm}
+
+\subsection{Timbre and Instrumentation}
+
+
 \section{Signal Processing Techniques}
 \subsection{Sampling Theorem}
 
@@ -78,6 +102,86 @@ humans perceive sound but also balances out the dynamic range of the signal.
 
 \section{State of the Art Methods}
 \subsection{Non-negative Matrix Factorization}
+
+A large subset of transcription systems employ methods stemming from spectrogram
+factorization techniques, which exploit the redundancies found in music
+spectrograms. Non-negative matrix factorization (NMF) was first proposed by Lee
+and Seung \cite{nmf1999:Seung}
+
+
+Starting with a non-negative $M$ by $N$ matrix \textbf{X} the goal of NMF is to
+approximate it as a product of two non-negative matrics $ \textbf{W}_{M \times
+    R}$ and $\textbf{H}_{R \times N}$, where $R \leq M$ such that we minimize the
+cost function. We do so by minimizing the cost function :
+
+\begin{equation}
+  C = \;\mid \textbf{X} - \textbf{W}\cdot \textbf{H} \mid _ {F}
+\end{equation}
+
+where $\mid . \mid_{F}$ is the Frobenius norm. This is actually equivalent to
+Gradient Descent based minimization of divergence. \cite{nmfamt2003:Smaragdis}
+There are a number of algorithms for finding the appropriate values of
+\textbf{W} and \textbf{H}. For example, the generalized Kullback-Leibler
+divergence between \textbf{X} and $\textbf{W}\cdot \textbf{H}$ is non-increasing
+under the following updates and guarantees the nonnegativity of both \textbf{W}
+and \textbf{H} :
+
+\begin{equation}
+  \begin{split}
+    H \Leftarrow H \odot \frac{W^{T}\frac{X}{WH}}{W^{T}J}
+  \end{split}
+  \text{\;\;and\;\;}
+  \begin{split}
+    W \Leftarrow W \odot \frac{\frac{X}{WH}H^{T}}{JH^{T}}
+  \end{split}
+  \label{review:eq:gradient_rules}
+\end{equation}
+
+where the $\odot$ operator denotes pointwise multiplication, $J \in
+  \mathbb{R}^{M \times N}$ denotes the matrix of ones, and the divison is
+pointwise. \cite{amt2019:Benetos}
+
+In the context of time-frequency representations and AMT both unknown matrices
+have an intuitive interpretation. \textbf{X} in the most basic cases in
+time-frequency analysis is a STFT of the audio signal. \textbf{W} encodes the
+spectral profiles of the \emph{R} components and is commonly referred to as the
+dictionary matrix. \textbf{H} encodes the temporal activity of the each of those
+components and named the activation matrix.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=.6\linewidth]{\Pic{png}{NMF-example}}
+  \caption{Example of NMF decomposition taken from Smaragdis 2003 \cite{nmfamt2003:Smaragdis}}
+  \label{review:fig:NMF-example}
+\end{figure}
+
+There are two classes of NMF approches that fall into supervised and
+unsupervised approaches. In supervised approaches the dictionary matrix is
+prextracted. For explanatory purposes, one can imagine the applicaiton of such
+an NMF AMT system. To compile the dictionary matrix a recording of each note
+played in isolation is recorded and concatenated. Please refer to
+\autoref{review:fig:precompiled-activation-dictionary} for an example. Thus each
+component can be thought of corresponding to individual pitches with their
+associated harmonic profiles. The NMF-based decomposition is then performed by
+applying the update rules in \autoref{review:eq:gradient_rules} to find
+\textbf{H} to minimize the cost function.
+
+\begin{figure}[b]
+  \centering
+  \includegraphics[width=.6\linewidth]{\Pic{png}{precompiled-dictionary}}
+  \caption{Precompiled activation dictionary \textbf{W} of piano spectral components (notes) with $F_{s} = 44.1 kHz$}
+  \label{review:fig:precompiled-activation-dictionary}
+\end{figure}
+
+The unsupervised approach involves hyperparameter tuning to discover the optimal value
+for the number of components. This can be achieved by grid search methods
+cv-fold testing by splitting up the audio signal into smaller segments. Both
+approaches are widely used and there have been many studies based on improving
+performance and accuracy. For a comprehensive overview of a number of these
+techniques refer to \cite{f0estimation2006:Cheveigne,Christensen:2009,
+  spmmt:Klapuri}.
+
+
 \subsection{Neural Networks}
 \lipsum[1]
 

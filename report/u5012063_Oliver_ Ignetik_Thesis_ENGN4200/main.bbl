@@ -19,6 +19,30 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{ISMIR-tut:Benetos}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=8303301ae3549296509a0c4d335b75d3}{%
+           family={Benetos},
+           familyi={B\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {NUS}%
+      }
+      \strng{namehash}{8303301ae3549296509a0c4d335b75d3}
+      \strng{fullhash}{8303301ae3549296509a0c4d335b75d3}
+      \strng{bibnamehash}{8303301ae3549296509a0c4d335b75d3}
+      \strng{authorbibnamehash}{8303301ae3549296509a0c4d335b75d3}
+      \strng{authornamehash}{8303301ae3549296509a0c4d335b75d3}
+      \strng{authorfullhash}{8303301ae3549296509a0c4d335b75d3}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ISMIR AMT at NUS}
+      \field{year}{2019}
+    \endentry
     \entry{amt2019:Benetos}{article}{}
       \name{author}{4}{}{%
         {{hash=8303301ae3549296509a0c4d335b75d3}{%
@@ -104,6 +128,124 @@
       \field{pages}{407\bibrangedash 434}
       \range{pages}{28}
     \endentry
+    \entry{f0estimation2006:Cheveigne}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e7858764ff095997994a4bd190a65900}{%
+           family={Cheveigne},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{e7858764ff095997994a4bd190a65900}
+      \strng{fullhash}{e7858764ff095997994a4bd190a65900}
+      \strng{bibnamehash}{e7858764ff095997994a4bd190a65900}
+      \strng{authorbibnamehash}{e7858764ff095997994a4bd190a65900}
+      \strng{authornamehash}{e7858764ff095997994a4bd190a65900}
+      \strng{authorfullhash}{e7858764ff095997994a4bd190a65900}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computational Auditory Scene Analysis}
+      \field{title}{Multiple f0 estimation}
+      \field{year}{2006}
+    \endentry
+    \entry{Christensen:2009}{inbook}{}
+      \name{author}{2}{}{%
+        {{hash=cfcf5cc828f55a10dc8c7d934e0832a4}{%
+           family={Christensen},
+           familyi={C\bibinitperiod},
+           given={M.G.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=23b4f12d2e48033a0ee4d5ae35b676c4}{%
+           family={Jakobsson},
+           familyi={J\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {San Rafael, CA}%
+      }
+      \list{publisher}{2}{%
+        {Morgan}%
+        {Claypool}%
+      }
+      \strng{namehash}{3244cdaa929dab8f0d7e0809a663ac4f}
+      \strng{fullhash}{3244cdaa929dab8f0d7e0809a663ac4f}
+      \strng{bibnamehash}{3244cdaa929dab8f0d7e0809a663ac4f}
+      \strng{authorbibnamehash}{3244cdaa929dab8f0d7e0809a663ac4f}
+      \strng{authornamehash}{3244cdaa929dab8f0d7e0809a663ac4f}
+      \strng{authorfullhash}{3244cdaa929dab8f0d7e0809a663ac4f}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{Multi-pitch estimation}
+      \field{title}{Synthesis Lectures on Speech Audio Process}
+      \field{year}{2009}
+    \endentry
+    \entry{spmmt:Klapuri}{book}{}
+      \name{author}{2}{}{%
+        {{hash=26dbfc16d283b93923ae5d85c91f006e}{%
+           family={Klapuri},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=88d749f43804d28dad46b7fb26190de5}{%
+           family={Davy},
+           familyi={D\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{3671e35837972b1ecb7551dd3d12d88f}
+      \strng{fullhash}{3671e35837972b1ecb7551dd3d12d88f}
+      \strng{bibnamehash}{3671e35837972b1ecb7551dd3d12d88f}
+      \strng{authorbibnamehash}{3671e35837972b1ecb7551dd3d12d88f}
+      \strng{authornamehash}{3671e35837972b1ecb7551dd3d12d88f}
+      \strng{authorfullhash}{3671e35837972b1ecb7551dd3d12d88f}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Signal Processing Methods for Music Transcription}
+      \field{year}{2006}
+    \endentry
+    \entry{nmf1999:Seung}{article}{}
+      \name{author}{2}{}{%
+        {{hash=98056d9ddecda0076a31a183e3e69326}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=46def2036fe1d8c17a0a0b6555454164}{%
+           family={Seung},
+           familyi={S\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{f7be6f28d1f26cb0c546dff08e2cd6aa}
+      \strng{fullhash}{f7be6f28d1f26cb0c546dff08e2cd6aa}
+      \strng{bibnamehash}{f7be6f28d1f26cb0c546dff08e2cd6aa}
+      \strng{authorbibnamehash}{f7be6f28d1f26cb0c546dff08e2cd6aa}
+      \strng{authornamehash}{f7be6f28d1f26cb0c546dff08e2cd6aa}
+      \strng{authorfullhash}{f7be6f28d1f26cb0c546dff08e2cd6aa}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{title}{Leaning the parts of objects by non-negative matrix factorization}
+      \field{volume}{401}
+      \field{year}{1999}
+      \field{pages}{788\bibrangedash 791}
+      \range{pages}{4}
+    \endentry
     \entry{spma2011:Klapuri}{article}{}
       \name{author}{4}{}{%
         {{hash=835b1fbb43107ab05d062477c10a3889}{%
@@ -144,6 +286,57 @@
       \field{year}{2011}
       \field{pages}{1088\bibrangedash 110}
       \range{pages}{31}
+    \endentry
+    \entry{nmfamt2003:Smaragdis}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b10b3916b1abc7671dd42e319521eb8e}{%
+           family={Smaragdis},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=25289088678a4ae9c74df9275c8ab269}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{ec0c74cdd8652ee94763ee8f5e812b54}
+      \strng{fullhash}{ec0c74cdd8652ee94763ee8f5e812b54}
+      \strng{bibnamehash}{ec0c74cdd8652ee94763ee8f5e812b54}
+      \strng{authorbibnamehash}{ec0c74cdd8652ee94763ee8f5e812b54}
+      \strng{authornamehash}{ec0c74cdd8652ee94763ee8f5e812b54}
+      \strng{authorfullhash}{ec0c74cdd8652ee94763ee8f5e812b54}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Workshop Applications Signal Processing Audio and Acoustics}
+      \field{title}{Non-negative matrix factorization for polyphonic music transcription}
+      \field{year}{2003}
+      \field{pages}{177\bibrangedash 180}
+      \range{pages}{4}
+    \endentry
+    \entry{NUS-perceptual-features:Ye}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a4292e815aef1ab92c37361e5e81c383}{%
+           family={Ye},
+           familyi={Y\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4292e815aef1ab92c37361e5e81c383}
+      \strng{fullhash}{a4292e815aef1ab92c37361e5e81c383}
+      \strng{bibnamehash}{a4292e815aef1ab92c37361e5e81c383}
+      \strng{authorbibnamehash}{a4292e815aef1ab92c37361e5e81c383}
+      \strng{authornamehash}{a4292e815aef1ab92c37361e5e81c383}
+      \strng{authorfullhash}{a4292e815aef1ab92c37361e5e81c383}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{YouTube video of NUS lecture recording}
+      \field{title}{Perceptual Features in Music Signal Processing}
+      \field{year}{2019}
     \endentry
   \enddatalist
 \endrefsection

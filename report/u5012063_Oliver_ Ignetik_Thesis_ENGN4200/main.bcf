@@ -2183,9 +2183,20 @@
     <bcf:datasource type="file" datatype="bibtex">references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">amt2019:Benetos</bcf:citekey>
-    <bcf:citekey order="2">amtfc2013:Benetos</bcf:citekey>
-    <bcf:citekey order="3">spma2011:Klapuri</bcf:citekey>
+    <bcf:citekey order="3">amt2019:Benetos</bcf:citekey>
+    <bcf:citekey order="4">ISMIR-tut:Benetos</bcf:citekey>
+    <bcf:citekey order="5">ISMIR-tut:Benetos</bcf:citekey>
+    <bcf:citekey order="6">amtfc2013:Benetos</bcf:citekey>
+    <bcf:citekey order="7">NUS-perceptual-features:Ye</bcf:citekey>
+    <bcf:citekey order="8">spma2011:Klapuri</bcf:citekey>
+    <bcf:citekey order="9">nmf1999:Seung</bcf:citekey>
+    <bcf:citekey order="10">nmfamt2003:Smaragdis</bcf:citekey>
+    <bcf:citekey order="11">amt2019:Benetos</bcf:citekey>
+    <bcf:citekey order="12">nmfamt2003:Smaragdis</bcf:citekey>
+    <bcf:citekey order="13">nmfamt2003:Smaragdis</bcf:citekey>
+    <bcf:citekey order="14">f0estimation2006:Cheveigne</bcf:citekey>
+    <bcf:citekey order="14">Christensen:2009</bcf:citekey>
+    <bcf:citekey order="14">spmmt:Klapuri</bcf:citekey>
   </bcf:section>
   <!-- SECTION 1 -->
   <bcf:bibdata section="1">

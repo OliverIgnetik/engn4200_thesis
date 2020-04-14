@@ -1,7 +1,7 @@
 \ifdefined\DoubleSided
-  \documentclass[twoside,openright,a4paper]{anu-thesis}
+\documentclass[twoside,openright,a4paper]{anu-thesis}
 \else
-  \documentclass[a4paper]{anu-thesis}
+\documentclass[a4paper]{anu-thesis}
 \if
 
 
@@ -27,7 +27,7 @@
 \usepackage[
   backend=biber,
   style=ieee,
-  citestyle=numeric,
+  citestyle=numeric-comp,
   giveninits=true,
   sorting=nyt,
   maxbibnames=99,
@@ -50,19 +50,19 @@
 
 \usepackage{listings}
 \renewcommand{\lstlistingname}{Code}
-\lstset{language=SQL, 
-    morekeywords={ONLINE, WITHIN},
-    frame=none,
-    float,
-    basicstyle=\ttfamily\normalsize,
-    keywordstyle=\bfseries,
-    numbers=none,
-    showstringspaces=false,
-    aboveskip=-2pt, %\smallskipamount
-    belowskip=-4pt, %\smallskipamount
-    xleftmargin=1em,
-    escapeinside={(*@}{@*)},
-    captionpos=b
+\lstset{language=SQL,
+  morekeywords={ONLINE, WITHIN},
+  frame=none,
+  float,
+  basicstyle=\ttfamily\normalsize,
+  keywordstyle=\bfseries,
+  numbers=none,
+  showstringspaces=false,
+  aboveskip=-2pt, %\smallskipamount
+  belowskip=-4pt, %\smallskipamount
+  xleftmargin=1em,
+  escapeinside={(*@}{@*)},
+  captionpos=b
 }
 
 \let\proof\relax

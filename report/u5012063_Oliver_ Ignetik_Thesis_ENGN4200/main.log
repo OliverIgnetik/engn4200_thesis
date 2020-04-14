@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.12)  9 APR 2020 12:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.13)  15 APR 2020 00:52
 entering extended mode
-**"c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/main.tex"
-("c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/main.tex"
-LaTeX2e <2020-02-02> patch level 1
-L3 programming layer <2020-02-08> ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\_global_settings.tex" ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\anu-thesis.cls"
+**"c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/main.tex"
+("c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/main.tex"
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-04-06> ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\_global_settings.tex" ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\anu-thesis.cls"
 Document Class: anu-thesis 2020/02/11 v1.0 Australian National University Thesis Class
 ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/memoir\memoir.cls"
-Document Class: memoir 2019/11/21 v3.7j configurable book, report, article document class
+Document Class: memoir 2020/03/25 v3.7k configurable book, report, article document class
 \onelineskip=\skip47
 \lxvchars=\skip48
 \xlvchars=\skip49
@@ -14,7 +14,7 @@ Document Class: memoir 2019/11/21 v3.7j configurable book, report, article docum
 \c@@memmarkcntra=\count168
 LaTeX Info: Redefining \InputIfFileExists on input line 140.
 ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
-Package: iftex 2019/11/07 v1.0c TeX engine tests
+Package: iftex 2020/03/06 v1.0d TeX engine tests
 )
 \stockheight=\skip50
 \stockwidth=\skip51
@@ -84,7 +84,7 @@ File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 \partopsepiii=\skip98
 \m@msavetopsep=\skip99
 \m@msavepartopsep=\skip100
-\@enLab=\toks14
+\@enLab=\toks15
 \abstitleskip=\skip101
 \absleftindent=\skip102
 \abs@leftindent=\dimen137
@@ -115,7 +115,7 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \col@sep=\dimen139
 \ar@mcellbox=\box45
 \extrarowheight=\dimen140
-\NC@list=\toks15
+\NC@list=\toks16
 \extratabsurround=\skip117
 \backup@length=\skip118
 \ar@cellbox=\box46
@@ -131,7 +131,7 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@target=\dimen144
 \TX@delta=\dimen145
 \TX@cols=\count187
-\TX@ftn=\toks16
+\TX@ftn=\toks17
 )
 \heavyrulewidth=\dimen146
 \lightrulewidth=\dimen147
@@ -156,7 +156,7 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \@linestogo=\count193
 \@cellstogo=\count194
 \@cellsincolumn=\count195
-\crtok=\toks17
+\crtok=\toks18
 \@mincolumnwidth=\dimen159
 \c@newflo@tctr=\count196
 \mem@margin@floatbox=\box47
@@ -184,8 +184,8 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \afterepigraphskip=\skip131
 \epigraphwidth=\skip132
 \epigraphrule=\skip133
-LaTeX Info: Redefining \em on input line 7662.
-LaTeX Info: Redefining \emph on input line 7670.
+LaTeX Info: Redefining \em on input line 7664.
+LaTeX Info: Redefining \emph on input line 7672.
 \tocentryskip=\skip134
 \tocbaseline=\skip135
 \cftparskip=\skip136
@@ -219,7 +219,7 @@ LaTeX Info: Redefining \emph on input line 7670.
 \bibitemsep=\skip159
 \indexcolsep=\skip160
 \indexrule=\skip161
-\indexmarkstyle=\toks18
+\indexmarkstyle=\toks19
 \@indexbox=\insert199
 \glossarycolsep=\dimen172
 \glossaryrule=\dimen173
@@ -252,9 +252,9 @@ LaTeX Info: Redefining \emph on input line 7670.
 \c@pagenote=\count268
 \c@pagenoteshadow=\count269
 \mem@pn@lastkern=\skip181
-\every@verbatim=\toks19
-\afterevery@verbatim=\toks20
-\verbatim@line=\toks21
+\every@verbatim=\toks20
+\afterevery@verbatim=\toks21
+\verbatim@line=\toks22
 \tab@position=\count270
 \verbatim@in@stream=\read2
 \verbatimindent=\skip182
@@ -268,8 +268,8 @@ LaTeX Info: Redefining \emph on input line 7670.
 \FrameRule=\dimen177
 \FrameSep=\dimen178
 \c@cp@cntr=\count273
-LaTeX Info: Redefining \: on input line 12187.
-LaTeX Info: Redefining \! on input line 12189.
+LaTeX Info: Redefining \: on input line 12191.
+LaTeX Info: Redefining \! on input line 12193.
 \c@ism@mctr=\count274
 \c@xsm@mctr=\count275
 \c@csm@mctr=\count276
@@ -335,7 +335,7 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \aftertitleunit=\skip192
 \ttl@plus=\dimen179
 \ttl@minus=\dimen180
-\ttl@toksa=\toks22
+\ttl@toksa=\toks23
 \titlewidth=\dimen181
 \titlewidthlast=\dimen182
 \titlewidthfirst=\dimen183
@@ -345,7 +345,7 @@ Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks23
+\KV@toks@=\toks24
 ) ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
@@ -391,7 +391,7 @@ Package grfext Info: Graphics extension search list:
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks24
+\@emptytoks=\toks25
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
@@ -409,7 +409,7 @@ For additional information on amsmath, use the `?' option.
 Package: amstext 2000/06/29 v2.01 AMS text
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks25
+\@emptytoks=\toks26
 \ex@=\dimen188
 )) ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
@@ -437,21 +437,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \dotsspace@=\muskip16
 \c@parentequation=\count299
 \dspbrk@lvl=\count300
-\tag@help=\toks26
+\tag@help=\toks27
 \row@=\count301
 \column@=\count302
 \maxfields@=\count303
-\andhelp@=\toks27
+\andhelp@=\toks28
 \eqnshift@=\dimen191
 \alignsep@=\dimen192
 \tagshift@=\dimen193
 \tagwidth@=\dimen194
 \totwidth@=\dimen195
 \lineht@=\dimen196
-\@envbody=\toks28
+\@envbody=\toks29
 \multlinegap=\skip194
 \multlinetaggap=\skip195
-\mathdisplay@stack=\toks29
+\mathdisplay@stack=\toks30
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 ) ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\euscript.sty"
@@ -459,7 +459,7 @@ Package: euscript 2009/06/22 v3.00 Euler Script fonts
 LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
 (Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
 ) ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty"
-Package: fontenc 2020/01/25 v2.0m Standard LaTeX package
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 ) ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\lmodern.sty"
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -504,21 +504,21 @@ Package: silence 2012/07/02 v1.5b Selective filtering of warnings and error mess
 \sl@StateNumber=\count305
 \sl@MessageCount=\count306
 \sl@Casualties=\count307
-\sl@Filter=\toks30
-\sl@Message=\toks31
-\sl@UnexpandedMessage=\toks32
-\sl@Mess@ge=\toks33
+\sl@Filter=\toks31
+\sl@Message=\toks32
+\sl@UnexpandedMessage=\toks33
+\sl@Mess@ge=\toks34
 \sl@WarningCount=\count308
 \sl@WarningNumber=\count309
 \sl@WarningCasualties=\count310
-\sl@TempBOW=\toks34
-\sl@BankOfWarnings=\toks35
+\sl@TempBOW=\toks35
+\sl@BankOfWarnings=\toks36
 LaTeX Info: Redefining \GenericWarning on input line 433.
 \sl@ErrorCount=\count311
 \sl@ErrorNumber=\count312
 \sl@ErrorCasualties=\count313
-\sl@TempBOE=\toks36
-\sl@BankOfErrors=\toks37
+\sl@TempBOE=\toks37
+\sl@BankOfErrors=\toks38
 LaTeX Info: Redefining \GenericError on input line 601.
 ) ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bookmark\bookmark.sty"
 Package: bookmark 2019/12/03 v1.28 PDF bookmarks (HO)
@@ -792,7 +792,7 @@ File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-ieee\ieee.bbx"
-File: ieee.bbx 2019/06/19 v1.3a biblatex bibliography style
+File: ieee.bbx 2020/02/26 v1.3b biblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\numeric-comp.bbx"
@@ -808,10 +808,12 @@ File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count450
 \c@bbx:relatedtotal=\count451
 ))))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
- ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/cbx\numeric.cbx"
-File: numeric.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+ ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/cbx\numeric-comp.cbx"
+File: numeric-comp.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count452
+\c@cbx@tempcntb=\count453
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -830,12 +832,12 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 File: biblatex.cfg 
 )) ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\microtype.sty"
 Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
-\MT@toks=\toks38
-\MT@count=\count452
+\MT@toks=\toks39
+\MT@count=\count454
 LaTeX Info: Redefining \textls on input line 790.
 \MT@outer@kern=\dimen258
 LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
-\MT@listname@count=\count453
+\MT@listname@count=\count455
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\microtype-pdftex.def"
 File: microtype-pdftex.def 2019/11/18 v2.7d Definitions specific to pdftex (RS)
 LaTeX Info: Redefining \lsstyle on input line 914.
@@ -847,7 +849,7 @@ Package microtype Info: Loading configuration file microtype.cfg.
 File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
 )) ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tabulary\tabulary.sty"
 Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
-\TY@count=\count454
+\TY@count=\count456
 \TY@linewidth=\dimen259
 \tymin=\dimen260
 \tymax=\dimen261
@@ -858,73 +860,73 @@ Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip276
 \enit@outerparindent=\dimen263
-\enit@toks=\toks39
+\enit@toks=\toks40
 \enit@inbox=\box53
-\enit@count@id=\count455
-\enitdp@description=\count456
+\enit@count@id=\count457
+\enitdp@description=\count458
 ) ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.sty"
-\lst@mode=\count457
+\lst@mode=\count459
 \lst@gtempboxa=\box54
-\lst@token=\toks40
-\lst@length=\count458
+\lst@token=\toks41
+\lst@length=\count460
 \lst@currlwidth=\dimen264
-\lst@column=\count459
-\lst@pos=\count460
+\lst@column=\count461
+\lst@pos=\count462
 \lst@lostspace=\dimen265
 \lst@width=\dimen266
-\lst@newlines=\count461
-\lst@lineno=\count462
+\lst@newlines=\count463
+\lst@lineno=\count464
 \lst@maxwidth=\dimen267
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.sty"
-File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
-\c@lstnumber=\count463
-\lst@skipnumbers=\count464
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count465
+\lst@skipnumbers=\count466
 \lst@framebox=\box55
 ) ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.cfg"
-File: listings.cfg 2019/09/10 1.8c listings configuration
+File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
-Package: listings 2019/09/10 1.8c (Carsten Heinz)
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang1.sty"
-File: lstlang1.sty 2019/09/10 1.8c listings language file
+File: lstlang1.sty 2020/03/24 1.8d listings language file
 ) ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amscls\amsthm.sty"
 Package: amsthm 2017/10/31 v2.20.4
-\thm@style=\toks41
-\thm@bodyfont=\toks42
-\thm@headfont=\toks43
-\thm@notefont=\toks44
-\thm@headpunct=\toks45
+\thm@style=\toks42
+\thm@bodyfont=\toks43
+\thm@headfont=\toks44
+\thm@notefont=\toks45
+\thm@headpunct=\toks46
 \thm@preskip=\skip277
 \thm@postskip=\skip278
 \thm@headsep=\skip279
-\dth@everypar=\toks46
+\dth@everypar=\toks47
 )
-\c@defn=\count465
-\c@rul=\count466
-\c@thm=\count467
-\c@lemma=\count468
-\c@coroll=\count469
+\c@defn=\count467
+\c@rul=\count468
+\c@thm=\count469
+\c@lemma=\count470
+\c@coroll=\count471
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\mathtools.sty"
-Package: mathtools 2020/01/17 v1.23 mathematical typesetting tools
+Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count470
-\calc@Bcount=\count471
+\calc@Acount=\count472
+\calc@Bcount=\count473
 \calc@Adimen=\dimen268
 \calc@Bdimen=\dimen269
 \calc@Askip=\skip280
 \calc@Bskip=\skip281
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count472
+\calc@Ccount=\count474
 \calc@Cskip=\skip282
 ) ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\mhsetup.sty"
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
 )
-LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count473
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count475
 \l_MT_multwidth_dim=\dimen270
 \origjot=\skip283
 \l_MT_shortvdotswithinadjustabove_dim=\dimen271
@@ -933,20 +935,22 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_below_intertext_sep=\dimen274
 \l_MT_above_shortintertext_sep=\dimen275
 \l_MT_below_shortintertext_sep=\dimen276
+\xmathstrut@box=\box56
+\xmathstrut@dim=\dimen277
 ) ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/interval\interval.sty"
 Package: interval 2019/03/06 v0.4
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfkeys.sty" ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeys.code.tex"
-\pgfkeys@pathtoks=\toks47
-\pgfkeys@temptoks=\toks48
+\pgfkeys@pathtoks=\toks48
+\pgfkeys@temptoks=\toks49
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex"
-\pgfkeys@tmptoks=\toks49
+\pgfkeys@tmptoks=\toks50
 )))) ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/algorithm2e\algorithm2e.sty"
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count474
+\c@AlgoLine=\count476
 \algocf@hangindent=\skip284
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ifoddpage\ifoddpage.sty"
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count475
+\c@checkoddpage=\count477
 LaTeX Info: Redefining \checkoddpage on input line 45.
 ) ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\xspace.sty"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
@@ -961,33 +965,33 @@ Package: relsize 2013/03/29 ver 4.1
 \skiplength=\skip290
 \algomargin=\skip291
 \skipalgocfslide=\skip292
-\algowidth=\dimen277
-\inoutsize=\dimen278
-\inoutindent=\dimen279
-\interspacetitleruled=\dimen280
-\interspacealgoruled=\dimen281
-\interspacetitleboxruled=\dimen282
+\algowidth=\dimen278
+\inoutsize=\dimen279
+\inoutindent=\dimen280
+\interspacetitleruled=\dimen281
+\interspacealgoruled=\dimen282
+\interspacetitleboxruled=\dimen283
 \algocf@ruledwidth=\skip293
-\algocf@inoutbox=\box56
-\algocf@inputbox=\box57
+\algocf@inoutbox=\box57
+\algocf@inputbox=\box58
 \AlCapSkip=\skip294
 \AlCapHSkip=\skip295
 \algoskipindent=\skip296
-\algocf@nlbox=\box58
-\algocf@hangingbox=\box59
-\algocf@untilbox=\box60
+\algocf@nlbox=\box59
+\algocf@hangingbox=\box60
+\algocf@untilbox=\box61
 \algocf@skipuntil=\skip297
-\algocf@capbox=\box61
+\algocf@capbox=\box62
 \algocf@lcaptionbox=\skip298
 \algoheightruledefault=\skip299
 \algoheightrule=\skip300
 \algotitleheightruledefault=\skip301
 \algotitleheightrule=\skip302
-\c@algocfline=\count476
-\c@algocfproc=\count477
-\c@algocf=\count478
-\algocf@algoframe=\box62
-\algocf@algobox=\box63
+\c@algocfline=\count478
+\c@algocfproc=\count479
+\c@algocf=\count480
+\algocf@algoframe=\box63
+\algocf@algobox=\box64
 ) ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\color.sty"
 Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
@@ -1015,35 +1019,35 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 )) ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/soul\soul.sty"
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks50
-\SOUL@lasttoken=\toks51
-\SOUL@cmds=\toks52
-\SOUL@buffer=\toks53
-\SOUL@token=\toks54
+\SOUL@word=\toks51
+\SOUL@lasttoken=\toks52
+\SOUL@cmds=\toks53
+\SOUL@buffer=\toks54
+\SOUL@token=\toks55
 \SOUL@spaceskip=\skip303
-\SOUL@ttwidth=\dimen283
-\SOUL@uldp=\dimen284
-\SOUL@ulht=\dimen285
+\SOUL@ttwidth=\dimen284
+\SOUL@uldp=\dimen285
+\SOUL@ulht=\dimen286
 ) ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lipsum\lipsum.sty" ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3.sty"
-Package: expl3 2020-02-08 L3 programming layer (loader) 
+Package: expl3 2020-04-06 L3 programming layer (loader) 
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdfmode.def"
-File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count479
-\l__pdf_internal_box=\box64
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count481
+\l__pdf_internal_box=\box65
 )) ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xparse\xparse.sty"
-Package: xparse 2020-02-08 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count480
-\g__xparse_grabber_int=\count481
-\l__xparse_m_args_int=\count482
-\l__xparse_v_nesting_int=\count483
+Package: xparse 2020-03-06 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count482
+\g__xparse_grabber_int=\count483
+\l__xparse_m_args_int=\count484
+\l__xparse_v_nesting_int=\count485
 )
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lipsum\lipsum.ltd.tex"
 File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 )))
-\@quotelevel=\count484
-\@quotereset=\count485
- ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.aux")
+\@quotelevel=\count486
+\@quotereset=\count487
+ ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.aux")
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -1088,19 +1092,19 @@ Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 
 ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count486
-\scratchdimen=\dimen286
-\scratchbox=\box65
-\nofMPsegments=\count487
-\nofMParguments=\count488
-\everyMPshowfont=\toks55
-\MPscratchCnt=\count489
-\MPscratchDim=\dimen287
-\MPnumerator=\count490
-\makeMPintoPDFobject=\count491
-\everyMPtoPDFconversion=\toks56
+\scratchcounter=\count488
+\scratchdimen=\dimen287
+\scratchbox=\box66
+\nofMPsegments=\count489
+\nofMParguments=\count490
+\everyMPshowfont=\toks56
+\MPscratchCnt=\count491
+\MPscratchDim=\dimen288
+\MPnumerator=\count492
+\makeMPintoPDFobject=\count493
+\everyMPtoPDFconversion=\toks57
 )
-\AtBeginShipoutBox=\box66
+\AtBeginShipoutBox=\box67
 Package hyperref Info: Link coloring OFF on input line 7.
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1109,7 +1113,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/generic/gettitlestring\gettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count492
+\c@section@level=\count494
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -1129,7 +1133,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.bbl")
+ ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.bbl")
 Package biblatex Info: Reference section=0 on input line 7.
 Package biblatex Info: Reference segment=0 on input line 7.
 LaTeX Info: Redefining \microtypecontext on input line 7.
@@ -1146,7 +1150,7 @@ Package microtype Info: No adjustment of character kerning.
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt-cmr.cfg"
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-\c@lstlisting=\count493
+\c@lstlisting=\count495
  [1
 
 {C:/Users/olli/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
@@ -1194,10 +1198,10 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 27.
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [2
 
- <c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/signature.png>] ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/acknowledgments.tex" [1
+ <c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/signature.png>] ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/acknowledgments.tex" [1
 
 
-]) ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.toc"
+]) ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.toc"
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1207,48 +1211,66 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [2
 
 
-]) ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/abstract.tex" [3] [4
+]) ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/abstract.tex" [3] [4] [5
 
-] [5]) ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.lof") [6
-
-
-] ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.lot") [7
+]) ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.lof") [6
 
 
-] ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-intro.tex"pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+] ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.lot") [7
+
+
+] ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-intro.tex"
+<pic/ch-Intro/AMT-process.jpg, id=175, 216.5691pt x 269.808pt>
+File: pic/ch-Intro/AMT-process.jpg Graphic file (type jpg)
+<use pic/ch-Intro/AMT-process.jpg>
+Package pdftex.def Info: pic/ch-Intro/AMT-process.jpg  used on input line 29.
+(pdftex.def)             Requested size: 254.43878pt x 316.99562pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.36 \subsection{Project Scope}
-                                [1
+l.51 
+      [1
 
 
-]
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 56.
+]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.62 
+      [2 <c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Intro/AMT-process.jpg>]
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 79.
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bera\t1fvm.fd"
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 10.20007pt on input line 56.
+(Font)              scaled to size 10.20007pt on input line 79.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `fvm' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-review.tex"pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.3 \chapter
-            {Literature Review} [2] [3] [4
+) ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-review.tex" [3] [4
 
-]
-<pic/ch-Review/log-stft-example.png, id=185, 833.1125pt x 318.18875pt>
+] [5]
+<pic/ch-Review/log-stft-example.png, id=215, 833.1125pt x 318.18875pt>
 File: pic/ch-Review/log-stft-example.png Graphic file (type png)
 <use pic/ch-Review/log-stft-example.png>
-Package pdftex.def Info: pic/ch-Review/log-stft-example.png  used on input line 74.
+Package pdftex.def Info: pic/ch-Review/log-stft-example.png  used on input line 98.
 (pdftex.def)             Requested size: 254.43878pt x 97.17607pt.
- [5]) ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-system.tex" [6 <c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Review/log-stft-example.png>] [7
+ [6 <c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Review/log-stft-example.png>]
+<pic/ch-Review/NMF-example.png, id=232, 1465.475pt x 1042.89626pt>
+File: pic/ch-Review/NMF-example.png Graphic file (type png)
+<use pic/ch-Review/NMF-example.png>
+Package pdftex.def Info: pic/ch-Review/NMF-example.png  used on input line 153.
+(pdftex.def)             Requested size: 254.43878pt x 181.06146pt.
+ [7]
+<pic/ch-Review/precompiled-dictionary.png, id=246, 421.07312pt x 213.29688pt>
+File: pic/ch-Review/precompiled-dictionary.png Graphic file (type png)
+<use pic/ch-Review/precompiled-dictionary.png>
+Package pdftex.def Info: pic/ch-Review/precompiled-dictionary.png  used on input line 171.
+(pdftex.def)             Requested size: 254.43878pt x 128.88715pt.
+ [8 <c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Review/NMF-example.png> <c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Review/precompiled-dictionary.png>]) ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-system.tex" [9] [10
 
-] [8]
-<pic/ch-System/rice.jpg, id=212, 72.27pt x 58.5387pt>
+] [11]
+<pic/ch-System/rice.jpg, id=269, 72.27pt x 58.5387pt>
 File: pic/ch-System/rice.jpg Graphic file (type jpg)
 <use pic/ch-System/rice.jpg>
 Package pdftex.def Info: pic/ch-System/rice.jpg  used on input line 15.
@@ -1256,58 +1278,58 @@ Package pdftex.def Info: pic/ch-System/rice.jpg  used on input line 15.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 28.
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [9 <c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-System/rice.jpg>]
+) [12 <c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-System/rice.jpg>]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 42.
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 9.30756pt on input line 50.
- [10]
+ [13]
 Package epstopdf Info: Source file: <exp/ch-System/taste_with_meals.eps>
-(epstopdf)                    date: 2020-02-12 17:07:28
-(epstopdf)                    size: 22833 bytes
+(epstopdf)                    date: 2020-04-13 15:21:11
+(epstopdf)                    size: 23657 bytes
 (epstopdf)             Output file: <exp/ch-System/taste_with_meals-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-02-12 17:07:28
+(epstopdf)                    date: 2020-04-13 15:21:11
 (epstopdf)                    size: 4916 bytes
 (epstopdf)             Command: <epstopdf --outfile=exp/ch-System/taste_with_meals-eps-converted-to.pdf exp/ch-System/taste_with_meals.eps>
 (epstopdf)             \includegraphics on input line 70.
 Package epstopdf Info: Output file is already uptodate.
-<exp/ch-System/taste_with_meals-eps-converted-to.pdf, id=242, 180.675pt x 138.5175pt>
+<exp/ch-System/taste_with_meals-eps-converted-to.pdf, id=298, 180.675pt x 138.5175pt>
 File: exp/ch-System/taste_with_meals-eps-converted-to.pdf Graphic file (type pdf)
 <use exp/ch-System/taste_with_meals-eps-converted-to.pdf>
 Package pdftex.def Info: exp/ch-System/taste_with_meals-eps-converted-to.pdf  used on input line 70.
 (pdftex.def)             Requested size: 190.82585pt x 146.30154pt.
 Package epstopdf Info: Source file: <exp/ch-System/taste_with_freshness.eps>
-(epstopdf)                    date: 2020-02-12 17:07:28
-(epstopdf)                    size: 22839 bytes
+(epstopdf)                    date: 2020-04-13 15:21:11
+(epstopdf)                    size: 23645 bytes
 (epstopdf)             Output file: <exp/ch-System/taste_with_freshness-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-02-12 17:07:28
+(epstopdf)                    date: 2020-04-13 15:21:11
 (epstopdf)                    size: 6055 bytes
 (epstopdf)             Command: <epstopdf --outfile=exp/ch-System/taste_with_freshness-eps-converted-to.pdf exp/ch-System/taste_with_freshness.eps>
 (epstopdf)             \includegraphics on input line 77.
 Package epstopdf Info: Output file is already uptodate.
-<exp/ch-System/taste_with_freshness-eps-converted-to.pdf, id=243, 180.675pt x 138.5175pt>
+<exp/ch-System/taste_with_freshness-eps-converted-to.pdf, id=299, 180.675pt x 138.5175pt>
 File: exp/ch-System/taste_with_freshness-eps-converted-to.pdf Graphic file (type pdf)
 <use exp/ch-System/taste_with_freshness-eps-converted-to.pdf>
 Package pdftex.def Info: exp/ch-System/taste_with_freshness-eps-converted-to.pdf  used on input line 77.
 (pdftex.def)             Requested size: 190.82585pt x 146.30154pt.
- [11 <c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/exp/ch-System/taste_with_meals-eps-converted-to.pdf> <c:/Users/olli/Desktop/ENGN4200/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/exp/ch-System/taste_with_freshness-eps-converted-to.pdf>]) ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-results.tex" [12] [13
+ [14 <c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/exp/ch-System/taste_with_meals-eps-converted-to.pdf> <c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/exp/ch-System/taste_with_freshness-eps-converted-to.pdf>]) ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-results.tex" [15] [16
 
-] [14] [15] [16] [17]) ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-concl.tex" [18] [19
+] [17] [18] [19] [20]) ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-concl.tex" [21] [22
 
-] [20]) [21] ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ap-signal-processing-methods.tex" [22
+] [23]) [24] ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ap-signal-processing-methods.tex" [25
 
-] [23
+] [26
 
-]) [24] ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ap-neural-networks.tex" [25] [26
+]) [27] ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ap-neural-networks.tex" [28] [29
 
-]) ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ap-publication.tex"
-\blx@maxsegment@1=\count494
-\blx@sectionciteorder@1=\count495
+]) ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ap-publication.tex"
+\blx@maxsegment@1=\count496
+\blx@sectionciteorder@1=\count497
 Package biblatex Info: Reference section=1 on input line 1.
 Package biblatex Info: Setting label 'refsection:1' on input line 1.
- [27]
+ [30]
 Package biblatex Info: Reference section=0 on input line 23.
-) [28
+) [31
 
 ]
 \tf@toc=\write5
@@ -1321,7 +1343,7 @@ Package biblatex Info: Reference section=0 on input line 23.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
- ("c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.aux")
+ ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 53.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1332,17 +1354,17 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
 (\end occurred when \if on line 5 was incomplete)
 (\end occurred when \ifdefined on line 1 was incomplete) 
 Here is how much of TeX's memory you used:
- 25262 strings out of 481565
- 432269 string characters out of 2914627
- 1244354 words of memory out of 3000000
- 39817 multiletter control sequences out of 15000+200000
- 624225 words of font info for 152 fonts, out of 3000000 for 9000
+ 25364 strings out of 480930
+ 435308 string characters out of 2900230
+ 1250508 words of memory out of 3000000
+ 40526 multiletter control sequences out of 15000+200000
+ 630340 words of font info for 155 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,16n,48p,1230b,1252s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bera/fvmr8a.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on "c:\Users\olli\Desktop\ENGN4200\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.pdf" (37 pages, 484779 bytes).
+ 49i,16n,53p,1237b,1373s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bera/fvmr8a.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.pdf" (40 pages, 1105575 bytes).
 PDF statistics:
- 560 PDF objects out of 1000 (max. 8388607)
- 117 named destinations out of 1000 (max. 500000)
- 28570 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 634 PDF objects out of 1000 (max. 8388607)
+ 136 named destinations out of 1000 (max. 500000)
+ 29641 words of extra memory for PDF output out of 29859 (max. 10000000)
 
