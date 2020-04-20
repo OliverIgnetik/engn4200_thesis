@@ -29,7 +29,7 @@
   style=ieee,
   citestyle=numeric-comp,
   giveninits=true,
-  sorting=nyt,
+  sorting=none,
   maxbibnames=99,
   dashed=false,
   doi=false]{biblatex}
@@ -87,6 +87,9 @@
 \DeclarePairedDelimiter{\angleLR}{\langle}{\rangle}
 \DeclareMathOperator*{\argmin}{arg\,min}
 \DeclareMathOperator*{\argmax}{arg\,max}
+
+\usepackage{siunitx}
+\sisetup{detect-all}
 
 \usepackage{interval}
 \intervalconfig{soft open fences}

@@ -1,31 +1,20 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [1] Config.pm:307> INFO - Logfile is 'main.blg'
-[227] biber-MSWIN64:322> INFO - === 
-[283] Biber.pm:415> INFO - Reading 'main.bcf'
-[614] Biber.pm:943> INFO - Found 10 citekeys in bib section 0
-[615] Biber.pm:943> INFO - Found 3 citekeys in bib section 1
-[615] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
-[711] Biber.pm:4256> INFO - Processing section 0
-[712] Utils.pm:75> INFO - Globbing data source 'references.bib'
-[741] Utils.pm:91> INFO - Globbed data source 'references.bib' to references.bib
-[788] Biber.pm:4455> INFO - Looking for bibtex format file 'references.bib' for section 0
-[798] bibtex.pm:1653> INFO - LaTeX decoding ...
-[885] bibtex.pm:1471> INFO - Found BibTeX data source 'references.bib'
-[1160] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1160] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1160] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[1161] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[1194] Biber.pm:4256> INFO - Processing section 1
-[1195] Utils.pm:75> INFO - Globbing data source 'references.bib'
-[1195] Utils.pm:91> INFO - Globbed data source 'references.bib' to references.bib
-[1196] Biber.pm:4455> INFO - Looking for bibtex format file 'references.bib' for section 1
-[1309] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1310] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1310] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1310] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[1345] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1346] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1346] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[1346] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[1362] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1401] bbl.pm:755> INFO - Output to main.bbl
+[212] biber-MSWIN64:322> INFO - === 
+[268] Biber.pm:415> INFO - Reading 'main.bcf'
+[585] Biber.pm:943> INFO - Found 22 citekeys in bib section 0
+[637] Biber.pm:4256> INFO - Processing section 0
+[638] Utils.pm:75> INFO - Globbing data source 'references.bib'
+[669] Utils.pm:91> INFO - Globbed data source 'references.bib' to references.bib
+[716] Biber.pm:4455> INFO - Looking for bibtex format file 'references.bib' for section 0
+[728] bibtex.pm:1653> INFO - LaTeX decoding ...
+[835] bibtex.pm:1471> INFO - Found BibTeX data source 'references.bib'
+[919] Utils.pm:304> WARN - year field 'January 2019' in entry 'ISMIR-tut:Benetos' is not an integer - this will probably not sort properly.
+[984] Utils.pm:304> WARN - year field 'To be Published' in entry 'MAPS:Emiya' is not an integer - this will probably not sort properly.
+[1289] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1290] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1290] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1290] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[1356] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1400] bbl.pm:755> INFO - Output to main.bbl
+[1415] Biber.pm:128> INFO - WARNINGS: 2

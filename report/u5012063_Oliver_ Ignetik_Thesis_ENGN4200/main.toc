@@ -1,105 +1,49 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acknowledgments}{i}{section*.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abstract}{v}{section*.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Figures}{vi}{section*.5}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Tables}{vii}{section*.7}%
-\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Abstract}{iii}{section*.3}%
+\contentsline {chapter}{List of Figures}{iv}{section*.4}%
+\contentsline {chapter}{List of Tables}{v}{section*.6}%
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Overview}{2}{section.1.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}Research Question}{2}{subsection.1.1.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.2}Project Scope}{3}{subsection.1.1.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Thesis Synopsis}{3}{section.1.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Resources}{3}{section.1.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {2}Literature Review}{4}{chapter.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Musical Concepts}{4}{section.2.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Pitch and Harmony}{4}{subsection.2.1.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Tempo, Beat and Rhythm}{5}{subsection.2.1.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}Timbre and Instrumentation}{5}{subsection.2.1.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Signal Processing Techniques}{5}{section.2.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Sampling Theorem}{5}{subsection.2.2.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Fourier Transform}{5}{subsection.2.2.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Short-Time Fourier Transform}{5}{subsection.2.2.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.3.1}Log-Frequency Spectrogram}{6}{subsubsection.2.2.3.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}State of the Art Methods}{7}{section.2.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Non-negative Matrix Factorization}{7}{subsection.2.3.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Neural Networks}{9}{subsection.2.3.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Summary}{9}{section.2.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {3}System Design}{10}{chapter.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Preliminaries}{11}{section.3.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Methodology}{12}{section.3.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Evaluation}{13}{section.3.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Summary}{15}{section.3.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {4}Results}{16}{chapter.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Preliminaries}{17}{section.4.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Methodology}{18}{section.4.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Evaluation}{20}{section.4.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Summary}{21}{section.4.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {5}Conclusion and Future Work}{22}{chapter.5}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Conclusion}{22}{section.5.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Future Research Directions}{23}{section.5.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}NMF}{23}{subsection.5.2.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}NN}{23}{subsection.5.2.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.3}Evaluation Metrics}{24}{subsection.5.2.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.4}Non-western music}{24}{subsection.5.2.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{25}{section*.10}%
-\defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {A}Signal Processing Methods}{26}{appendix.A}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Euler identity}{26}{section.A.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Fast Fourier Transform}{27}{section.A.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}LTI systems}{28}{section.A.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {B}Neural Networks}{29}{appendix.B}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Architecture}{29}{section.B.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}Loss Functions}{29}{section.B.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.3}Performance metrics}{29}{section.B.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.4}Resources}{30}{section.B.4}%
-\defcounter {refsection}{1}\relax 
-\contentsline {chapter}{Publications during PhD Study}{31}{section*.12}%
+\contentsline {section}{\numberline {1.1}What is Automatic transcription ?}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Key Challenges}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Commercial Applications}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Overview}{3}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Research Question}{3}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Project Scope}{4}{subsection.1.4.2}%
+\contentsline {section}{\numberline {1.5}Thesis Synopsis}{4}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Resources}{4}{section.1.6}%
+\contentsline {chapter}{\chapternumberline {2}Background}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Musical Concepts}{6}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Pitch and Harmony}{6}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Tempo, Beat and Rhythm}{8}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Signal Processing Techniques}{8}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Sampling Theorem}{8}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Discrete Fourier Transform}{9}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Short-Time Fourier Transform}{9}{subsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.3.1}Log-Frequency Spectrogram}{10}{subsubsection.2.2.3.1}%
+\contentsline {section}{\numberline {2.3}State of the Art Methods}{10}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Non-negative Matrix Factorization}{11}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Neural Networks}{13}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Summary}{14}{section.2.4}%
+\contentsline {chapter}{\chapternumberline {3}System Design}{16}{chapter.3}%
+\contentsline {chapter}{\chapternumberline {4}Results}{17}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Preliminaries}{18}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Methodology}{19}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Evaluation}{21}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Summary}{22}{section.4.4}%
+\contentsline {chapter}{\chapternumberline {5}Conclusion and Future Work}{23}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conclusion}{23}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Future Research Directions}{24}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}NMF}{24}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}NN}{24}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Evaluation Metrics}{25}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Non-western music}{25}{subsection.5.2.4}%
+\contentsline {chapter}{Bibliography}{26}{section*.9}%
+\contentsline {appendix}{\chapternumberline {A}Signal Processing Methods}{29}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Euler identity}{29}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Fast Fourier Transform}{30}{section.A.2}%
+\contentsline {section}{\numberline {A.3}LTI systems}{31}{section.A.3}%
+\contentsline {appendix}{\chapternumberline {B}Neural Networks}{32}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Architecture}{32}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Loss Functions}{32}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Performance metrics}{32}{section.B.3}%
+\contentsline {section}{\numberline {B.4}Resources}{33}{section.B.4}%

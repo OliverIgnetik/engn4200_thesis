@@ -163,7 +163,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortingtemplatename</bcf:key>
-      <bcf:value>nyt</bcf:value>
+      <bcf:value>none</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortsets</bcf:key>
@@ -2183,62 +2183,40 @@
     <bcf:datasource type="file" datatype="bibtex">references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="3">amt2019:Benetos</bcf:citekey>
-    <bcf:citekey order="4">ISMIR-tut:Benetos</bcf:citekey>
+    <bcf:citekey order="4">spma2011:Klapuri</bcf:citekey>
     <bcf:citekey order="5">ISMIR-tut:Benetos</bcf:citekey>
-    <bcf:citekey order="6">amtfc2013:Benetos</bcf:citekey>
-    <bcf:citekey order="7">NUS-perceptual-features:Ye</bcf:citekey>
-    <bcf:citekey order="8">spma2011:Klapuri</bcf:citekey>
-    <bcf:citekey order="9">nmf1999:Seung</bcf:citekey>
-    <bcf:citekey order="10">nmfamt2003:Smaragdis</bcf:citekey>
-    <bcf:citekey order="11">amt2019:Benetos</bcf:citekey>
-    <bcf:citekey order="12">nmfamt2003:Smaragdis</bcf:citekey>
-    <bcf:citekey order="13">nmfamt2003:Smaragdis</bcf:citekey>
-    <bcf:citekey order="14">f0estimation2006:Cheveigne</bcf:citekey>
-    <bcf:citekey order="14">Christensen:2009</bcf:citekey>
-    <bcf:citekey order="14">spmmt:Klapuri</bcf:citekey>
-  </bcf:section>
-  <!-- SECTION 1 -->
-  <bcf:bibdata section="1">
-    <bcf:datasource type="file" datatype="bibtex">references.bib</bcf:datasource>
-  </bcf:bibdata>
-  <bcf:section number="1">
-    <bcf:citekey order="1" nocite="1">TR04:Arasu</bcf:citekey>
-    <bcf:citekey order="2" nocite="1">nsdi12:Zaharia</bcf:citekey>
-    <bcf:citekey order="3" nocite="1">tods76:Chen</bcf:citekey>
-  </bcf:section>
-  <!-- SECTION 0 (cont.) -->
-  <bcf:section number="0">
+    <bcf:citekey order="6">ISMIR-tut:Benetos</bcf:citekey>
+    <bcf:citekey order="7">ISMIR-tut:Benetos</bcf:citekey>
+    <bcf:citekey order="8">ground-truths:Su</bcf:citekey>
+    <bcf:citekey order="9">amtfc2013:Benetos</bcf:citekey>
+    <bcf:citekey order="10">context-dependent2016:Cogliati</bcf:citekey>
+    <bcf:citekey order="11">MAPS:Emiya</bcf:citekey>
+    <bcf:citekey order="12">thickstun2018invariances</bcf:citekey>
+    <bcf:citekey order="13">hawthorne2018enabling</bcf:citekey>
+    <bcf:citekey order="14">NUS-perceptual-features:Ye</bcf:citekey>
+    <bcf:citekey order="15">beat-def:Lerdahl</bcf:citekey>
+    <bcf:citekey order="16">OppenheimDSP</bcf:citekey>
+    <bcf:citekey order="17">OppenheimDSP</bcf:citekey>
+    <bcf:citekey order="18">spma2011:Klapuri</bcf:citekey>
+    <bcf:citekey order="19">MIR-recent-dev:Schedl</bcf:citekey>
+    <bcf:citekey order="20">nmf1999:Seung</bcf:citekey>
+    <bcf:citekey order="21">nmfamt2003:Smaragdis</bcf:citekey>
+    <bcf:citekey order="22">amt2019:Benetos</bcf:citekey>
+    <bcf:citekey order="23">nmfamt2003:Smaragdis</bcf:citekey>
+    <bcf:citekey order="24">nmfamt2003:Smaragdis</bcf:citekey>
+    <bcf:citekey order="25">f0estimation2006:Cheveigne</bcf:citekey>
+    <bcf:citekey order="25">Christensen:2009</bcf:citekey>
+    <bcf:citekey order="25">spmmt:Klapuri</bcf:citekey>
+    <bcf:citekey order="26">DeepLearning2016</bcf:citekey>
+    <bcf:citekey order="27">ISMIR-tut:Benetos</bcf:citekey>
+    <bcf:citekey order="28">ISMIR-tut:Benetos</bcf:citekey>
+    <bcf:citekey order="29">LiDL2019</bcf:citekey>
+    <bcf:citekey order="30">end-to-end-transcription2017:Carvalho</bcf:citekey>
+    <bcf:citekey order="31">google2018:Elsen</bcf:citekey>
+    <bcf:citekey order="32">ground-truths:Su</bcf:citekey>
+    <bcf:citekey order="33">thickstun2018invariances</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
-  <bcf:sortingtemplate name="nyt">
-    <bcf:sort order="1">
-      <bcf:sortitem order="1">presort</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="2" final="1">
-      <bcf:sortitem order="1">sortkey</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="3">
-      <bcf:sortitem order="1">sortname</bcf:sortitem>
-      <bcf:sortitem order="2">author</bcf:sortitem>
-      <bcf:sortitem order="3">editor</bcf:sortitem>
-      <bcf:sortitem order="4">translator</bcf:sortitem>
-      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="6">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="4">
-      <bcf:sortitem order="1">sortyear</bcf:sortitem>
-      <bcf:sortitem order="2">year</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="5">
-      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="2">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="6">
-      <bcf:sortitem order="1">volume</bcf:sortitem>
-      <bcf:sortitem literal="1" order="2">0</bcf:sortitem>
-    </bcf:sort>
-  </bcf:sortingtemplate>
   <bcf:sortingtemplate name="none">
     <bcf:sort order="1">
       <bcf:sortitem order="1">citeorder</bcf:sortitem>
@@ -2246,15 +2224,6 @@
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
   <bcf:datalist section="0"
-                name="nyt/global//global/global"
-                type="entry"
-                sortingtemplatename="nyt"
-                sortingnamekeytemplatename="global"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
-  <bcf:datalist section="1"
                 name="none/global//global/global"
                 type="entry"
                 sortingtemplatename="none"

@@ -401,6 +401,12 @@
   {\intendclearpage
    \newpage\renewcommand{\thepage}{\arabic{page}}\setcounter{page}{1}}
 
+
+% newenvironment for equation where blocks 
+\newenvironment{conditions}
+{\par\vspace{\abovedisplayskip}\noindent\begin{tabular}{>{$}l<{$} @{${}={}$} l}}
+{\end{tabular}\par\vspace{\belowdisplayskip}}
+
 % Re-defining \tableofcontents, \listoffigures and \listoftables to 
 % avoid self-referencing. 
 
