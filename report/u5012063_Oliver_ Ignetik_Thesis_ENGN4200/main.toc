@@ -14,36 +14,27 @@
 \contentsline {chapter}{\chapternumberline {2}Background}{6}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Musical Concepts}{6}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Pitch and Harmony}{6}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Tempo, Beat and Rhythm}{8}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.2}Tempo, Beat and Rhythm}{7}{subsection.2.1.2}%
 \contentsline {section}{\numberline {2.2}Signal Processing Techniques}{8}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Sampling Theorem}{8}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Discrete Fourier Transform}{9}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.2}Discrete Fourier Transform}{8}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Short-Time Fourier Transform}{9}{subsection.2.2.3}%
 \contentsline {subsubsection}{\numberline {2.2.3.1}Log-Frequency Spectrogram}{10}{subsubsection.2.2.3.1}%
 \contentsline {section}{\numberline {2.3}State of the Art Methods}{10}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Non-negative Matrix Factorization}{11}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Neural Networks}{13}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}Summary}{14}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Summary}{15}{section.2.4}%
 \contentsline {chapter}{\chapternumberline {3}System Design}{16}{chapter.3}%
 \contentsline {chapter}{\chapternumberline {4}Results}{17}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Preliminaries}{18}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Methodology}{19}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Evaluation}{21}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Summary}{22}{section.4.4}%
-\contentsline {chapter}{\chapternumberline {5}Conclusion and Future Work}{23}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Conclusion}{23}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Future Research Directions}{24}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}NMF}{24}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}NN}{24}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Evaluation Metrics}{25}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}Non-western music}{25}{subsection.5.2.4}%
-\contentsline {chapter}{Bibliography}{26}{section*.9}%
-\contentsline {appendix}{\chapternumberline {A}Signal Processing Methods}{29}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Euler identity}{29}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Fast Fourier Transform}{30}{section.A.2}%
-\contentsline {section}{\numberline {A.3}LTI systems}{31}{section.A.3}%
-\contentsline {appendix}{\chapternumberline {B}Neural Networks}{32}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Architecture}{32}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Loss Functions}{32}{section.B.2}%
-\contentsline {section}{\numberline {B.3}Performance metrics}{32}{section.B.3}%
-\contentsline {section}{\numberline {B.4}Resources}{33}{section.B.4}%
+\contentsline {chapter}{\chapternumberline {5}Conclusion and Future Work}{18}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Challenges}{18}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Future Research Directions}{18}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}User Informed Transcription}{18}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Score Informed Transcription}{19}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Context specific transcription}{19}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Evaluation Metrics}{20}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Music Language Models (MLMs)}{21}{subsection.5.2.5}%
+\contentsline {section}{\numberline {5.3}Conclusion}{21}{section.5.3}%
+\contentsline {chapter}{Bibliography}{23}{section*.9}%
+\contentsline {appendix}{\chapternumberline {A}Signal Processing Methods}{27}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {B}Neural Networks}{28}{appendix.B}%

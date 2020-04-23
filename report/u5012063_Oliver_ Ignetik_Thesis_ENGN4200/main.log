@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.13)  21 APR 2020 00:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.13)  24 APR 2020 03:47
 entering extended mode
 **"c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/main.tex"
 ("c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/main.tex"
@@ -1286,7 +1286,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 ] ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-intro.tex"
-<pic/ch-Intro/AMT-process.jpg, id=157, 216.5691pt x 269.808pt>
+<pic/ch-Intro/AMT-process.jpg, id=146, 216.5691pt x 269.808pt>
 File: pic/ch-Intro/AMT-process.jpg Graphic file (type jpg)
 <use pic/ch-Intro/AMT-process.jpg>
 Package pdftex.def Info: pic/ch-Intro/AMT-process.jpg  used on input line 34.
@@ -1313,51 +1313,61 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `fvm' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [3] [4]) ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-review.tex" [5]
-<pic/ch-Review/spectrum-Bb3.png, id=217, 939.51pt x 505.89pt>
-File: pic/ch-Review/spectrum-Bb3.png Graphic file (type png)
-<use pic/ch-Review/spectrum-Bb3.png>
-Package pdftex.def Info: pic/ch-Review/spectrum-Bb3.png  used on input line 18.
-(pdftex.def)             Requested size: 254.43878pt x 137.00124pt.
- [6
+ [3] [4]) ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-review.tex" [5] [6
 
- <c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Review/spectrum-Bb3.png>] [7]
-<pic/ch-Review/time-sig.png, id=240, 1490.56876pt x 276.03125pt>
+]
+<pic/ch-Review/time-sig.png, id=219, 1490.56876pt x 276.03125pt>
 File: pic/ch-Review/time-sig.png Graphic file (type png)
 <use pic/ch-Review/time-sig.png>
 Package pdftex.def Info: pic/ch-Review/time-sig.png  used on input line 87.
 (pdftex.def)             Requested size: 254.43878pt x 47.11421pt.
- [8 <c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Review/time-sig.png>] [9]
-<pic/ch-Review/log-stft-example.png, id=264, 833.1125pt x 318.18875pt>
+ [7] [8 <c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Review/time-sig.png>] [9]
+<pic/ch-Review/log-stft-example.png, id=251, 833.1125pt x 318.18875pt>
 File: pic/ch-Review/log-stft-example.png Graphic file (type png)
 <use pic/ch-Review/log-stft-example.png>
 Package pdftex.def Info: pic/ch-Review/log-stft-example.png  used on input line 198.
 (pdftex.def)             Requested size: 254.43878pt x 97.17607pt.
- [10] [11 <c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Review/log-stft-example.png>]
-<pic/ch-Review/NMF-example.png, id=284, 1465.475pt x 1042.89626pt>
+ [10 <c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Review/log-stft-example.png>] [11]
+<pic/ch-Review/NMF-example.png, id=272, 1465.475pt x 1042.89626pt>
 File: pic/ch-Review/NMF-example.png Graphic file (type png)
 <use pic/ch-Review/NMF-example.png>
 Package pdftex.def Info: pic/ch-Review/NMF-example.png  used on input line 276.
 (pdftex.def)             Requested size: 254.43878pt x 181.06146pt.
  [12 <c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Review/NMF-example.png>]
-<pic/ch-Review/neural-network.png, id=303, 618.31pt x 421.575pt>
+<pic/ch-Review/neural-network.png, id=293, 618.31pt x 421.575pt>
 File: pic/ch-Review/neural-network.png Graphic file (type png)
 <use pic/ch-Review/neural-network.png>
-Package pdftex.def Info: pic/ch-Review/neural-network.png  used on input line 318.
+Package pdftex.def Info: pic/ch-Review/neural-network.png  used on input line 337.
 (pdftex.def)             Requested size: 254.43878pt x 173.4837pt.
- [13] [14 <c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Review/neural-network.png>]) ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-system.tex" [15]) ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-results.tex" [16
+ [13] [14 <c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Review/neural-network.png>]) ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-system.tex" [15]
+<pic/ch-System/model.png, id=328, 1044.90375pt x 956.57375pt>
+File: pic/ch-System/model.png Graphic file (type png)
+<use pic/ch-System/model.png>
+Package pdftex.def Info: pic/ch-System/model.png  used on input line 16.
+(pdftex.def)             Requested size: 212.03017pt x 194.09921pt.
+) ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-results.tex" [16
 
-] [17
+ <c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-System/model.png>]) ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-concl.tex" [17
 
-] [18] [19] [20] [21]) ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-concl.tex" [22] [23
+] [18
 
-] [24]) [25] [26
+] [19]
+<pic/ch-Conclusion/violin-vs-piano.png, id=360, 1143.27126pt x 682.55pt>
+File: pic/ch-Conclusion/violin-vs-piano.png Graphic file (type png)
+<use pic/ch-Conclusion/violin-vs-piano.png>
+Package pdftex.def Info: pic/ch-Conclusion/violin-vs-piano.png  used on input line 82.
+(pdftex.def)             Requested size: 254.43878pt x 151.90074pt.
+ [20 <c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Conclusion/violin-vs-piano.png>]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 114.
+ ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [21]) [22] [23
 
-] [27] ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ap-signal-processing-methods.tex" [28] [29
+] [24] [25] ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ap-signal-processing-methods.tex" [26]) ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ap-neural-networks.tex" [27
 
-]) [30] ("c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ap-neural-networks.tex" [31] [32
+]) [28
 
-]) [33]
+]
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
@@ -1380,17 +1390,17 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 51.
 (\end occurred when \if on line 5 was incomplete)
 (\end occurred when \ifdefined on line 1 was incomplete) 
 Here is how much of TeX's memory you used:
- 27733 strings out of 480930
- 502927 string characters out of 2900230
- 1297686 words of memory out of 3000000
- 42842 multiletter control sequences out of 15000+200000
- 635401 words of font info for 171 fonts, out of 3000000 for 9000
+ 27793 strings out of 480930
+ 505387 string characters out of 2900230
+ 1299656 words of memory out of 3000000
+ 42890 multiletter control sequences out of 15000+200000
+ 636292 words of font info for 176 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,17n,53p,1237b,1739s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bera/fvmr8a.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.pdf" (40 pages, 970238 bytes).
+ 49i,17n,53p,1237b,1746s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bera/fvmr8a.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "c:\Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.pdf" (35 pages, 1270101 bytes).
 PDF statistics:
- 643 PDF objects out of 1000 (max. 8388607)
- 147 named destinations out of 1000 (max. 500000)
- 32676 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 614 PDF objects out of 1000 (max. 8388607)
+ 144 named destinations out of 1000 (max. 500000)
+ 33121 words of extra memory for PDF output out of 35830 (max. 10000000)
 

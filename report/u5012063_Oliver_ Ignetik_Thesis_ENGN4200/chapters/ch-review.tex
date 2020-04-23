@@ -1,4 +1,4 @@
-.\SetPicSubDir{ch-Review} \SetExpSubDir{ch-Review}
+\SetPicSubDir{ch-Review} \SetExpSubDir{ch-Review}
 
 \chapter{Background}
 \label{ch:review}
@@ -13,12 +13,12 @@ easily controlled fundamental periods and associated harmonics. Such a signal is
 described as a harmonic series of sinusoids at multiples of the fundamental
 frequency and results in the perception of a pitch in the mind of the listener.
 
-\begin{figure}[!ht]
-  \centering
-  \includegraphics[width=.6\linewidth]{\Pic{png}{spectrum-Bb3}}
-  \caption{Spectrum of Bb3 with fundamental frequency 233.08 $\si{\hertz}$ }
-  \label{review:fig:spectrum}
-\end{figure}
+% \begin{figure}[!ht]
+%   \centering
+%   \includegraphics[width=.6\linewidth]{\Pic{png}{spectrum-Bb3}}
+%   \caption{Spectrum of Bb3 with fundamental frequency 233.08 $\si{\hertz}$ }
+%   \label{review:fig:spectrum}
+% \end{figure}
 
 Although different cultures have developed different musical conventions, a
 common feature is the musical "scale", a set of discrete pitches that repeats
@@ -116,8 +116,8 @@ human hearing is from 20$\si{hertz}$-20$\si{\kilo\hertz}$.
 \subsection{Discrete Fourier Transform}
 
 Consider a finite-length sequence $x[n]$ of length N samples such that $x[n] =
-  0$ outside the range $0 \leq  n \leq N - 1$. To each finite-length
-sequence of length N, it is possible to associate a periodic sequence.
+  0$ outside the range $0 \leq  n \leq N - 1$. To each finite-length sequence of
+length N, it is possible to associate a periodic sequence.
 
 \begin{equation}
   \tilde{x}[n] =\sum_{r=-\infty}^{\infty} x[n-r N]
@@ -271,7 +271,7 @@ where the $\odot$ operator denotes pointwise multiplication, $J \in
   \mathbb{R}^{M \times N}$ denotes the matrix of ones, and the divison is
 pointwise. \cite{amt2019:Benetos}
 
-\begin{figure}
+\begin{figure}[!ht]
   \centering
   \includegraphics[width=.6\linewidth]{\Pic{png}{NMF-example}}
   \caption{Example of NMF decomposition taken from Smaragdis 2003 \cite{nmfamt2003:Smaragdis}}
@@ -304,6 +304,25 @@ performance and accuracy. For a comprehensive overview of a number of these
 techniques refer to \cite{f0estimation2006:Cheveigne,Christensen:2009,
   spmmt:Klapuri}.
 
+State of the art applications of NMF for polyphonic AMT include work were sparseness
+constraints were added into the NMF update rules, in an effort to find
+meaningful transcriptions. \cite{NMF-sparsity:2006} Another approach was based on incorporating harmonicity
+constraints in the NMF model, resulting in two algorithms: harmonic and
+inharmonic NMF. \cite{inharm-harm-NMF:Vincent2010} Additionally the model constrains each basis spectrum to be
+expressed as a weighted sum of narrowband spectra, in order to preserve a smooth
+spectral envelope. The inharmonic version of the algorithm is also able to support deviations from perfect harmonicity and
+standard tuning. Also, another approach proposed a Bayesian framework for
+NMF, which considers each pitch as a model of Gaussian components in harmonic
+positions. \cite{bayesian-NMF:Bertin2007} Spectral smoothness constraints are incorporated into the likelihood
+function, and for parameter estimation the space alternating generalised EM
+algorithm (SAGE) is employed.
+
+More recently, one approach proposed an algorithm for multi-pitch detection and beat structure analysis. The NMF
+objective function is constrained using information from the rhythmic structure
+of the recording, which helps improve transcription accuracy in highly
+repetitive recordings. \cite{beat-NMF:Ochiai2012}
+
+
 \subsection{Neural Networks}
 
 Neural networks (NN) are systems that are vaguely inspired by biological neural
@@ -331,23 +350,23 @@ other fields progress on NNs for music transcription has been slower due to a
 lack of annotated data with labels which is essential for training the models
 appropriately. \cite{end-to-end-transcription2017:Carvalho}
 
-The current state of the art method for piano transcription was proposed in research completed
-by Google Brain \cite{google2018:Elsen}.
-This approach combines two networks, one which detects onsets and one which
-finds note lengths. The output from the note onset network is used to inform the
-second network calculating note lengths.
+The current state of the art method for piano transcription was proposed in
+research completed by Google Brain \cite{google2018:Elsen}. This approach
+combines two networks, one which detects onsets and one which finds note
+lengths. The output from the note onset network is used to inform the second
+network calculating note lengths.
 
 Despite the appeal of NNs and the promises they hold they are often still
 outperformed by NMF-based methods for a number of reasons :
 \begin{enumerate}
-  \item Lack of annotated labelled datasets - neural networks rely on data
-        to be effective. There are only a a small number of annotated
-        datasets which in themselves are restricted to certain types of
-        instruments and genres of music. \cite{ground-truths:Su}
+  \item Lack of annotated labelled datasets - neural networks rely on data to be
+        effective. There are only a a small number of annotated datasets which
+        in themselves are restricted to certain types of instruments and genres
+        of music. \cite{ground-truths:Su}
   \item Adaptablity to new conditions - there are currently no methods to
-        retrain or adapt an NN-based AMT systems on only a few seconds of
-        audio. As such NMF-based systems can perform considerably better
-        with less data and are easier to adapt.
+        retrain or adapt an NN-based AMT systems on only a few seconds of audio.
+        As such NMF-based systems can perform considerably better with less data
+        and are easier to adapt.
 \end{enumerate}
 
 \section{Summary}
