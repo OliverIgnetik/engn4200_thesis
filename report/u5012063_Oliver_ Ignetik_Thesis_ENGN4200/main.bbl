@@ -921,6 +921,19 @@
       \field{title}{Onsets and frames: Dual-objective piano transcription}
       \field{year}{2018}
     \endentry
+    \entry{MIREX}{misc}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labeltitlesource}{title}
+      \field{title}{Music Information Retrieval Evaluation eXchange (MIREX)}
+      \field{year}{2011}
+      \verb{urlraw}
+      \verb http://www.music-ir.org/mirex
+      \endverb
+      \verb{url}
+      \verb http://www.music-ir.org/mirex
+      \endverb
+    \endentry
     \entry{roadmap-MIR:Serra2013}{misc}{}
       \name{author}{15}{}{%
         {{hash=efb106aecbeaeadb91ce7b7cb5a41a26}{%
@@ -1071,8 +1084,8 @@
       \strng{authorbibnamehash}{f841224f999d133a0e95a567f706249f}
       \strng{authornamehash}{f841224f999d133a0e95a567f706249f}
       \strng{authorfullhash}{f841224f999d133a0e95a567f706249f}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE workshop on applications of signal processing to audio and acoustics (WASPAA)}
@@ -1103,8 +1116,8 @@
       \strng{authorbibnamehash}{0cbbdc7253f5a23c24a38375f98e5933}
       \strng{authornamehash}{0cbbdc7253f5a23c24a38375f98e5933}
       \strng{authorfullhash}{0cbbdc7253f5a23c24a38375f98e5933}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE/ACM Trans. Audio, Speech, Language Process.}

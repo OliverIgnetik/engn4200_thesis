@@ -1,13 +1,13 @@
 \SetPicSubDir{ch-Conclusion}
-\chapter{Conclusion and Future Work}
+\chapter{Conclusion}
 \label{ch:concl}
 
-\section{Challenges}
-\label{section:challenges}
-
-\cite{roadmap-MIR:Serra2013}
-
 \section{Future Research Directions}
+
+Despite significant progress in the field of AMT as can be seen by inspecting
+the MIREX results \cite{MIREX} of recent years. The performance of even the most
+recent systems falls well below that of a human expert particularly in symphonic
+music where this is many simultaneous instruments. \cite{roadmap-MIR:Serra2013}
 
 \subsection{User Informed Transcription}
 
@@ -81,44 +81,69 @@ those produced on a piano.
     \centering
     \includegraphics[width=.6\linewidth]{\Pic{png}{violin-vs-piano}}
     \caption{Middle C (262 Hz) played on a piano and a violin. The top pane
-        shows the waveform, with the spectrogram below. Zoomed-in
-        regions shown above the waveform reveal the 3.8-ms fundamental
-        period of both notes \cite{spma2011:Klapuri}}
+        shows the waveform, with the spectrogram below. Zoomed-in regions shown
+        above the waveform reveal the 3.8-ms fundamental period of both notes
+        \cite{spma2011:Klapuri}}
     \label{conc:fig:violin-vs-piano}
 \end{figure}
 
 \subsection{Evaluation Metrics}
 
-Some notes are more musically important than others and as such some errors are more
-noticable to human listeners then others. For example, in certain genres like pop music, wrong notes within the scale are less
-noticable then those from notes outside the scale with alot of tension. Most AMT approaches are evaluated using the set of metrics proposed for the MIREX
-Mutliple-F0 Estimation and Note Tracking public evaluation tasks.  While the metrics do provide insight into building
-successful AMT systems they do not correspond with human perception of transcription accuracy. Take for example,
-a repeated missed note compared to a repeating jumping octave or a note in a completely different register. Some ideas that have been proposed include observing how music teachers grade music dictation exams and better understanding the cognitive processes
-behind processing music in humans. \cite{MIR-recent-dev:Schedl}
+Some notes are more musically important than others and as such some errors are
+more noticable to human listeners then others. For example, in certain genres
+like pop music, wrong notes within the scale are less noticable then those from
+notes outside the scale with alot of tension. Most AMT approaches are evaluated
+using the set of metrics proposed for the MIREX Mutliple-F0 Estimation and Note
+Tracking public evaluation tasks.  While the metrics do provide insight into
+building successful AMT systems they do not correspond with human perception of
+transcription accuracy. Take for example, a repeated missed note compared to a
+repeating jumping octave or a note in a completely different register. Some
+ideas that have been proposed include observing how music teachers grade music
+dictation exams and better understanding the cognitive processes behind
+processing music in humans. \cite{MIR-recent-dev:Schedl}
 
 \subsection{Music Language Models (MLMs)}
 
-AMT systems can model both the acoustic sequences and the underlying notes over time.
-It provides the main link between music signal processing and symbolic music processing.
-Some approaches have attempted to incorporate what are known as Music Language Models to better improve the
-transcription accuracy. These models attempt to encode higher level musical structures such as metric signature,
-scales and chords and key signature. Key is a high-level musical cue that provides useful information prior
-to transcription about the combination of potential notes and chords. This can be achieved by giving more wieght to predictions
-made within the same key. Furthermore, musicological models could be used to describe longer-term
-relationships in audio recordings such as song structure and modulations between keys. This alludes to the fact that most
-existing AMT systems are data driven and often the errors they make are not musically meaningful.
-In the analogous field of Speech Recognition acoustic and language models are applied with great success.
-However these models can not be directly applied to AMT systems because :
+AMT systems can model both the acoustic sequences and the underlying notes over
+time. It provides the main link between music signal processing and symbolic
+music processing. Some approaches have attempted to incorporate what are known
+as Music Language Models to better improve the transcription accuracy. These
+models attempt to encode higher level musical structures such as metric
+signature, scales and chords and key signature. Key is a high-level musical cue
+that provides useful information prior to transcription about the combination of
+potential notes and chords. This can be achieved by giving more wieght to
+predictions made within the same key. Furthermore, musicological models could be
+used to describe longer-term relationships in audio recordings such as song
+structure and modulations between keys. This alludes to the fact that most
+existing AMT systems are data driven and often the errors they make are not
+musically meaningful. In the analogous field of Speech Recognition acoustic and
+language models are applied with great success. However these models can not be
+directly applied to AMT systems because :
 \begin{itemize}
     \item Music is polyphonic
     \item Music rhythm involves much longer temporal dependencies
-    \item Music harmony arrangement involves rich music theory
-\end{itemize}
+    \item Music harmony arrangement involves rich music theory \end{itemize}1
 
-Some of the most promising applications of these ideas made use of Recurrent Neural Networks which
-can better model long term dependencies in time. These approaches were noted to achieved 10\% improvements in frame-level transcription accuracy with respect to similar models that did
-make use of MLS. Further work is needed to better encode high level musical structures into current systems. \cite{amt-note-to-audio:Lewandowski,end-to-end-nn-2016:Sigtia}
+Some of the most promising applications of these ideas made use of Recurrent
+Neural Networks which can better model long term dependencies in time. These
+approaches were noted to achieved 10\% improvements in frame-level transcription
+accuracy with respect to similar models that did make use of MLS. Further work
+is needed to better encode high level musical structures into current systems.
+\cite{amt-note-to-audio:Lewandowski,end-to-end-nn-2016:Sigtia}
+
+\subsection{Parameters for NNs}
+There needs to be substantial work in discovering appropriate loss functions to
+be used in optimization of NN models. The choice of loss function is directly
+related to the activation function used in the output layer of the NN. This
+paper showed that despite treating an AMT problem as multi-label probelm with a
+softmax activation function on the output layer binary crossentropy was not a
+suitable loss function to be used in optimizing the model. This was shown to be
+related to the class imbalance between inactive and active notes in each frame.
+In recent times investigations in to recurrent neural networks have shown the
+most promise as they are believed to be modelling long term interdependencies in
+between notes which may be improving model performance by capturing harmonic
+relations in the deeper layers of the network.
+\cite{end-to-end-nn-2016:Sigtia,amt-note-to-audio:Lewandowski}
 
 
 \section{Conclusion}

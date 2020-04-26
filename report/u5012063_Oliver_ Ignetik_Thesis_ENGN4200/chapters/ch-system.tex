@@ -19,72 +19,105 @@ detection. \cite{amtfc2013:Benetos}
     \label{system:fig:model}
 \end{figure}
 
+\section{Preliminaries}
 
-% \lipsum[1-4]
+This report will investigate how to use NMF in interpreting an audio recording and extracting
+music information from this recording. There are two systems and two applications that will be
+be presented in this section.
 
-% \section{Preliminaries}
+\begin{enumerate}
+    \item NMF applied to single line melody - exploration of parameters used to fine tune model accuracy
+          \begin{enumerate}
+              \item MAPS Dataset - chromatic scale played on a Bechstein D 280 in a concert hall \cite{MAPS:Emiya}
+              \item Type of architecture - Supervised NMF
+          \end{enumerate}
+    \item NN applied to a large music database
+          \begin{enumerate}
+              \item Dataset MusicNet recordings and active frame note labels \cite{thickstun2018invariances}
+              \item Type of architecture - Feed Forward neural network with mutli-label classification
+          \end{enumerate}
+\end{enumerate}
 
-% \lipsum[5-8]
+\newpage
+\section{Methodology}
 
-% \begin{figure}[!t] \centering
-%   \includegraphics[width=.5\linewidth]{\Pic{jpg}{rice}}
-%   \vspace{\BeforeCaptionVSpace} \caption{A bowl of rice.}
-%   \label{Rice:fig:bowl_of_rice} \end{figure}
+\subsection{NMF}
+The experiment for the NMF procedure is outlined in \autoref{system:algo:NMF}.
+This process forms the basis of the investigation and the effect of hyperparameters such as
+the window size and frequency resolution will be investigated.
 
-% \section{Methodology}
+\begin{algorithm}
+    \AlgoFontSize
+    \DontPrintSemicolon
+    \KwData{Excerpt of audio recording $x$}
+    \KwResult{Array of active notes pitch and onset times $y$}
+    \BlankLine
 
-% \autoref{Rice:fig:bowl_of_rice} shows a bowl of rice.
-% \autoref{Rice:algo:sample} demonstrates the formatting of pseudo code. Please
-% carefully check the source files and learn how to use this style. Importantly:
+    \KwIn{$x$ audio signal sampled at 44.1 kHz}
+    \KwOut{$y$ predicted pitches}
+    \BlankLine
+    \SetKwFunction{NMFAMT}{NMF Pitch Detection}
 
-% \begin{itemize} \item Always state your input.
+    \Proc{\NMFAMT{$x$}}{
+        \vspace{.5em}
+        Find corresponding ground truth labels of audio excerpt from database \;
+        Convert ground truth labels into DataFrame containing $OnsetTime$ and $MidiPitch$ \;
+        $number\_of\_notes \longleftarrow length(ground\_truths)$
+        $X = \sum_{n=0}^{N-1}  w[n] \cdot x[n+t+N/2]\cdot e^{-j2 \pi \frac{kn}{N}}$ \;
+        Establish frequency resolution corresponding to a semitone \;
+        Perform harmonic and percussive separation with Librosa function \;
+        Perform NMF decomposition \;
+        Make use of Peak picking algorithm on \;
+        dictionary spectral templates to find f0 \;
+        Convert f0 to MIDI pitch \;
+        Use peak picking algorithm to find onset time for each activation profile \;
+        $y \longleftarrow$ Merge onset times and midi pitches \;
+    }
+    \caption{NMF procedure for single note melody transcription}
+    \label{system:algo:NMF}
+\end{algorithm}
 
-%   \item State the output if any.
+\newpage
+\subsection{NN}
+The experiment for the NN procedure is outlined in \autoref{system:algo:NN}.
+This process forms the basis of the investigation and the effect of hyperparameters such as
+loss function choice and number of layers will be investigated.
 
-%   \item Always number your lines for quick referral.
+\begin{algorithm}
+    \AlgoFontSize
+    \DontPrintSemicolon
+    \KwData{Dataset$X$}
+    \KwResult{Predicted active notes in each frame $y$}
+    \BlankLine
 
-%   \item Always declare and initialize your local variables.
+    \SetKwFunction{fNN}{NN transcription procedure}
 
-%   \item Always use \CMD{\gets} (``$\gets$'') for assignments. %Always use
-%         \textbackslash gets for assignments. \end{itemize}
+    \KwIn{Dataset of audio excerpts $X$}
+    \KwOut{Predicted active notes in each frame $y$}
+    \BlankLine
 
-% \begin{algorithm}[!t] \AlgoFontSize \DontPrintSemicolon
+    \Proc{\fNN{$X$}}{
+    }
+    \vspace{.5em}
+    \caption{Procedure for NN investigation}
+    \label{system:algo:NN}
+\end{algorithm}
 
-%   \KwGlobal{max. calories of daily intake $\mathcal{C}$} \KwGlobal{calories
-%     per bowl of rice $\mathcal{B}$} \BlankLine
-
-%   \SetKwFunction{fEatRice}{EatRice} \SetKwFunction{fDoExercise}{DoExercise}
-
-%   \KwIn{number of bowls of rice $n$} \KwOut{calories intake}
-%   \Proc{\fEatRice{$n$}}{$cal \gets n \times \mathcal{B}$\; \uIf{$cal \geq
-%   \mathcal{C}$}{\Return $\mathcal{C}$\;} \Else{\Return $cal -
-%   \fDoExercise{n}$\;}}
-
-%   \BlankLine
-
-%   \KwIn{time duration (in minutes) of exercise $t$} \KwOut{calories consumed}
-%   \Func{\fDoExercise{$t$}}{$cal \gets 0$\; \lFor{$i \gets 1$ \To $t$}{$cal
-%   \gets cal + i$} \Return $cal$\;}
-
-%   \caption{Sample pseudo code of a dummy algorithm.} \label{Rice:algo:sample}
-%   \end{algorithm}
-
-% \section{Evaluation}
-
-% \lipsum[16-19]
+\newpage
+\section{Evaluation}
+\subsection{NMF}
+MENTION TESTING AND ACCURACY
+    [INSERT TABLE OF PARAMETERS TO BE TESTED]
+\subsection{NN}
+MENTION TESTING AND ACCURACY
+    [INSERT TABLE OF PARAMETERS TO BE TESTED]
 
 % \begin{figure}[!t] \centering \begin{minipage}[b]{.45\linewidth} \centering
-%   \includegraphics[width=\linewidth]{\Exp{eps}{taste_with_meals}}
-%   \caption{Taste with meal repetition.} \label{Rice:exp:taste_with_meals}
-%   \end{minipage} \hspace*{2em} \begin{minipage}[b]{.45\linewidth} \centering
-%   \includegraphics[width=\linewidth]{\Exp{eps}{taste_with_freshness}}
-%   \caption{Taste with meal freshness.} \label{Rice:exp:taste_with_freshness}
-%   \end{minipage} \end{figure}
+%         \includegraphics[width=\linewidth]{\Pic{png}{model}}
+%         \caption{placeholder} \label{system:fig:model2}
+%     \end{minipage} \hspace*{2em} \begin{minipage}[b]{.45\linewidth} \centering
+%         \includegraphics[width=\linewidth]{\Pic{png}{model}}
+%         \caption{placeholder} \label{system:fig:model3}
+%     \end{minipage} \end{figure}
 
-% \autoref{Rice:exp:taste_with_meals} and
-% \autoref{Rice:exp:taste_with_freshness} show how the taste of rice is affected
-% by meal repetition and freshness respectively. \lipsum[20]
-
-% \section{Summary}
-
-% \lipsum[21]
+\section{Summary}

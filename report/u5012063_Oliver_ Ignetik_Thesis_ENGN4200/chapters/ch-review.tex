@@ -13,12 +13,10 @@ easily controlled fundamental periods and associated harmonics. Such a signal is
 described as a harmonic series of sinusoids at multiples of the fundamental
 frequency and results in the perception of a pitch in the mind of the listener.
 
-% \begin{figure}[!ht]
-%   \centering
+% \begin{figure}[!ht] \centering
 %   \includegraphics[width=.6\linewidth]{\Pic{png}{spectrum-Bb3}}
 %   \caption{Spectrum of Bb3 with fundamental frequency 233.08 $\si{\hertz}$ }
-%   \label{review:fig:spectrum}
-% \end{figure}
+%   \label{review:fig:spectrum} \end{figure}
 
 Although different cultures have developed different musical conventions, a
 common feature is the musical "scale", a set of discrete pitches that repeats
@@ -228,7 +226,7 @@ complexity is monumentally higher then MPE approaches.
 Readers interested in a comparison of the performance of different approaches
 are referred to the Multiple Fundamental Frequency Estimation and Tracking task
 of the annual Music Information Retrieval Evaluation eXchange (MIREX)
-(\url{http:// www.music-ir.org/mirex}).
+(\url{http://www.music-ir.org/mirex}).
 
 
 \subsection{Non-negative Matrix Factorization}
@@ -304,45 +302,202 @@ performance and accuracy. For a comprehensive overview of a number of these
 techniques refer to \cite{f0estimation2006:Cheveigne,Christensen:2009,
   spmmt:Klapuri}.
 
-State of the art applications of NMF for polyphonic AMT include work were sparseness
-constraints were added into the NMF update rules, in an effort to find
-meaningful transcriptions. \cite{NMF-sparsity:2006} Another approach was based on incorporating harmonicity
-constraints in the NMF model, resulting in two algorithms: harmonic and
-inharmonic NMF. \cite{inharm-harm-NMF:Vincent2010} Additionally the model constrains each basis spectrum to be
-expressed as a weighted sum of narrowband spectra, in order to preserve a smooth
-spectral envelope. The inharmonic version of the algorithm is also able to support deviations from perfect harmonicity and
-standard tuning. Also, another approach proposed a Bayesian framework for
-NMF, which considers each pitch as a model of Gaussian components in harmonic
-positions. \cite{bayesian-NMF:Bertin2007} Spectral smoothness constraints are incorporated into the likelihood
-function, and for parameter estimation the space alternating generalised EM
-algorithm (SAGE) is employed.
+State of the art applications of NMF for polyphonic AMT include work were
+sparseness constraints were added into the NMF update rules, in an effort to
+find meaningful transcriptions. \cite{NMF-sparsity:2006} Another approach was
+based on incorporating harmonicity constraints in the NMF model, resulting in
+two algorithms: harmonic and inharmonic NMF. \cite{inharm-harm-NMF:Vincent2010}
+Additionally the model constrains each basis spectrum to be expressed as a
+weighted sum of narrowband spectra, in order to preserve a smooth spectral
+envelope. The inharmonic version of the algorithm is also able to support
+deviations from perfect harmonicity and standard tuning. Also, another approach
+proposed a Bayesian framework for NMF, which considers each pitch as a model of
+Gaussian components in harmonic positions. \cite{bayesian-NMF:Bertin2007}
+Spectral smoothness constraints are incorporated into the likelihood function,
+and for parameter estimation the space alternating generalised EM algorithm
+(SAGE) is employed.
 
-More recently, one approach proposed an algorithm for multi-pitch detection and beat structure analysis. The NMF
-objective function is constrained using information from the rhythmic structure
-of the recording, which helps improve transcription accuracy in highly
-repetitive recordings. \cite{beat-NMF:Ochiai2012}
+More recently, one approach proposed an algorithm for multi-pitch detection and
+beat structure analysis. The NMF objective function is constrained using
+information from the rhythmic structure of the recording, which helps improve
+transcription accuracy in highly repetitive recordings.
+\cite{beat-NMF:Ochiai2012}
 
 
 \subsection{Neural Networks}
 
-Neural networks (NN) are systems that are vaguely inspired by biological neural
+Neural Networks (NN) are systems that are vaguely inspired by biological neural
 networks. They are based on a collection of connected units or nodes called
 artifical neurons. They are able to learn non-linear functions from input to
 output via an optimization algorithm. The goal of a network is to learn the
 weights $w_{ij}$ by minimizing the cost function with respect to the training
 data. \cite{DeepLearning2016}
 
-\begin{figure}
+\begin{figure}[!ht]
   \centering
   \includegraphics[width=.6\linewidth]{\Pic{png}{neural-network}}
   \caption{An example of a feed forward architecture neural network appropriate for classification tasks. \cite{ISMIR-tut:Benetos}}
   \label{review:fig:neural-network}
 \end{figure}
 
+
+NNs have a number of advantages over traditional machine learning algorithms.
+One of the main advantages is the removal of the need for feature extraction
+which is important in unstructured types of data like images or sound. The type
+of network architecture that will be discussed in this paper is known as a feed
+forward neural network. Deep networks partially replace the need for feature
+engineering. The deeper layers in the network, model increasingly more abstract
+and intricate features. In the context of music transcription, the layers closer
+to the input might model individual notes, whilst deeper layers, model features
+such as chords and harmonic progressions depending on the type of network used.
+
+
+\begin{figure}[!b]
+  \centering
+  \includegraphics[width=.6\linewidth]{\Pic{jpg}{gradient-descent}}
+  \caption{An intuitive graphical understanding of gradient descent optimization}
+  \label{review:fig:grad-descent}
+\end{figure}
+
+One extremely important concept that is pivotal for understanding the
+optimization of neural networks is gradient descent and back propogation.
+Backpropagation is an iterative optimization process used to train models. The
+goal is to find the lowest point of a multivariate loss function by
+incrementally updating each weight in the network by the product of the gradient
+and the learning rate. \autoref{review:algo:grad} shows the steps that are used
+in gradient descent optimization in one epoch. An epoch refers to a complete
+pass through the training data. In other words all the samples have been passed
+through the model for training Through backpropagation, the loss or difference
+between the predicted value and the actual value, is transferred from one layer
+to another and the weights are modified so that the loss is minimized.
+
+\begin{algorithm}[!t] \AlgoFontSize \DontPrintSemicolon \KwData{Training dataset
+    $X$} \KwResult{Optimal weights that minimize loss function $\theta$}
+  \BlankLine
+
+  \SetKwFunction{fgrad}{Calculate Gradient}
+  \SetKwFunction{fDescent}{Gradient
+    Based Optimization}
+
+  \KwIn{query weight $\theta_{j}$}
+  \KwOut{Gradient $\nabla$}
+  \BlankLine
+
+  \Func{\fgrad{$\theta_{j}$}}{
+  \vspace{.5em}
+  $r_{j} \longleftarrow \text{Slope of the loss function}$\;
+  \vspace{.5em}
+  $\alpha_{j} \longleftarrow \text{Slope of the activation function}$\;
+  \vspace{.5em}
+  $\gamma_{j}  \longleftarrow \text{Value of the neuron that feeds into our
+      weight}$\;
+  \vspace{.5em}
+  $\nabla \longleftarrow \gamma_{j}~r_{j}~\alpha_{j}$ \;
+  \vspace{.5em}
+  \Return $\nabla$ \;}
+
+  \BlankLine
+
+  \KwIn{Initialized weights $\theta$, training Data $X$, learning rate $L$}
+  \KwOut{Optimized weights $\theta$}
+  \BlankLine
+
+  \Proc{\fDescent{$\theta$, $X$, $L$}}{
+    \vspace{.5em}
+    \For{$X_{j} \in X$}{
+      \vspace{.5em}
+      Perform forward propagation with $X_{j}$ to make a prediction \;
+      \vspace{.5em}
+      Use this prediction in back propogation to update weights
+      \;
+      \vspace{.5em}
+      $\nabla \longleftarrow$ \fgrad{$\theta_{j}$} \;
+      \vspace{.5em}
+      $\theta_{j} \longleftarrow \theta_{j} - L \times \nabla$} \Return
+    $\theta$}
+
+  \caption{Gradient descent optimization for one epoch with batch size equal to entire dataset}
+  \label{review:algo:grad}
+\end{algorithm}
+
+One other crucial concept in NNs and machine learning in general is the concept
+of overfitting. Typically, datasets are seperated into test and train sets. The
+model is exposed to the training data and is then used to predict on the test
+data. When the test accuracy of the model starts to decrease and the training
+accuracy further increases this is known as overfitting. This is because the
+model is no longer capturing the underlying relationships in the data but is
+rather overaccommodating to the subtleties in the training data. The end goal of
+the network should be to predict on any unseen dataset that it has not been
+exposed to and perform accurately.
+
 There are a number of important parameters which have to be tuned in a neural
 network through a process known as hyperparameter tuning. This is typically done
 using a grid-search algorithm to find a set of parameters which optimizes the
-cost function. \cite{LiDL2019}
+cost function. \cite{LiDL2019} Some of these hyperparamters important for tuning
+network performance are given below :
+
+\subsubsection{Important Features in NNs}
+Several aspects of NNs require further explanation as they are not obvious.
+These parameters play a pivotal role in the performance and accuracy of the
+network. This section will briefly discuss each of these parameters and certain
+trade offs that they present.
+
+\begin{enumerate}
+  \item \emph{learning rate} - the rate at which the weights are updated in the
+        optimization process. If the learning rate is too high the model may
+        fail to converge in optimization.
+  \item \emph{activation functions} - mathematical equations that determine the
+        output of a node in network. They determine whether it should be
+        activated or not based on the input to the node. A number of common
+        activation functions that are used in different types of problems
+        include : ReLU (Rectified Linear Unit) (Shown in
+        \autoref{review:fig:activation-function}), hyperbolic tangent, softmax
+        and sigmoid activations. Each activation function is employed depending
+        on the type of problem and corresponding optimizer and loss function
+        used.
+
+        \begin{figure}[!b]
+          \centering
+          \includegraphics[width=.6\linewidth]{\Pic{png}{RELU}}
+          \caption{ReLU activation function and Leaky ReLU used to address the
+            vanishing neuron problem that occurs when neurons stop contributing
+            to the model output}
+          \label{review:fig:activation-function}
+        \end{figure}
+
+  \item \emph{optimizer} - the type of optimization algorithm employed to train
+        the model and update the weights of the model. One of the most well
+        known optimization algorithms is called gradient descent which has a
+        number of variants such as stochastic and mini-batch gradient descent.
+        Some optimization algorithms are more appropriate for certain types of
+        problems such as regression or classification problems.
+  \item \emph{epoch} - when an entire dataset is passed forward and backward
+        through the neural network only once. Typically setting a higher number
+        of epochs will lead to higher accuracy in the training set but their is
+        a risk of overfitting.
+  \item \emph{batch size} - total number of training samples present in a single
+        portion of the dataset that is is used to update the weights in
+        backpropagation. There is typically a tradeoff with batchsize,
+        computational efficiency and accuracy. A smaller batch size requires
+        more time for training but is generally more accurate. A common batch
+        size that is used is 32 which is referred to as a mini-batch.
+  \item \emph{loss function} - the loss function is used in backpropagation to
+        update the weights so as to increase the prediction accuracy of the
+        model. They are mathematical functions that measure the difference
+        between the predicted output and the actual output. Some common loss
+        functions include mean squared error, hinge, binary crossentropy (See
+        \autoref{review:fig:log-loss}) and the kullback leibler divergence.
+
+        \begin{figure}[!b]
+          \centering
+          \includegraphics[width=.6\linewidth]{\Pic{png}{log_loss}}
+          \caption{Binary cross entropy function that is useful in
+            classification tasks used in conjuction with a softmax activation
+            function on the output}
+          \label{review:fig:log-loss}
+        \end{figure}
+
+\end{enumerate}
 
 In recent years NNs have had a considerable impact on the problem of music
 transcription and on music signal processing in general. However, compared to

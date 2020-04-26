@@ -2222,18 +2222,23 @@
     <bcf:citekey order="40">amtfc2013:Benetos</bcf:citekey>
     <bcf:citekey order="41">amtfc2013:Benetos</bcf:citekey>
     <bcf:citekey order="42">amtfc2013:Benetos</bcf:citekey>
-    <bcf:citekey order="43">roadmap-MIR:Serra2013</bcf:citekey>
-    <bcf:citekey order="44">ISMIR-tut:Benetos</bcf:citekey>
-    <bcf:citekey order="45">ISMIR-tut:Benetos</bcf:citekey>
-    <bcf:citekey order="46">user-inform:Kirchoff2012</bcf:citekey>
-    <bcf:citekey order="47">humming2009:Smaragdis</bcf:citekey>
-    <bcf:citekey order="48">Wang2017</bcf:citekey>
-    <bcf:citekey order="49">context-dependent2016:Cogliati</bcf:citekey>
-    <bcf:citekey order="50">spma2011:Klapuri</bcf:citekey>
-    <bcf:citekey order="51">spma2011:Klapuri</bcf:citekey>
-    <bcf:citekey order="52">MIR-recent-dev:Schedl</bcf:citekey>
-    <bcf:citekey order="53">amt-note-to-audio:Lewandowski</bcf:citekey>
-    <bcf:citekey order="53">end-to-end-nn-2016:Sigtia</bcf:citekey>
+    <bcf:citekey order="43">MAPS:Emiya</bcf:citekey>
+    <bcf:citekey order="44">thickstun2018invariances</bcf:citekey>
+    <bcf:citekey order="45">MIREX</bcf:citekey>
+    <bcf:citekey order="46">roadmap-MIR:Serra2013</bcf:citekey>
+    <bcf:citekey order="47">ISMIR-tut:Benetos</bcf:citekey>
+    <bcf:citekey order="48">ISMIR-tut:Benetos</bcf:citekey>
+    <bcf:citekey order="49">user-inform:Kirchoff2012</bcf:citekey>
+    <bcf:citekey order="50">humming2009:Smaragdis</bcf:citekey>
+    <bcf:citekey order="51">Wang2017</bcf:citekey>
+    <bcf:citekey order="52">context-dependent2016:Cogliati</bcf:citekey>
+    <bcf:citekey order="53">spma2011:Klapuri</bcf:citekey>
+    <bcf:citekey order="54">spma2011:Klapuri</bcf:citekey>
+    <bcf:citekey order="55">MIR-recent-dev:Schedl</bcf:citekey>
+    <bcf:citekey order="56">amt-note-to-audio:Lewandowski</bcf:citekey>
+    <bcf:citekey order="56">end-to-end-nn-2016:Sigtia</bcf:citekey>
+    <bcf:citekey order="57">end-to-end-nn-2016:Sigtia</bcf:citekey>
+    <bcf:citekey order="57">amt-note-to-audio:Lewandowski</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
