@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.13)  27 APR 2020 01:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.13)  10 MAY 2020 16:55
 entering extended mode
 **"c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/main.tex"
 ("c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/main.tex"
@@ -1294,8 +1294,8 @@ Package pdftex.def Info: pic/ch-Intro/AMT-process.jpg  used on input line 34.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.48     \item \emph
-                    {Polyphonic mixtures} - inferring musical attributes fro... [1
+l.48       \item \emph
+                      {Polyphonic mixtures} - inferring musical attributes f... [1
 
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
@@ -1316,31 +1316,31 @@ Package microtype Info: Loading generic protrusion settings for font family
  [3] [4]) ("c:/Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-review.tex" [5] [6
 
 ]
-<pic/ch-Review/time-sig.png, id=244, 1490.56876pt x 276.03125pt>
+<pic/ch-Review/time-sig.png, id=248, 1490.56876pt x 276.03125pt>
 File: pic/ch-Review/time-sig.png Graphic file (type png)
 <use pic/ch-Review/time-sig.png>
 Package pdftex.def Info: pic/ch-Review/time-sig.png  used on input line 85.
 (pdftex.def)             Requested size: 254.43878pt x 47.11421pt.
  [7] [8 <c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Review/time-sig.png>] [9]
-<pic/ch-Review/log-stft-example.png, id=276, 833.1125pt x 318.18875pt>
+<pic/ch-Review/log-stft-example.png, id=280, 833.1125pt x 318.18875pt>
 File: pic/ch-Review/log-stft-example.png Graphic file (type png)
 <use pic/ch-Review/log-stft-example.png>
 Package pdftex.def Info: pic/ch-Review/log-stft-example.png  used on input line 196.
 (pdftex.def)             Requested size: 254.43878pt x 97.17607pt.
  [10 <c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Review/log-stft-example.png>] [11]
-<pic/ch-Review/NMF-example.png, id=297, 1465.475pt x 1042.89626pt>
+<pic/ch-Review/NMF-example.png, id=301, 1465.475pt x 1042.89626pt>
 File: pic/ch-Review/NMF-example.png Graphic file (type png)
 <use pic/ch-Review/NMF-example.png>
 Package pdftex.def Info: pic/ch-Review/NMF-example.png  used on input line 274.
 (pdftex.def)             Requested size: 254.43878pt x 181.06146pt.
  [12 <c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Review/NMF-example.png>]
-<pic/ch-Review/neural-network.png, id=318, 618.31pt x 421.575pt>
+<pic/ch-Review/neural-network.png, id=322, 618.31pt x 421.575pt>
 File: pic/ch-Review/neural-network.png Graphic file (type png)
 <use pic/ch-Review/neural-network.png>
 Package pdftex.def Info: pic/ch-Review/neural-network.png  used on input line 338.
 (pdftex.def)             Requested size: 254.43878pt x 173.4837pt.
  [13]
-<pic/ch-Review/gradient-descent.jpg, id=332, 145.0234pt x 90.39793pt>
+<pic/ch-Review/gradient-descent.jpg, id=336, 145.0234pt x 90.39793pt>
 File: pic/ch-Review/gradient-descent.jpg Graphic file (type jpg)
 <use pic/ch-Review/gradient-descent.jpg>
 Package pdftex.def Info: pic/ch-Review/gradient-descent.jpg  used on input line 357.
@@ -1351,19 +1351,19 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 9.30756pt on input line 398.
  [15]
-<pic/ch-Review/RELU.png, id=364, 541.02126pt x 273.02pt>
+<pic/ch-Review/RELU.png, id=368, 541.02126pt x 273.02pt>
 File: pic/ch-Review/RELU.png Graphic file (type png)
 <use pic/ch-Review/RELU.png>
 Package pdftex.def Info: pic/ch-Review/RELU.png  used on input line 461.
 (pdftex.def)             Requested size: 254.43878pt x 128.39856pt.
  [16]
-<pic/ch-Review/log_loss.png, id=375, 451.18562pt x 329.73187pt>
+<pic/ch-Review/log_loss.png, id=379, 451.18562pt x 329.73187pt>
 File: pic/ch-Review/log_loss.png Graphic file (type png)
 <use pic/ch-Review/log_loss.png>
 Package pdftex.def Info: pic/ch-Review/log_loss.png  used on input line 493.
 (pdftex.def)             Requested size: 254.43878pt x 185.95168pt.
  [17 <c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Review/RELU.png>] [18 <c:/Users/olli/Desktop/engn4200_thesis/report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Review/log_loss.png>]) ("c:/Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-system.tex" [19]
-<pic/ch-System/model.png, id=402, 1044.90375pt x 956.57375pt>
+<pic/ch-System/model.png, id=406, 1044.90375pt x 956.57375pt>
 File: pic/ch-System/model.png Graphic file (type png)
 <use pic/ch-System/model.png>
 Package pdftex.def Info: pic/ch-System/model.png  used on input line 16.
@@ -1375,7 +1375,7 @@ Package pdftex.def Info: pic/ch-System/model.png  used on input line 16.
 ] [26
 
 ] [27]
-<pic/ch-Conclusion/violin-vs-piano.png, id=480, 1143.27126pt x 682.55pt>
+<pic/ch-Conclusion/violin-vs-piano.png, id=484, 1143.27126pt x 682.55pt>
 File: pic/ch-Conclusion/violin-vs-piano.png Graphic file (type png)
 <use pic/ch-Conclusion/violin-vs-piano.png>
 Package pdftex.def Info: pic/ch-Conclusion/violin-vs-piano.png  used on input line 82.
@@ -1421,17 +1421,17 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 51.
 (\end occurred when \if on line 5 was incomplete)
 (\end occurred when \ifdefined on line 1 was incomplete) 
 Here is how much of TeX's memory you used:
- 27953 strings out of 480930
- 507678 string characters out of 2900230
+ 27955 strings out of 480930
+ 507692 string characters out of 2900230
  1300535 words of memory out of 3000000
  42957 multiletter control sequences out of 15000+200000
  655544 words of font info for 200 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,18n,53p,1237b,1744s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bera/fvmr8a.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "c:/Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.pdf" (43 pages, 1492899 bytes).
+Output written on "c:/Users\olli\Desktop\engn4200_thesis\report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.pdf" (43 pages, 1493805 bytes).
 PDF statistics:
- 789 PDF objects out of 1000 (max. 8388607)
- 209 named destinations out of 1000 (max. 500000)
+ 794 PDF objects out of 1000 (max. 8388607)
+ 211 named destinations out of 1000 (max. 500000)
  42928 words of extra memory for PDF output out of 42996 (max. 10000000)
 
