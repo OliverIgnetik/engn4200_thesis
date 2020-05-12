@@ -9,7 +9,7 @@ as applied to monophonic and polyhonic music using two approaches.
 
 ## Built With
 
-- [LibROSA](https://librosa.github.io/librosa/ - Music Analysis Library
+- [LibROSA](https://librosa.github.io/librosa/) - Music Analysis Library
 - [Keras](https://keras.io/) - Deep Learning library
 - [Sklearn](https://scikit-learn.org/) - Machine Learning library
 - [mir_eval](https://pypi.org/project/mir_eval/) - Machine Learning library
