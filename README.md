@@ -21,4 +21,4 @@ as applied to monophonic and polyhonic music using two approaches.
 ## Acknowledgments
 
 - Dr Parastoo Sadeghi - supervisor
-- Dr Rod Kennedy - examinor
+- Dr Rod Kennedy - examiner
