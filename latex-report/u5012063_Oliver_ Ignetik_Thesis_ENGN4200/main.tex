@@ -1,0 +1,51 @@
+%%% enable "DoubleSided" for paper-based submission, i.e. printing, and 
+%%% remove it for the final submission, i.e. electronic thesis
+%\newcommand*{\DoubleSided}{} 
+
+\input{_global_settings.tex}
+
+\begin{document}
+\title{Automatic Polyphonic Music Transcription}
+
+\author{Oliver Ignetik}
+% \prevdegrees{%
+%   B.S., Culinary University}
+\degree{Bachelor of Engineering}
+\field{Digital Signal Processing}
+\degreeyear{2020}
+\supervisor{Associate Professor Parastoo Sadeghi}
+\cosupervisor{Professor Rod Kennedy}
+% only involve the examiners in the final submission
+\examiners{%
+  Associate Professor Parastoo Sadeghi, ANU \\
+  Professor Rod Kennedy, ANU \\}
+
+\maketitle
+
+\declaredate{June 5th 2020}
+\declaresign{\RootPicDir /signature.png} % remove this if you prefer to sign physically
+\declarationpage
+
+\begin{frontmatter}
+  % \dedicate{}
+  % \input{chapters/acknowledgments.tex}
+  \tableofcontents
+  \input{chapters/abstract.tex}
+  \listoffigures
+  \listoftables
+\end{frontmatter}
+
+\input{chapters/ch-intro.tex}
+\input{chapters/ch-review.tex}
+\input{chapters/ch-system.tex}
+\input{chapters/ch-results.tex}
+\input{chapters/ch-concl.tex}
+
+\bookmarksetup{startatroot}
+\printbibliography[heading=bibintoc]
+
+\appendix
+\input{chapters/ap-nmf}
+\input{chapters/ap-nn}
+
+\end{document}

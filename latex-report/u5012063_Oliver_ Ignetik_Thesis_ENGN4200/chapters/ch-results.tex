@@ -1,0 +1,195 @@
+\SetPicSubDir{ch-Results}
+\SetExpSubDir{ch-Results}
+
+\chapter{Results}
+\label{ch:results}
+\vspace{2em}
+
+\section{NMF approach to monophonic AMT}
+
+\subsection{Discussion}
+
+In this section the results obtained by the NMF model will be discussed.
+Generally the model performed well achieving and accuracy of 0.90 or higher
+dependent on the values of different parameters. The four most influential
+parameters tested in the model will be discussed in this section.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.98\columnwidth]{\Pic{png}{NMF_tuning}}
+    \caption{Hyperparameter tuning with accuracy metrics for monophonic AMT system}
+    \label{review:fig:NMF-tuning}
+\end{figure}
+
+\subsubsection{Window Size}
+Through inspecting \autoref{review:fig:NMF-tuning}~(a) it is shown that the
+overall accuracy of the model decreased as the window size increased. This can
+be explained by referring back to \autoref{review:eq:tradeoff} which
+encapsulates the concept of frequency time resolution trade off in spectrograms.
+The ideal time window size to use in this situation is 3004 samples as this
+translates to a frequency resolution of 14.68~$\si{\hertz}$. This is equivalent
+to a semi-tone in music which is part of the "equal tempered scale" as shown in
+\autoref{review:eq:equal-scale}.
+
+\subsubsection{Peak Picking Threshold Value}
+One of the crucial parameters in the model is the use of a peak picking
+algorithm that depends on a number of parameters. Most notable of these
+parameters is the delta threshold value which translates to the sensitivity of
+the model to ambient noise. The NMF model returns a dictionary matrix and an
+activation matrix. The dictionary matrix (example shown in
+\autoref{results:fig:dictionary}) can be thought of as DFTs of the seperate
+notes that together construct the final audio signal. The threshold function
+accounts for ambient noise and is context dependent on the recording
+environment. This means for each sample recording and differing instrument the
+threshold function has to be tuned. It can be seen in
+\autoref{review:fig:NMF-tuning}~(b) that by increasing the threshold the overall
+accuracy decreases. Thus the optimal range for this recording environment is
+approximately 0.5.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.98\columnwidth]{\Pic{png}{dictionary}}
+    \caption{Example of dictionary components}
+    \label{results:fig:dictionary}
+\end{figure}
+
+\subsubsection{Number of harmonics}
+The number of harmonics is another crucial parameters in finding the fundamental
+frequency. As discussed in \autoref{subsection:pitch-harmony} a pitched sound
+comprises of a series of harmonics that are integer multiples of the fundamental
+frequency. Infact only a number of harmonics are needed for the pitch to be
+percieved in the mind of the listener. By inspecting
+\autoref{review:fig:NMF-tuning}~(c), it is evident that only a small number of
+harmonics are needed for good performance in the model. However, it is noted
+that as the number of harmonics included in the calculation of the fundamental
+frequency has an inverse relationship with overall accuracy. This can be
+explained by a concept known as inharmonicity. This phenomenon is present in
+many pitched instruments where the harmonics are not perfect integer multiples
+of the fundamental frequency due to properties of the instrument that vary of
+time such as string tension and hammer velocity in pianos.
+
+\subsubsection{Number of attack frames}
+The last important parameter that will be discussed in this section is the
+number of attack frames. This parameter is important for predicting the onset
+time of each note event. \autoref{results:fig:activations} is the activation
+matrix showing the temporal evolution of the notes. Typical pitched events have four phases
+that musicians would be well aware of attack, decay, sustain and release. The pitched event
+will be best percieved in the mind of the listener during the sustain period as a stable frequency of
+oscillation will be achieved. This experiment, however, revealed that disregarding the attack frames
+infact increased the model performance as shown in \autoref{review:fig:NMF-tuning}~(d).
+The number of attack frames also depends on the type of recording environment and the type of instrument used.
+So given a different instrument the number of attack frames may have to be changed.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.98\columnwidth]{\Pic{png}{activations}}
+    \caption{Example of activation components}
+    \label{results:fig:activations}
+\end{figure}
+
+\subsection{Summary}
+
+In summary the NMF model performed extremely well for monophonic AMT however is not
+appropriate for polyphonic transcription. The crucial points of discovery are:
+
+\begin{itemize}
+    \item NMF model provides high accuracy metrics for monophonic music
+    \item Fast performance and compile time
+    \item Needs fine tuning dependent on recording environment and instrument type
+    \item The attack frames had a negligible effect on model performance
+\end{itemize}
+
+
+\section{NN approach to polyphonic AMT}
+
+\subsection{Discussion}
+In this section the results obtained by the NN model will be discussed.
+Generally the model performed well achieving a validation f1-score of 0.75 after
+100 epochs performed on the training data. The most important insights will be
+discussed including the Hyperparameter tuning, choice of loss function and
+metric of performance. The optimal parameters are shown in \autoref{results:table:nn-optimal}.
+
+
+\begin{table}
+    \centering
+    \begin{tabular}{|l|c|}
+        \hline
+        \textbf{Parameters} & \multicolumn{1}{l|}{\textbf{Value}} \\ \hline
+        Neurons per layer   & 512                                 \\ \hline
+        Dropout Rate        & 0.91                                \\ \hline
+        Layers              & 3                                   \\ \hline
+        \textbf{f1-score}   & \multicolumn{1}{l|}{\textbf{0.75}}  \\ \hline
+    \end{tabular}
+    \caption{Optimal parameters for model}
+    \label{results:table:nn-optimal}
+\end{table}
+
+\subsubsection{Hyperparameter grid search}
+In order to investigate the effect of the model parameters on performance a
+number of parameters were investigated as shown in
+\autoref{results:table:nn-grid}. As the number of layers or number of neurons
+goes up the compile and training time of the model goes up so this must be
+carefully considered when using NN models. The dropout rate is important to set
+to a value of 0.1 to ensure that the model does not overfit to the training
+data. The ultimate goal of the model is to apply it to "unseen data" to fully
+test its predictive power. This means the model is highly dependent to genre,
+recording environment and instrumentation. This model would not perform well on
+a music database that is vastly different as it would need to be retrained which
+takes considerably more time then using an NMF model which is one major
+drawback. Training this model for 100 epochs to achieve the observed f1-score
+had a relatively long time of completion.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.98\columnwidth]{\Pic{png}{NN_perf}}
+    \caption{Loss function f1 measure curves for neural network model with optimal parameters}
+    \label{results:fig:model-perf}
+\end{figure}
+
+\subsubsection{loss function and metric of performance}
+The behaviour of the curves in \autoref{results:fig:model-perf} indicates that
+the use of the weighted cross entropy function in combinations with the modified
+f1-score were well suited to this type of problem. Initially a regular binary cross entropy with binary accuracy was
+used however the model performed very poorly in that it overfit to inactive notes and provided a false sense of
+accuracy due to this class imbalance.
+
+\begin{table}
+    \centering
+    \begin{tabular}{|l|c|c|}
+        \hline
+                                          & \multicolumn{2}{c|}{\textbf{validation scores}}                                            \\ \hline
+        \textbf{Parameter}                & \multicolumn{1}{l|}{\textbf{f1-measure}}        & \multicolumn{1}{l|}{\textbf{loss score}} \\ \hline
+        \textbf{layers}                   & \multicolumn{1}{l|}{}                           & \multicolumn{1}{l|}{}                    \\ \hline
+        2                                 & 0.374                                           & 0.374                                    \\ \hline
+        3                                 & 0.382                                           & 0.368                                    \\ \hline
+        4                                 & 0.370                                           & 0.378                                    \\ \hline
+        \textbf{Dropout Rate}             & \multicolumn{1}{l|}{}                           & \multicolumn{1}{l|}{}                    \\ \hline
+        0.0                               & 0.444                                           & 0.311                                    \\ \hline
+        0.1                               & 0.382                                           & 0.369                                    \\ \hline
+        0.2                               & 0.350                                           & 0.406                                    \\ \hline
+        \textbf{Neurons in hidden layers} & \multicolumn{1}{l|}{}                           & \multicolumn{1}{l|}{}                    \\ \hline
+        128                               & 0.359                                           & 0.398                                    \\ \hline
+        256                               & 0.381                                           & 0.371                                    \\ \hline
+        512                               & 0.399                                           & 0.346                                    \\ \hline
+    \end{tabular}
+    \caption{Hyperparameter tuning for Neural Network approach on polyphonic AMT}
+    \label{results:table:nn-grid}
+\end{table}
+
+
+\subsection{Summary}
+In summary, the NN model performed well for polyphonic AMT however further work
+is needed to convert the output to an interpretible form that more closely resembles the piano MIDI roll representation.
+As it stands the results are still considered a mid-level representation that is far from
+resembling a musical score which is the ultimate goal of AMT systems.
+The crucial points of discovery are:
+\begin{itemize}
+    \item Stable loss curve illustrates use of proper accuracy metrics and loss functions
+    \item f1-score was suitable for polyphonic music case
+    \item Takes time to retrain data
+    \item Output is not yet in piano MIDI form
+\end{itemize}
+
+
+
+

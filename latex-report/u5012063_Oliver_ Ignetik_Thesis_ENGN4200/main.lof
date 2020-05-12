@@ -1,0 +1,22 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\addvspace {10pt}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces AMT process figure taken from NUS ISMIR 2019 tutorial \cite {ISMIR-tut:Benetos} }}{2}{figure.1.1}%
+\addvspace {10pt}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Excerpt from a piano arrangement for the tune Nearness of You with a common time signature of 4 quarter notes per bar}}{8}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces STFT of a 10s excerpt from Blues in F - Bill Evans Trio recording }}{10}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces An example of a feed forward architecture neural network appropriate for classification tasks. \cite {ISMIR-tut:Benetos}}}{13}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces An intuitive graphical understanding of gradient descent optimization}}{14}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Binary cross entropy function that is useful in classification tasks used in conjuction with a softmax activation function on the output}}{17}{figure.2.5}%
+\addvspace {10pt}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Typical architecture of an AMT system. \cite {amtfc2013:Benetos}}}{19}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces System model for NMF AMT}}{21}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces System model for NN AMT}}{22}{figure.3.3}%
+\addvspace {10pt}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Hyperparameter tuning with accuracy metrics for monophonic AMT system}}{26}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Example of dictionary components}}{27}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Example of activation components}}{28}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Loss function f1 measure curves for neural network model with optimal parameters}}{30}{figure.4.4}%
+\addvspace {10pt}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Middle C (262 Hz) played on a piano and a violin. The top pane shows the waveform, with the spectrogram below. Zoomed-in regions shown above the waveform reveal the 3.8-ms fundamental period of both notes \cite {spma2011:Klapuri}}}{34}{figure.5.1}%
+\addvspace {10pt}
+\addvspace {10pt}
