@@ -7,7 +7,7 @@ Project repo for thesis project on Automatic Music Transcription
 This repo contains work completed during an investigation into AMT
 as applied to monophonic and polyhonic music using two approaches.
 
-![AMT process](./latex-report/u5012063_Oliver_Ignetik_Thesis_ENGN4200/pic/ch-Intro/AMT-process.jpg)
+![AMT process](./latex-report/u5012063_Oliver_Ignetik_Thesis_ENGN4200/pic/ch-Review/time-sig.jpg)
 
 ## Built With
 
