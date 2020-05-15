@@ -1,11 +1,11 @@
-PWD c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200
+PWD c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200
 INPUT C:\Users\olli\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.tex
-OUTPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.log
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\_global_settings.tex
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\_global_settings.tex
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\anu-thesis.cls
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\anu-thesis.cls
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.tex
+OUTPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.log
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\_global_settings.tex
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\_global_settings.tex
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\anu-thesis.cls
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\anu-thesis.cls
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\memoir\memoir.cls
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\memoir\memoir.cls
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\iftex.sty
@@ -237,9 +237,9 @@ INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lipsum\lipsum.st
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lipsum\lipsum.ltd.tex
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lipsum\lipsum.ltd.tex
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.aux
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.aux
-OUTPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.aux
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.aux
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.aux
+OUTPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.aux
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmr.fd
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmr.fd
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr12.tfm
@@ -251,13 +251,13 @@ INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\refcount\refcoun
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\refcount\refcount.sty
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex\generic\gettitlestring\gettitlestring.sty
-OUTPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.pdf
+OUTPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.pdf
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx
-OUTPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.bcf
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.bbl
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.bbl
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.bbl
+OUTPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.bcf
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.bbl
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.bbl
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.bbl
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\translator-basic-dictionary-English.dict
@@ -316,11 +316,11 @@ INPUT C:\Users\olli\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr17.tfm
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmbx12.tfm
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr12.tfm
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\signature.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\signature.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\signature.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\signature.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\signature.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\signature.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\signature.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\signature.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\signature.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\signature.png
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr12.tfm
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr10.tfm
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr7.tfm
@@ -347,32 +347,32 @@ INPUT C:\Users\olli\AppData\Local\MiKTeX\2.9\fonts\tfm\public\rsfs\rsfs10.tfm
 INPUT C:\Users\olli\AppData\Local\MiKTeX\2.9\fonts\tfm\public\rsfs\rsfs7.tfm
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr17.tfm
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmbx12.tfm
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.toc
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.toc
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\acro_list.tex
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\acro_list.tex
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters\abstract.tex
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters\abstract.tex
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.toc
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.toc
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\acro_list.tex
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\acro_list.tex
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\chapters\abstract.tex
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\chapters\abstract.tex
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmbx12.tfm
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.lof
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.lof
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.lot
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.lot
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters\ch-intro.tex
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters\ch-intro.tex
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Intro\AMT-process.jpg
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Intro\AMT-process.jpg
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Intro\AMT-process.jpg
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Intro\AMT-process.jpg
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Intro\AMT-process.jpg
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.lof
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.lof
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.lot
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.lot
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\chapters\ch-intro.tex
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\chapters\ch-intro.tex
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Intro\AMT-process.jpg
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Intro\AMT-process.jpg
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Intro\AMT-process.jpg
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Intro\AMT-process.jpg
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Intro\AMT-process.jpg
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmri12.tfm
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bera\t1fvm.fd
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bera\t1fvm.fd
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\bera\fvmr8t.tfm
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\bera\fvmr8t.vf
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\bera\fvmr8r.tfm
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters\ch-review.tex
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters\ch-review.tex
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\chapters\ch-review.tex
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\chapters\ch-review.tex
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr8.tfm
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr5.tfm
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\lmmi5.tfm
@@ -383,29 +383,29 @@ INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT C:\Users\olli\AppData\Local\MiKTeX\2.9\fonts\tfm\public\rsfs\rsfs5.tfm
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr5.tfm
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Review\time-sig.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Review\time-sig.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Review\time-sig.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Review\time-sig.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Review\time-sig.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Review\log-stft-example.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Review\log-stft-example.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Review\log-stft-example.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Review\log-stft-example.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Review\log-stft-example.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Review\time-sig.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Review\time-sig.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Review\time-sig.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Review\time-sig.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Review\time-sig.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Review\log-stft-example.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Review\log-stft-example.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Review\log-stft-example.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Review\log-stft-example.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Review\log-stft-example.png
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmbx8.tfm
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr6.tfm
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmbx6.tfm
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Review\neural-network.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Review\neural-network.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Review\neural-network.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Review\neural-network.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Review\neural-network.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Review\gradient-descent.jpg
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Review\gradient-descent.jpg
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Review\gradient-descent.jpg
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Review\gradient-descent.jpg
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Review\gradient-descent.jpg
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Review\neural-network.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Review\neural-network.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Review\neural-network.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Review\neural-network.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Review\neural-network.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Review\gradient-descent.jpg
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Review\gradient-descent.jpg
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Review\gradient-descent.jpg
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Review\gradient-descent.jpg
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Review\gradient-descent.jpg
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr10.tfm
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmbx10.tfm
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr10.tfm
@@ -420,70 +420,70 @@ INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\bera\fvmr8t.tfm
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\bera\fvmr8t.vf
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\bera\fvmr8r.tfm
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Review\log_loss.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Review\log_loss.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Review\log_loss.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Review\log_loss.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Review\log_loss.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters\ch-system.tex
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters\ch-system.tex
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-System\model.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-System\model.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-System\model.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-System\model.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-System\model.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Review\log_loss.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Review\log_loss.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Review\log_loss.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Review\log_loss.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Review\log_loss.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\chapters\ch-system.tex
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\chapters\ch-system.tex
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-System\model.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-System\model.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-System\model.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-System\model.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-System\model.png
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ts1-lmr12.tfm
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-System\NMF-system.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-System\NMF-system.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-System\NMF-system.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-System\NMF-system.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-System\NMF-system.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-System\NN-system.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-System\NN-system.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-System\NN-system.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-System\NN-system.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-System\NN-system.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters\ch-results.tex
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters\ch-results.tex
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Results\NMF_tuning.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Results\NMF_tuning.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Results\NMF_tuning.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Results\NMF_tuning.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Results\NMF_tuning.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Results\dictionary.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Results\dictionary.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Results\dictionary.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Results\dictionary.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Results\dictionary.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Results\activations.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Results\activations.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Results\activations.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Results\activations.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Results\activations.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Results\NN_perf.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Results\NN_perf.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Results\NN_perf.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Results\NN_perf.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Results\NN_perf.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters\ch-concl.tex
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters\ch-concl.tex
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Conclusion\violin-vs-piano.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Conclusion\violin-vs-piano.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Conclusion\violin-vs-piano.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Conclusion\violin-vs-piano.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\pic\ch-Conclusion\violin-vs-piano.png
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters\ap-nmf.tex
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters\ap-nmf.tex
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters\ap-nn.tex
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters\ap-nn.tex
-OUTPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.toc
-OUTPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.lof
-OUTPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.lot
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.aux
-INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.run.xml
-OUTPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.run.xml
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-System\NMF-system.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-System\NMF-system.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-System\NMF-system.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-System\NMF-system.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-System\NMF-system.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-System\NN-system.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-System\NN-system.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-System\NN-system.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-System\NN-system.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-System\NN-system.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\chapters\ch-results.tex
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\chapters\ch-results.tex
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Results\NMF_tuning.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Results\NMF_tuning.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Results\NMF_tuning.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Results\NMF_tuning.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Results\NMF_tuning.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Results\dictionary.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Results\dictionary.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Results\dictionary.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Results\dictionary.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Results\dictionary.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Results\activations.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Results\activations.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Results\activations.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Results\activations.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Results\activations.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Results\NN_perf.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Results\NN_perf.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Results\NN_perf.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Results\NN_perf.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Results\NN_perf.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\chapters\ch-concl.tex
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\chapters\ch-concl.tex
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Conclusion\violin-vs-piano.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Conclusion\violin-vs-piano.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Conclusion\violin-vs-piano.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Conclusion\violin-vs-piano.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\pic\ch-Conclusion\violin-vs-piano.png
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\chapters\ap-nmf.tex
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\chapters\ap-nmf.tex
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\chapters\ap-nn.tex
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\chapters\ap-nn.tex
+OUTPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.toc
+OUTPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.lof
+OUTPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.lot
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.aux
+INPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.run.xml
+OUTPUT c:\Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.run.xml
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-ts1.enc
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-ec.enc
 INPUT C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-mathit.enc

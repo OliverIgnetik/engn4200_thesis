@@ -10,7 +10,7 @@
 \addvspace {10pt}
 \contentsline {figure}{\numberline {3.1}{\ignorespaces AMT architecture}}{19}{figure.3.1}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces System model for NMF AMT}}{21}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces System model for \ac {NN} \ac {AMT}}}{22}{figure.3.3}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces System model for NN AMT}}{22}{figure.3.3}%
 \addvspace {10pt}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Hyperparameter gridsearch}}{26}{figure.4.1}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Example of dictionary components}}{27}{figure.4.2}%

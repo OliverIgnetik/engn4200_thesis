@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.13)  16 MAY 2020 00:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.13)  16 MAY 2020 01:06
 entering extended mode
-**"c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/main.tex"
-("c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/main.tex"
+**c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_Ignetik_Thesis_ENGN4200/main.tex
+(c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_Ignetik_Thesis_ENGN4200/main.tex
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-04-06> ("c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\_global_settings.tex" ("c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\anu-thesis.cls"
+L3 programming layer <2020-04-06> (c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\_global_settings.tex (c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\anu-thesis.cls
 Document Class: anu-thesis 2020/02/11 v1.0 Australian National University Thesis Class
 ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/memoir\memoir.cls"
 Document Class: memoir 2020/03/25 v3.7k configurable book, report, article document class
@@ -1105,7 +1105,7 @@ File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 )))
 \@quotelevel=\count505
 \@quotereset=\count506
- ("c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.aux")
+ (c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -1191,7 +1191,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- ("c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.bbl")
+ (c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.bbl)
 Package biblatex Info: Reference section=0 on input line 7.
 Package biblatex Info: Reference segment=0 on input line 7.
 LaTeX Info: Redefining \microtypecontext on input line 7.
@@ -1284,28 +1284,28 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 27.
  [2
 
- <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/signature.png>] ("c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.toc" [1
+ <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_Ignetik_Thesis_ENGN4200/pic/signature.png>] (c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.toc [1
 
 
 
-]) ("c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\acro_list.tex" [2] [3]) ("c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/abstract.tex" [4
+]) (c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\acro_list.tex [2] [3]) (c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\chapters/abstract.tex [4
 
 
 ] [5
 
-]) ("c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.lof"
+]) (c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.lof
 Package acronym Info: Label `acro:NN' newly defined as it shall be overridden
-although it is yet undefined on input line 13.
-Package acronym Info: Label `acro:AMT' newly defined as it shall be overridden
-although it is yet undefined on input line 13.
+although it is yet undefined on input line 18.
 ) [6
 
 
-] ("c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.lot") [7
+] (c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.lot) [7
 
 
-] ("c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-intro.tex"
-<pic/ch-Intro/AMT-process.jpg, id=254, 216.5691pt x 269.808pt>
+] (c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\chapters/ch-intro.tex
+Package acronym Info: Label `acro:AMT' newly defined as it shall be overridden
+although it is yet undefined on input line 8.
+<pic/ch-Intro/AMT-process.jpg, id=251, 216.5691pt x 269.808pt>
 File: pic/ch-Intro/AMT-process.jpg Graphic file (type jpg)
 <use pic/ch-Intro/AMT-process.jpg>
 Package pdftex.def Info: pic/ch-Intro/AMT-process.jpg  used on input line 33.
@@ -1321,7 +1321,7 @@ l.47       \item \emph
 <to be read again> 
                    \relax 
 l.60 \end{enumerate}
-                     [2 <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Intro/AMT-process.jpg>]
+                     [2 <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_Ignetik_Thesis_ENGN4200/pic/ch-Intro/AMT-process.jpg>]
 LaTeX Font Info:    Trying to load font information for T1+fvm on input line 72.
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bera\t1fvm.fd"
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
@@ -1332,12 +1332,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `fvm' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [3] [4]) ("c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-review.tex" [5] [6
+ [3] [4]) (c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\chapters/ch-review.tex [5] [6
 
 ]
 Package acronym Info: Label `acro:MIDI' newly defined as it shall be overridden
 although it is yet undefined on input line 47.
-<pic/ch-Review/time-sig.png, id=342, 1490.56876pt x 276.03125pt>
+<pic/ch-Review/time-sig.png, id=339, 1490.56876pt x 276.03125pt>
 File: pic/ch-Review/time-sig.png Graphic file (type png)
 <use pic/ch-Review/time-sig.png>
 Package pdftex.def Info: pic/ch-Review/time-sig.png  used on input line 82.
@@ -1345,7 +1345,7 @@ Package pdftex.def Info: pic/ch-Review/time-sig.png  used on input line 82.
  [7]
 Package acronym Info: Label `acro:DTFT' newly defined as it shall be overridden
 although it is yet undefined on input line 121.
- [8 <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Review/time-sig.png>]
+ [8 <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_Ignetik_Thesis_ENGN4200/pic/ch-Review/time-sig.png>]
 Package acronym Info: Label `acro:DFT' newly defined as it shall be overridden
 although it is yet undefined on input line 128.
 Package acronym Info: Label `acro:FFT' newly defined as it shall be overridden
@@ -1357,12 +1357,12 @@ Package acronym Info: Label `acro:CQT' newly defined as it shall be overridden
 although it is yet undefined on input line 189.
 Package acronym Info: Label `acro:MFCC' newly defined as it shall be overridden
 although it is yet undefined on input line 189.
-<pic/ch-Review/log-stft-example.png, id=384, 833.1125pt x 318.18875pt>
+<pic/ch-Review/log-stft-example.png, id=381, 833.1125pt x 318.18875pt>
 File: pic/ch-Review/log-stft-example.png Graphic file (type png)
 <use pic/ch-Review/log-stft-example.png>
 Package pdftex.def Info: pic/ch-Review/log-stft-example.png  used on input line 194.
 (pdftex.def)             Requested size: 339.24956pt x 129.56973pt.
- [10 <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Review/log-stft-example.png>]
+ [10 <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_Ignetik_Thesis_ENGN4200/pic/ch-Review/log-stft-example.png>]
 Package acronym Info: Label `acro:MPE' newly defined as it shall be overridden
 although it is yet undefined on input line 218.
 Package acronym Info: Label `acro:MIREX' newly defined as it shall be overridden
@@ -1370,56 +1370,56 @@ although it is yet undefined on input line 233.
 Package acronym Info: Label `acro:NMF' newly defined as it shall be overridden
 although it is yet undefined on input line 241.
  [11] [12]
-<pic/ch-Review/neural-network.png, id=453, 618.31pt x 421.575pt>
+<pic/ch-Review/neural-network.png, id=450, 618.31pt x 421.575pt>
 File: pic/ch-Review/neural-network.png Graphic file (type png)
 <use pic/ch-Review/neural-network.png>
 Package pdftex.def Info: pic/ch-Review/neural-network.png  used on input line 335.
 (pdftex.def)             Requested size: 296.84093pt x 202.39873pt.
  [13]
-<pic/ch-Review/gradient-descent.jpg, id=468, 145.0234pt x 90.39793pt>
+<pic/ch-Review/gradient-descent.jpg, id=465, 145.0234pt x 90.39793pt>
 File: pic/ch-Review/gradient-descent.jpg Graphic file (type jpg)
 <use pic/ch-Review/gradient-descent.jpg>
 Package pdftex.def Info: pic/ch-Review/gradient-descent.jpg  used on input line 354.
 (pdftex.def)             Requested size: 254.43878pt x 158.60703pt.
- [14 <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Review/neural-network.png> <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Review/gradient-descent.jpg>]
+ [14 <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_Ignetik_Thesis_ENGN4200/pic/ch-Review/neural-network.png> <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_Ignetik_Thesis_ENGN4200/pic/ch-Review/gradient-descent.jpg>]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 372.
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 9.30756pt on input line 395.
  [15] [16]
-<pic/ch-Review/log_loss.png, id=514, 451.18562pt x 329.73187pt>
+<pic/ch-Review/log_loss.png, id=511, 451.18562pt x 329.73187pt>
 File: pic/ch-Review/log_loss.png Graphic file (type png)
 <use pic/ch-Review/log_loss.png>
 Package pdftex.def Info: pic/ch-Review/log_loss.png  used on input line 480.
 (pdftex.def)             Requested size: 339.24956pt x 247.94229pt.
- [17 <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Review/log_loss.png>]) ("c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-system.tex" [18]
-<pic/ch-System/model.png, id=548, 1044.90375pt x 956.57375pt>
+ [17 <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_Ignetik_Thesis_ENGN4200/pic/ch-Review/log_loss.png>]) (c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\chapters/ch-system.tex [18]
+<pic/ch-System/model.png, id=545, 1044.90375pt x 956.57375pt>
 File: pic/ch-System/model.png Graphic file (type png)
 <use pic/ch-System/model.png>
 Package pdftex.def Info: pic/ch-System/model.png  used on input line 16.
 (pdftex.def)             Requested size: 296.84093pt x 271.75058pt.
  [19
 
- <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-System/model.png>] [20]
+ <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_Ignetik_Thesis_ENGN4200/pic/ch-System/model.png>] [20]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 70.
  ("C:\Users\olli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<pic/ch-System/NMF-system.png, id=581, 1002.74625pt x 441.65pt>
+<pic/ch-System/NMF-system.png, id=578, 1002.74625pt x 441.65pt>
 File: pic/ch-System/NMF-system.png Graphic file (type png)
 <use pic/ch-System/NMF-system.png>
 Package pdftex.def Info: pic/ch-System/NMF-system.png  used on input line 79.
 (pdftex.def)             Requested size: 402.85602pt x 177.43185pt.
-<pic/ch-System/NN-system.png, id=583, 862.22125pt x 628.3475pt>
+<pic/ch-System/NN-system.png, id=580, 862.22125pt x 628.3475pt>
 File: pic/ch-System/NN-system.png Graphic file (type png)
 <use pic/ch-System/NN-system.png>
 Package pdftex.def Info: pic/ch-System/NN-system.png  used on input line 99.
 (pdftex.def)             Requested size: 402.85602pt x 293.57838pt.
- [21 <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-System/NMF-system.png>] [22 <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-System/NN-system.png>]
+ [21 <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_Ignetik_Thesis_ENGN4200/pic/ch-System/NMF-system.png>] [22 <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_Ignetik_Thesis_ENGN4200/pic/ch-System/NN-system.png>]
 Package acronym Info: Label `acro:ReLU' newly defined as it shall be overridden
 although it is yet undefined on input line 168.
- [23]) ("c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-results.tex" [24]
-<pic/ch-Results/NMF_tuning.png, id=629, 1140.26pt x 1079.03125pt>
+ [23]) (c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\chapters/ch-results.tex [24]
+<pic/ch-Results/NMF_tuning.png, id=622, 1140.26pt x 1079.03125pt>
 File: pic/ch-Results/NMF_tuning.png Graphic file (type png)
 <use pic/ch-Results/NMF_tuning.png>
 Package pdftex.def Info: pic/ch-Results/NMF_tuning.png  used on input line 19.
@@ -1427,36 +1427,36 @@ Package pdftex.def Info: pic/ch-Results/NMF_tuning.png  used on input line 19.
  [25
 
 ]
-<pic/ch-Results/dictionary.png, id=644, 1443.3925pt x 770.88pt>
+<pic/ch-Results/dictionary.png, id=637, 1443.3925pt x 770.88pt>
 File: pic/ch-Results/dictionary.png Graphic file (type png)
 <use pic/ch-Results/dictionary.png>
 Package pdftex.def Info: pic/ch-Results/dictionary.png  used on input line 51.
 (pdftex.def)             Requested size: 415.5773pt x 221.94975pt.
- [26 <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Results/NMF_tuning.png>] [27 <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Results/dictionary.png>]
-<pic/ch-Results/activations.png, id=661, 1612.0225pt x 851.18pt>
+ [26 <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_Ignetik_Thesis_ENGN4200/pic/ch-Results/NMF_tuning.png>] [27 <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_Ignetik_Thesis_ENGN4200/pic/ch-Results/dictionary.png>]
+<pic/ch-Results/activations.png, id=654, 1612.0225pt x 851.18pt>
 File: pic/ch-Results/activations.png Graphic file (type png)
 <use pic/ch-Results/activations.png>
 Package pdftex.def Info: pic/ch-Results/activations.png  used on input line 85.
 (pdftex.def)             Requested size: 415.5773pt x 219.4313pt.
- [28 <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Results/activations.png>]
-<pic/ch-Results/NN_perf.png, id=673, 924.45375pt x 1075.01625pt>
+ [28 <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_Ignetik_Thesis_ENGN4200/pic/ch-Results/activations.png>]
+<pic/ch-Results/NN_perf.png, id=666, 924.45375pt x 1075.01625pt>
 File: pic/ch-Results/NN_perf.png Graphic file (type png)
 <use pic/ch-Results/NN_perf.png>
 Package pdftex.def Info: pic/ch-Results/NN_perf.png  used on input line 144.
 (pdftex.def)             Requested size: 415.5773pt x 483.26074pt.
- [29] [30 <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Results/NN_perf.png>]) ("c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ch-concl.tex" [31] [32
+ [29] [30 <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_Ignetik_Thesis_ENGN4200/pic/ch-Results/NN_perf.png>]) (c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\chapters/ch-concl.tex [31] [32
 
 ] [33]
-<pic/ch-Conclusion/violin-vs-piano.png, id=723, 1143.27126pt x 682.55pt>
+<pic/ch-Conclusion/violin-vs-piano.png, id=716, 1143.27126pt x 682.55pt>
 File: pic/ch-Conclusion/violin-vs-piano.png Graphic file (type png)
 <use pic/ch-Conclusion/violin-vs-piano.png>
 Package pdftex.def Info: pic/ch-Conclusion/violin-vs-piano.png  used on input line 82.
 (pdftex.def)             Requested size: 254.43878pt x 151.90074pt.
 Package acronym Info: Label `acro:MLM' newly defined as it shall be overridden
 although it is yet undefined on input line 110.
- [34 <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_ Ignetik_Thesis_ENGN4200/pic/ch-Conclusion/violin-vs-piano.png>] [35]) [36] [37] [38
+ [34 <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_Ignetik_Thesis_ENGN4200/pic/ch-Conclusion/violin-vs-piano.png>] [35]) [36] [37] [38
 
-] [39] [40] ("c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ap-nmf.tex" [41]) ("c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\chapters/ap-nn.tex" [42
+] [39] [40] (c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\chapters/ap-nmf.tex [41]) (c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\chapters/ap-nn.tex [42
 
 ]) [43
 
@@ -1472,7 +1472,7 @@ although it is yet undefined on input line 110.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
- ("c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.aux")
+ (c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 52.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1484,16 +1484,16 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
 (\end occurred when \ifdefined on line 1 was incomplete) 
 Here is how much of TeX's memory you used:
  28682 strings out of 480930
- 518019 string characters out of 2900230
- 1312207 words of memory out of 3000000
+ 517972 string characters out of 2900230
+ 1311213 words of memory out of 3000000
  43606 multiletter control sequences out of 15000+200000
  655495 words of font info for 199 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,18n,53p,1243b,1803s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,18n,53p,1240b,1803s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bera/fvmr8a.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_ Ignetik_Thesis_ENGN4200\main.pdf" (52 pages, 1950755 bytes).
+Output written on c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.pdf (52 pages, 1949763 bytes).
 PDF statistics:
- 1092 PDF objects out of 1200 (max. 8388607)
+ 1085 PDF objects out of 1200 (max. 8388607)
  270 named destinations out of 1000 (max. 500000)
  42996 words of extra memory for PDF output out of 42996 (max. 10000000)
 

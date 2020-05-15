@@ -2,7 +2,7 @@
 \contentsline {chapter}{Acronyms}{iv}{section*.3}%
 \contentsline {chapter}{Abstract}{v}{section*.5}%
 \contentsline {chapter}{List of Figures}{vi}{section*.6}%
-\contentsline {chapter}{List of Tables}{vii}{section*.10}%
+\contentsline {chapter}{List of Tables}{vii}{section*.9}%
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}What is Automatic transcription ?}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Key Challenges}{1}{section.1.2}%
