@@ -7,6 +7,8 @@ Project repo for thesis project on Automatic Music Transcription
 This repo contains work completed during an investigation into AMT
 as applied to monophonic and polyhonic music using two approaches.
 
+![GitHub Logo](/latex-report/u5012063_Oliver_Ignetik_Thesis_ENGN4200/pic/intro/AMT-process.jpg)
+
 ## Built With
 
 - [LibROSA](https://librosa.github.io/librosa/) - Music Analysis Library

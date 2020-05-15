@@ -9,7 +9,7 @@
 
 \subsection{Discussion}
 
-In this section the results obtained by the NMF model will be discussed.
+In this section the results obtained by the \ac{NMF} model will be discussed.
 Generally the model performed well achieving and accuracy of 0.90 or higher
 dependent on the values of different parameters. The four most influential
 parameters tested in the model will be discussed in this section.
@@ -17,7 +17,7 @@ parameters tested in the model will be discussed in this section.
 \begin{figure}
     \centering
     \includegraphics[width=0.98\columnwidth]{\Pic{png}{NMF_tuning}}
-    \caption{Hyperparameter tuning with accuracy metrics for monophonic AMT system}
+    \caption[Hyperparameter gridsearch]{Hyperparameter tuning with accuracy metrics for monophonic \ac{AMT} system}
     \label{review:fig:NMF-tuning}
 \end{figure}
 
@@ -37,7 +37,7 @@ algorithm that depends on a number of parameters. Most notable of these
 parameters is the delta threshold value which translates to the sensitivity of
 the model to ambient noise. The NMF model returns a dictionary matrix and an
 activation matrix. The dictionary matrix (example shown in
-\autoref{results:fig:dictionary}) can be thought of as DFTs of the seperate
+\autoref{results:fig:dictionary}) can be thought of as \ac{DFT}s of the seperate
 notes that together construct the final audio signal. The threshold function
 accounts for ambient noise and is context dependent on the recording
 environment. This means for each sample recording and differing instrument the
@@ -89,11 +89,11 @@ So given a different instrument the number of attack frames may have to be chang
 
 \subsection{Summary}
 
-In summary the NMF model performed extremely well for monophonic AMT however is not
+In summary the \ac{NMF} model performed extremely well for monophonic AMT however is not
 appropriate for polyphonic transcription. The crucial points of discovery are:
 
 \begin{itemize}
-    \item NMF model provides high accuracy metrics for monophonic music
+    \item \ac{NMF} model provides high accuracy metrics for monophonic music
     \item Fast performance and compile time
     \item Needs fine tuning dependent on recording environment and instrument type
     \item The attack frames had a negligible effect on model performance
@@ -103,7 +103,7 @@ appropriate for polyphonic transcription. The crucial points of discovery are:
 \section{NN approach to polyphonic AMT}
 
 \subsection{Discussion}
-In this section the results obtained by the NN model will be discussed.
+In this section the results obtained by the \ac{NN} model will be discussed.
 Generally the model performed well achieving a validation f1-score of 0.75 after
 100 epochs performed on the training data. The most important insights will be
 discussed including the Hyperparameter tuning, choice of loss function and
@@ -142,7 +142,7 @@ had a relatively long time of completion.
 \begin{figure}
     \centering
     \includegraphics[width=0.98\columnwidth]{\Pic{png}{NN_perf}}
-    \caption{Loss function f1 measure curves for neural network model with optimal parameters}
+    \caption[\ac{NN} model performance]{Loss function and f1 measure curves for neural network model with optimal parameters}
     \label{results:fig:model-perf}
 \end{figure}
 
@@ -172,14 +172,14 @@ accuracy due to this class imbalance.
         256                               & 0.381                                           & 0.371                                    \\ \hline
         512                               & 0.399                                           & 0.346                                    \\ \hline
     \end{tabular}
-    \caption{Hyperparameter tuning for Neural Network approach on polyphonic AMT}
+    \caption[Hyperparameter gridsearch \ac{NN}]{Hyperparameter tuning for \ac{NN} approach on polyphonic \ac{AMT}}
     \label{results:table:nn-grid}
 \end{table}
 
 
 \subsection{Summary}
-In summary, the NN model performed well for polyphonic AMT however further work
-is needed to convert the output to an interpretible form that more closely resembles the piano MIDI roll representation.
+In summary, the \ac{NN} model performed well for polyphonic AMT however further work
+is needed to convert the output to an interpretible form that more closely resembles the piano \ac{MIDI} roll representation.
 As it stands the results are still considered a mid-level representation that is far from
 resembling a musical score which is the ultimate goal of AMT systems.
 The crucial points of discovery are:

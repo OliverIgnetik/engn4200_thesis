@@ -44,11 +44,11 @@ ear and is associated with musical tension. Tritones provide a harmonic spine
 for the movement of groups of notes because they are so noticable to the
 listener.
 
-Musical Instrument Digital Interface (MIDI) is one of the most important tools
+\ac{MIDI} is one of the most important tools
 for musicians. It is a protocal that allows computers, musical instruments and
 other hardware to communicate. It encodes an audio signal into an
 multi-dimensional array which contains information about the pitch and
-onset/offset times of notes. Of particular note is the MIDI pitch which has the
+onset/offset times of notes. Of particular note is the \ac{MIDI} pitch which has the
 formula below :
 
 \begin{equation}
@@ -58,7 +58,7 @@ formula below :
 Where :
 \begin{conditions}
   f_{0}     &  fundamental frequency  \\
-  d     &  MIDI number \\
+  d     &  \ac{MIDI} number \\
 \end{conditions}
 
 On a grand piano the lowest note A0 has a frequency of 27.50 $\si{\hertz}$ and
@@ -80,13 +80,13 @@ each bar according to the time signature.
 \begin{figure}[!ht]
   \centering
   \includegraphics[width=.6\linewidth]{\Pic{png}{time-sig}}
-  \caption{Excerpt from a piano arrangement for the tune Nearness of You with a common time signature of 4 quarter notes per bar}
+  \caption[Piano score excerpt]{Excerpt from a piano arrangement for the tune Nearness of You with a common time signature of 4 quarter notes per bar}
   \label{review:fig:time-sig}
 \end{figure}
 
 The term \emph{tempo} refers to the rate of this pulse as is often denoted as
 \emph{beats per minute} or \emph{bpm}. Musical pulses typically coincide with
-note onsets or percussive events. In the context of AMT this tasks constitutes
+note onsets or percussive events. In the context of \ac{AMT} this tasks constitutes
 finding a \emph{novelty curve} known as onset detection.
 
 \section{Signal Processing Techniques}
@@ -104,7 +104,7 @@ sampling frequency $F_{s}$ and Nyquist frequency $F_{N}$.
   F_{s} > 2\cdot F_{N}
 \end{equation}
 
-Where B is the highest frequency expected in the signal. Frequently a sampling
+Where $F_{N}$ is the highest frequency expected in the signal. Frequently a sampling
 rate of 44.1 $\si{\kilo\hertz}$ is used in audio recording because the range of
 human hearing is from 20$\si{hertz}$-20$\si{\kilo\hertz}$.
 
@@ -118,16 +118,14 @@ length N, it is possible to associate a periodic sequence.
   \tilde{x}[n] =\sum_{r=-\infty}^{\infty} x[n-r N]
 \end{equation}
 
-This is implied in the mathematics of the DTFT, that the signal of interest is
-periodic in nature even when it has a finite length. The Discrete Time Fourier
-Transform (DTFT) of such a signal is given by :
+This assumption is implied in the mathematics of the \ac{DTFT}, that the signal of interest is
+periodic in nature even when it has a finite length. The \ac{DTFT} of such a signal is given by :
 
 \begin{equation}
   \tilde{X}[\omega] =\sum_{n=-\infty}^{n=\infty} \tilde{x}[n] \exp^{-j \omega n }
 \end{equation}
 
-This sequence is itself periodic with a period $N$. The Discrete Fourier
-Transform (DFT) of the original signal finite length signal $x[n]$ can be found
+This sequence is itself periodic with a period $N$. The \ac{DFT} of the original signal finite length signal $x[n]$ can be found
 by sampling $\tilde{X}$ at $\omega=\frac{2 \pi}{N}$ and only considering the
 values of k within $0 \leq  k \leq N - 1$ :
 
@@ -136,7 +134,7 @@ values of k within $0 \leq  k \leq N - 1$ :
   \label{review:eq:DFT}
 \end{equation}
 
-The DFT is often implemented as the Fast Fourier Transform which reduces the
+The \ac{DFT} is often implemented as the \ac{FFT} which reduces the
 order of complexity to $O(N\log{N})$ by exploiting symmetries in the
 transformation. \cite{OppenheimDSP} \autoref{review:eq:DFT} will be used
 frequently throughout this project and extended upon in
@@ -146,9 +144,8 @@ frequently throughout this project and extended upon in
 \label{subsection:STFT}
 
 As in other audio-related applications, the most popular tool for describing the
-time-varying energy across different frequency bands is the short-time Fourier
-Transform (STFT), which, when visualized as its magnitude, is known as the
-spectrogram.
+time-varying energy across different frequency bands is the \ac{STFT}, which,
+when visualized as its magnitude, is known as the spectrogram.
 
 Formally, let $x$ be a discrete-time signal obtained by uniform sampling a
 waveform at a sampling rate $F_{s}$ Hz. Using a N-point tapered window $w$ (eg.
@@ -189,28 +186,36 @@ high-frequency content. One simple yet important step often applied in the
 processing of music signals, is referred to as logarithmic compression. Such a
 compression not only accounts for the logarithmic nature that describes how
 humans perceive sound but also balances out the dynamic range of the signal.
+Some variations of the traditional \ac{STFT} include \ac{CQT} and \ac{MFCC}.
 \cite{spma2011:Klapuri}
 
 \begin{figure}[!ht]
   \centering
   \includegraphics[width=.8\columnwidth]{\Pic{png}{log-stft-example}}
-  \caption{STFT of a 10s excerpt from Blues in F - Bill Evans Trio recording }
+  \caption[Example Spectrogram]{\ac{STFT} of a 10s excerpt from Blues in F - Bill Evans Trio recording }
   \label{review:fig:log-STFT-example}
 \end{figure}
 
+\subsubsection{\ac{CQT}}
+
+\ac{CQT} has a number of advantages over \ac{STFT} in note identification since constant center
+frequency-to-resolution ratio results in a constant pattern of  sounds with harmonic components in the
+logarithm-scaled frequency domain, which is easier for resolving notes that are played simultaneously. Not to
+mention the fact that it more closely resembles the human auditory system which makes it ideal in \ac{AMT} \cite{LiDL2019}.
+
 \section{State of the Art Methods}
 
-Many approaches have been developed for AMT applied to polyphonic music. While
-the end goal of AMT is to convert an acoustic music recording to some form of
+Many approaches have been developed for \ac{AMT} applied to polyphonic music. While
+the end goal of \ac{AMT} is to convert an acoustic music recording to some form of
 music notation, most approaches are aimed at achieving an intermediate goal.
 Some commercial applications provide the capability of converting a piano-roll
 representation into typeset music notation. However, the end results are
 generally musically illogical especially in genres like jazz where notes often
 fall on the upbeat and rythms are highly syncopated.
 
-AMT approaches can generally be organized into four categories : frame-level,
+\ac{AMT} approaches can generally be organized into four categories : frame-level,
 note level, stream level and notation level. Frame level transcription which is
-also known as \emph{Multipitch estimation} aims at identifying the number and
+also known as \emph{\ac{MPE}} aims at identifying the number and
 pitch of notes that are present in a frame of music. A frame is generally on the
 time scale of 10ms depending on the type of analysis window. Note-level
 transcription not only estimates the pitch in each time frame but also the onset
@@ -220,12 +225,12 @@ correspond to different instruments or timbres. Notation level transcription or
 \emph{audio-to-note transcription} aims to transcribe the music audio into a
 musical score such as that seen on staff notation. Harmonic and rhythmic
 structures have to be incorporated into the modelling and as a result the
-complexity is monumentally higher then MPE approaches.
+complexity is monumentally higher then \ac{MPE} approaches.
 \cite{MIR-recent-dev:Schedl}
 
 Readers interested in a comparison of the performance of different approaches
 are referred to the Multiple Fundamental Frequency Estimation and Tracking task
-of the annual Music Information Retrieval Evaluation eXchange (MIREX)
+of the annual \ac{MIREX}
 (\url{http://www.music-ir.org/mirex}).
 
 
@@ -233,11 +238,11 @@ of the annual Music Information Retrieval Evaluation eXchange (MIREX)
 
 A large subset of transcription systems employ methods stemming from spectrogram
 factorization techniques, which exploit the redundancies found in music
-spectrograms. Non-negative matrix factorization (NMF) was first proposed by Lee
+spectrograms. \ac{NMF} was first proposed by Lee
 and Seung \cite{nmf1999:Seung}
 
 
-Starting with a non-negative $M$ by $N$ matrix \textbf{X} the goal of NMF is to
+Starting with a non-negative $M$ by $N$ matrix \textbf{X} the goal of \ac{NMF} is to
 approximate it as a product of two non-negative matrics $ \textbf{W}_{M \times
     R}$ and $\textbf{H}_{R \times N}$, where $R \leq M$ such the cost function is
 minimized :
@@ -269,20 +274,20 @@ where the $\odot$ operator denotes pointwise multiplication, $J \in
   \mathbb{R}^{M \times N}$ denotes the matrix of ones, and the divison is
 pointwise. \cite{amt2019:Benetos}
 
-In the context of time-frequency representations and AMT both unknown matrices
+In the context of time-frequency representations and \ac{AMT} both unknown matrices
 have an intuitive interpretation. \textbf{X} in the most basic cases in
-time-frequency analysis is a STFT of the audio signal. \textbf{W} encodes the
+time-frequency analysis is a \ac{STFT} of the audio signal. \textbf{W} encodes the
 spectral profiles of the \emph{R} components and is commonly referred to as the
 dictionary matrix. \textbf{H} encodes the temporal activity of the each of those
 components and named the activation matrix.
 
-There are two classes of NMF approches that fall into supervised and
+There are two classes of \ac{NMF} approches that fall into supervised and
 unsupervised approaches. In supervised approaches the dictionary matrix is
 prextracted. For explanatory purposes, one can imagine the applicaiton of such
-an NMF AMT system. To compile the dictionary matrix a recording of each note
+an \ac{NMF} \ac{AMT} system. To compile the dictionary matrix a recording of each note
 played in isolation is recorded and concatenated. Thus each component can be
 thought of corresponding to individual pitches with their associated harmonic
-profiles. The NMF-based decomposition is then performed by applying the update
+profiles. The \ac{NMF}-based decomposition is then performed by applying the update
 rules in \autoref{review:eq:gradient_rules} to find \textbf{H} to minimize the
 cost function.
 
@@ -294,23 +299,23 @@ performance and accuracy. For a comprehensive overview of a number of these
 techniques refer to \cite{f0estimation2006:Cheveigne,Christensen:2009,
   spmmt:Klapuri}.
 
-State of the art applications of NMF for polyphonic AMT include work were
-sparseness constraints were added into the NMF update rules, in an effort to
+State of the art applications of \ac{NMF} for polyphonic \ac{AMT} include work were
+sparseness constraints were added into the \ac{NMF} update rules, in an effort to
 find meaningful transcriptions. \cite{NMF-sparsity:2006} Another approach was
-based on incorporating harmonicity constraints in the NMF model, resulting in
-two algorithms: harmonic and inharmonic NMF. \cite{inharm-harm-NMF:Vincent2010}
+based on incorporating harmonicity constraints in the \ac{NMF} model, resulting in
+two algorithms: harmonic and inharmonic \ac{NMF}. \cite{inharm-harm-NMF:Vincent2010}
 Additionally the model constrains each basis spectrum to be expressed as a
 weighted sum of narrowband spectra, in order to preserve a smooth spectral
 envelope. The inharmonic version of the algorithm is also able to support
 deviations from perfect harmonicity and standard tuning. Also, another approach
-proposed a Bayesian framework for NMF, which considers each pitch as a model of
+proposed a Bayesian framework for \ac{NMF}, which considers each pitch as a model of
 Gaussian components in harmonic positions. \cite{bayesian-NMF:Bertin2007}
 Spectral smoothness constraints are incorporated into the likelihood function,
 and for parameter estimation the space alternating generalised EM algorithm
-(SAGE) is employed.
+is employed.
 
-More recently, one approach proposed an algorithm for multi-pitch detection and
-beat structure analysis. The NMF objective function is constrained using
+More recently, one approach proposed an algorithm for \ac{MPE} and
+beat structure analysis. The \ac{NMF} objective function is constrained using
 information from the rhythmic structure of the recording, which helps improve
 transcription accuracy in highly repetitive recordings.
 \cite{beat-NMF:Ochiai2012}
@@ -318,7 +323,7 @@ transcription accuracy in highly repetitive recordings.
 
 \subsection{Neural Networks}
 
-Neural Networks (NN) are systems that are vaguely inspired by biological neural
+\ac{NN} are systems that are vaguely inspired by biological neural
 networks. They are based on a collection of connected units or nodes called
 artifical neurons. They are able to learn non-linear functions from input to
 output via an optimization algorithm. The goal of a network is to learn the
@@ -328,12 +333,12 @@ data. \cite{DeepLearning2016}
 \begin{figure}[!ht]
   \centering
   \includegraphics[width=.7\columnwidth]{\Pic{png}{neural-network}}
-  \caption{An example of a feed forward architecture neural network appropriate for classification tasks. \cite{ISMIR-tut:Benetos}}
+  \caption[Structure of a \ac{NN}]{An example of a feed forward architecture neural network appropriate for classification tasks. \cite{ISMIR-tut:Benetos}}
   \label{review:fig:neural-network}
 \end{figure}
 
 
-NNs have a number of advantages over traditional machine learning algorithms.
+\ac{NN}s have a number of advantages over traditional machine learning algorithms.
 One of the main advantages is the removal of the need for feature extraction
 which is important in unstructured types of data like images or sound. The type
 of network architecture that will be discussed in this paper is known as a feed
@@ -347,7 +352,7 @@ such as chords and harmonic progressions depending on the type of network used.
 \begin{figure}[!b]
   \centering
   \includegraphics[width=.6\linewidth]{\Pic{jpg}{gradient-descent}}
-  \caption{An intuitive graphical understanding of gradient descent optimization}
+  \caption[Gradient Descent]{An intuitive graphical understanding of gradient descent optimization}
   \label{review:fig:grad-descent}
 \end{figure}
 
@@ -412,7 +417,7 @@ to another and the weights are modified so that the loss is minimized.
   \label{review:algo:grad}
 \end{algorithm}
 
-One other crucial concept in NNs and machine learning in general is the concept
+One other crucial concept in \ac{NN}s and machine learning in general is the concept
 of overfitting. Typically, datasets are seperated into test and train sets. The
 model is exposed to the training data and is then used to predict on the test
 data. When the test accuracy of the model starts to decrease and the training
@@ -428,8 +433,8 @@ using a grid-search algorithm to find a set of parameters which optimizes the
 cost function. \cite{LiDL2019} Some of these hyperparamters important for tuning
 network performance are given below :
 
-\subsubsection{Important Features in NNs}
-Several aspects of NNs require further explanation as they are not obvious.
+\subsubsection{Important Features in \ac{NN}s}
+Several aspects of \ac{NN}s require further explanation as they are not obvious.
 These parameters play a pivotal role in the performance and accuracy of the
 network. This section will briefly discuss each of these parameters and certain
 trade offs that they present.
@@ -454,7 +459,7 @@ trade offs that they present.
         Some optimization algorithms are more appropriate for certain types of
         problems such as regression or classification problems.
   \item \emph{epoch} - when an entire dataset is passed forward and backward
-        through the neural network only once. Typically setting a higher number
+        through the \ac{NN} only once. Typically setting a higher number
         of epochs will lead to higher accuracy in the training set but their is
         a risk of overfitting.
   \item \emph{batch size} - total number of training samples present in a single
@@ -473,7 +478,7 @@ trade offs that they present.
         \begin{figure}[!b]
           \centering
           \includegraphics[width=.8\columnwidth]{\Pic{png}{log_loss}}
-          \caption{Binary cross entropy function that is useful in
+          \caption[Binary cross entropy]{Binary cross entropy function that is useful in
             classification tasks used in conjuction with a softmax activation
             function on the output}
           \label{review:fig:log-loss}
@@ -481,9 +486,9 @@ trade offs that they present.
 
 \end{enumerate}
 
-In recent years NNs have had a considerable impact on the problem of music
+In recent years \ac{NN}s have had a considerable impact on the problem of music
 transcription and on music signal processing in general. However, compared to
-other fields progress on NNs for music transcription has been slower due to a
+other fields progress on \ac{NN}s for music transcription has been slower due to a
 lack of annotated data with labels which is essential for training the models
 appropriately. \cite{end-to-end-transcription2017:Carvalho}
 
@@ -494,26 +499,26 @@ lengths. The output from the note onset network is used to inform the second
 network calculating note lengths.
 
 Despite the appeal of NNs and the promises they hold they are often still
-outperformed by NMF-based methods for a number of reasons :
+outperformed by \ac{NMF}-based methods for a number of reasons :
 \begin{enumerate}
-  \item Lack of annotated labelled datasets - neural networks rely on data to be
+  \item Lack of annotated labelled datasets - \ac{NN}s rely on data to be
         effective. There are only a a small number of annotated datasets which
         in themselves are restricted to certain types of instruments and genres
         of music. \cite{ground-truths:Su}
   \item Adaptablity to new conditions - there are currently no methods to
-        retrain or adapt an NN-based AMT systems on only a few seconds of audio.
-        As such NMF-based systems can perform considerably better with less data
+        retrain or adapt an \ac{NMF}-based \ac{AMT} systems on only a few seconds of audio.
+        As such \ac{NMF}-based systems can perform considerably better with less data
         and are easier to adapt.
 \end{enumerate}
 
 \section{Summary}
 
 In general there are drawbacks and advantages to both types of approaches
-outlined in this chapter. NNs can be more effective in context dependent
-environments whilst NMFs show more adaptablity. Currently there are no methods
+outlined in this chapter. \ac{NN}s can be more effective in context dependent
+environments whilst \ac{NMF}s show more adaptablity. Currently there are no methods
 which are favoured in all situations.
 
-\autoref{ch:system} will introduce an AMT system which uses NMF to transcribe
+\autoref{ch:system} will introduce an \ac{AMT} system which uses \ac{NMF} to transcribe
 single note melodies and discuss the system architecture. \autoref{ch:system}
-will also discuss how to apply a NN to musical data obtained from
+will also discuss how to apply a \ac{NN} to musical data obtained from
 \citeyear{thickstun2018invariances} MusicNet database.

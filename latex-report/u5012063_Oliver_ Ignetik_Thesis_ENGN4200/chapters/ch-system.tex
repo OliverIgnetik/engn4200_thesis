@@ -4,7 +4,7 @@
 \label{ch:system}
 \vspace{2em}
 
-The AMT problem can be divided into several subtasks, which include: multipitch
+The \ac{AMT} problem can be divided into several subtasks, which include: multipitch
 detection, note onset/offset detection, loudness estimation and quantisation,
 instrument recognition, extraction of rhythmic information, and time
 quantisation. The core problem in automatic transcription is the estimation of
@@ -15,23 +15,23 @@ detection. \cite{amtfc2013:Benetos}
     \centering
     \includegraphics[width=.7\columnwidth]{\Pic{png}{model}}
     \vspace{\BeforeCaptionVSpace}
-    \caption{Typical architecture of an AMT system. \cite{amtfc2013:Benetos}}
+    \caption[AMT architecture]{Typical architecture of an \ac{AMT} system. \cite{amtfc2013:Benetos}}
     \label{system:fig:basic-model}
 \end{figure}
 
 \section{Preliminaries}
 
-This report will investigate how to use NMF in interpreting an audio recording and extracting
+This report will investigate how to use \ac{NMF} in interpreting an audio recording and extracting
 music information from this recording. There are two systems and two applications that will be
 be presented in this section.
 
 \begin{enumerate}
-    \item NMF applied to single line melody - exploration of parameters used to fine tune model accuracy
+    \item \ac{NMF} applied to single line melody - exploration of parameters used to fine tune model accuracy
           \begin{enumerate}
               \item MAPS Dataset - chromatic scale played on a Bechstein D 280 in a concert hall \cite{MAPS:Emiya}
-              \item Type of architecture - Supervised NMF
+              \item Type of architecture - Supervised \ac{NMF}
           \end{enumerate}
-    \item NN applied to a large music database
+    \item \ac{NN} applied to a large music database
           \begin{enumerate}
               \item Dataset MusicNet recordings and active frame note labels \cite{thickstun2018invariances}
               \item Type of architecture - Feed Forward neural network with mutli-label classification
@@ -46,6 +46,7 @@ The sample used in this analysis is a recording of a chromatic scale played on
 a Bechstein D 280 piano in a concert hall environment retrieved from the MAPS database \cite{MAPS:Emiya}.
 
 \begin{table}
+    \centering
     \begin{tabular}{|l|l|l|}
         \hline
         Onset Time  (s) & Offset Time (s) & MIDI pitch \\ \hline
@@ -58,16 +59,16 @@ a Bechstein D 280 piano in a concert hall environment retrieved from the MAPS da
 It should be noted that in this experiment the offset time will be omitted from
 the investigation as this is much more difficult to infer from the audio signal.
 The audio data is loaded into the python kernel using LibROSA and then it is
-passed to the NMF\_model class which is the main class for performing the
+passed to the \ac{NMF}\_model class which is the main class for performing the
 experiments in this investigation. As can be seen in
-\autoref{system:fig:nmf-model} the audio data is passed to the NMF class where
+\autoref{system:fig:nmf-model} the audio data is passed to the \ac{NMF} class where
 the constructor takes two important parameters to determine the spectrogram
-\emph{hop length} and \emph{window size}. The NMF class has the following
+\emph{hop length} and \emph{window size}. The \ac{NMF} class has the following
 important methods :
 
 \begin{itemize}
     \item make\_stft - builds the spectrogram based on the hop length and window size
-    \item NMF\_decomposition - performs the NMF decomposition
+    \item \ac{NMF}\_decomposition - performs the \ac{NMF} decomposition
     \item estimate\_onsets - find the note onsets using the peak picking algorithm
     \item estimate\_pitches - find the active pitches in the sample
 \end{itemize}
@@ -77,7 +78,7 @@ important methods :
     \centering
     \includegraphics[width=.95\columnwidth]{\Pic{png}{NMF-system}}
     \vspace{\BeforeCaptionVSpace}
-    \caption{System model for NMF AMT}
+    \caption{System model for \ac{NMF} \ac{AMT}}
     \label{system:fig:nmf-model}
 \end{figure}
 
@@ -89,7 +90,7 @@ iterated through and the models accuracy for each parameter is evaluated using
 the mir\_eval library.
 
 \subsection{NN Application to polyphonic AMT}
-A feed forward NN will be used to transcribe music from the musicnet database.
+A feed forward \ac{NN} will be used to transcribe music from the musicnet database.
 The pieces are polyphonic which means the complexity is much higher due to
 multiple instruments being played at the same time.
 
@@ -97,7 +98,7 @@ multiple instruments being played at the same time.
     \centering
     \includegraphics[width=.95\columnwidth]{\Pic{png}{NN-system}}
     \vspace{\BeforeCaptionVSpace}
-    \caption{System model for NN AMT}
+    \caption{System model for \ac{NN} \ac{AMT}}
     \label{system:fig:nn-model}
 \end{figure}
 
@@ -132,13 +133,13 @@ onset and offset times and pitches. The data is split into training, validation 
 percentage ratio.
 
 \subsubsection{Features}
-The audio signal is transformed into a constant Q transform (CQT) domain
+The audio signal is transformed into the \ac{CQT} domain
 which is closely related to the STFT but is better for multipitch scenarios due
-to the higher fidelity in note resolution. The CQT is downsampled from
+to the higher fidelity in note resolution. The \ac{CQT} is downsampled from
 44.1~$\si{\kilo\hertz}$ to 16~$\si{\kilo\hertz}$ with a hop length of 512
-corresponding to 32 $\si{\milli\second}$ frames. Consequently there are 252 CQT
+corresponding to 32 $\si{\milli\second}$ frames. Consequently there are 252 \ac{CQT}
 features per frame. Therefore, a data matrix with the size of $252 \times
-    \text{number of frames}$ is obtained from the CQT transformation.
+    \text{number of frames}$ is obtained from the \ac{CQT} transformation.
 
 \subsubsection{Labels}
 The ground truth labels are sampled at each frame to determine the active notes
@@ -164,7 +165,7 @@ informing the model to fit more for active notes.
 
 \subsubsection{Activation functions}
 
-ReLU (Rectified Linear Activation Units) functions will be used as the
+\ac{ReLU} functions will be used as the
 activation function for the hidden layers and a sigmoid activation function will
 be used on the output layer as is required in multilabel classification tasks. The sigmoid
 activation function is shown in \autoref{system:eq:sigmoid}.

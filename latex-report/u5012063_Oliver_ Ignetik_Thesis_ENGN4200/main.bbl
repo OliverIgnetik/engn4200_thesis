@@ -48,8 +48,8 @@
       \strng{authorbibnamehash}{cfcd42277a6e80a80b59b854b80db2f5}
       \strng{authornamehash}{cfcd42277a6e80a80b59b854b80db2f5}
       \strng{authorfullhash}{cfcd42277a6e80a80b59b854b80db2f5}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE J. Sel. Topics Signal Process}
@@ -77,8 +77,8 @@
       \strng{authorbibnamehash}{8303301ae3549296509a0c4d335b75d3}
       \strng{authornamehash}{8303301ae3549296509a0c4d335b75d3}
       \strng{authorfullhash}{8303301ae3549296509a0c4d335b75d3}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Tutorial presented at National University of Singapore}
@@ -110,8 +110,8 @@
       \strng{authorbibnamehash}{ec8186bd0efb2e6984ec04580efe2f1b}
       \strng{authornamehash}{ec8186bd0efb2e6984ec04580efe2f1b}
       \strng{authorfullhash}{ec8186bd0efb2e6984ec04580efe2f1b}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proc. Int. Symp. Computer Music Multidisciplinary Research}
@@ -154,8 +154,8 @@
       \strng{authorbibnamehash}{5ab4f361f2e9e28ded8d87f05b644021}
       \strng{authornamehash}{5ab4f361f2e9e28ded8d87f05b644021}
       \strng{authorfullhash}{5ab4f361f2e9e28ded8d87f05b644021}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{J. Intelligent Inform. Syst.}
@@ -185,8 +185,8 @@
       \strng{authorbibnamehash}{3a8749235ac20d01145d813e53d27b65}
       \strng{authornamehash}{3a8749235ac20d01145d813e53d27b65}
       \strng{authorfullhash}{3a8749235ac20d01145d813e53d27b65}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE/ACM Trans. Audio, Speech Language Process}
@@ -221,8 +221,8 @@
       \strng{authorbibnamehash}{51f99ef76fc7102dbee45cf5635ea268}
       \strng{authornamehash}{51f99ef76fc7102dbee45cf5635ea268}
       \strng{authorfullhash}{51f99ef76fc7102dbee45cf5635ea268}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Transations on Audio, Speech and Language Processin}
@@ -264,8 +264,8 @@
       \strng{authorbibnamehash}{87cdaf5253630f72297f2d8c97baedc6}
       \strng{authornamehash}{87cdaf5253630f72297f2d8c97baedc6}
       \strng{authorfullhash}{87cdaf5253630f72297f2d8c97baedc6}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{International Conference on Acoustics, Speech, and Signal Processing (ICASSP)}
@@ -422,6 +422,40 @@
       \field{title}{Discrete-Time Signal Processing}
       \field{year}{2010}
     \endentry
+    \entry{LiDL2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4c305f909afd2192eedb6f46f0883d14}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e67a5b1f5a1d721964267b14759d22d4}{%
+           family={Ni},
+           familyi={N\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=527f0ca92e7ed462c77915036481c907}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Stanford}%
+      }
+      \strng{namehash}{46ae27c472919ed7f80ff7f4371beace}
+      \strng{fullhash}{46ae27c472919ed7f80ff7f4371beace}
+      \strng{bibnamehash}{46ae27c472919ed7f80ff7f4371beace}
+      \strng{authorbibnamehash}{46ae27c472919ed7f80ff7f4371beace}
+      \strng{authornamehash}{46ae27c472919ed7f80ff7f4371beace}
+      \strng{authorfullhash}{46ae27c472919ed7f80ff7f4371beace}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Music Transcription Using Deep Learning}
+      \field{year}{2019}
+    \endentry
     \entry{MIR-recent-dev:Schedl}{article}{}
       \name{author}{3}{}{%
         {{hash=9608012a84142b95610c586dc1170052}{%
@@ -446,8 +480,8 @@
       \strng{authorbibnamehash}{97480a75dd88f6583a13da666d26b9eb}
       \strng{authornamehash}{97480a75dd88f6583a13da666d26b9eb}
       \strng{authorfullhash}{97480a75dd88f6583a13da666d26b9eb}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Foundations Trends Inform. Retrieval}
@@ -479,8 +513,8 @@
       \strng{authorbibnamehash}{f7be6f28d1f26cb0c546dff08e2cd6aa}
       \strng{authornamehash}{f7be6f28d1f26cb0c546dff08e2cd6aa}
       \strng{authorfullhash}{f7be6f28d1f26cb0c546dff08e2cd6aa}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature}
@@ -509,8 +543,8 @@
       \strng{authorbibnamehash}{ec0c74cdd8652ee94763ee8f5e812b54}
       \strng{authornamehash}{ec0c74cdd8652ee94763ee8f5e812b54}
       \strng{authorfullhash}{ec0c74cdd8652ee94763ee8f5e812b54}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Workshop Applications Signal Processing Audio and Acoustics}
@@ -811,40 +845,6 @@
       \field{title}{Deep Learning}
       \field{year}{2016}
     \endentry
-    \entry{LiDL2019}{article}{}
-      \name{author}{3}{}{%
-        {{hash=4c305f909afd2192eedb6f46f0883d14}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=e67a5b1f5a1d721964267b14759d22d4}{%
-           family={Ni},
-           familyi={N\bibinitperiod},
-           given={I.},
-           giveni={I\bibinitperiod}}}%
-        {{hash=527f0ca92e7ed462c77915036481c907}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Stanford}%
-      }
-      \strng{namehash}{46ae27c472919ed7f80ff7f4371beace}
-      \strng{fullhash}{46ae27c472919ed7f80ff7f4371beace}
-      \strng{bibnamehash}{46ae27c472919ed7f80ff7f4371beace}
-      \strng{authorbibnamehash}{46ae27c472919ed7f80ff7f4371beace}
-      \strng{authornamehash}{46ae27c472919ed7f80ff7f4371beace}
-      \strng{authorfullhash}{46ae27c472919ed7f80ff7f4371beace}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Music Transcription Using Deep Learning}
-      \field{year}{2019}
-    \endentry
     \entry{end-to-end-transcription2017:Carvalho}{article}{}
       \name{author}{2}{}{%
         {{hash=a7d0ebae401437d6c2342d69ee52ff62}{%
@@ -1116,8 +1116,8 @@
       \strng{authorbibnamehash}{0cbbdc7253f5a23c24a38375f98e5933}
       \strng{authornamehash}{0cbbdc7253f5a23c24a38375f98e5933}
       \strng{authorfullhash}{0cbbdc7253f5a23c24a38375f98e5933}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE/ACM Trans. Audio, Speech, Language Process.}
