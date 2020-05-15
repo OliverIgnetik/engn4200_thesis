@@ -4,12 +4,12 @@
 \addvspace {10pt}
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Piano score excerpt}}{8}{figure.2.1}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Example Spectrogram}}{10}{figure.2.2}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Structure of a \ac {NN}}}{14}{figure.2.3}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Structure of a NN}}{14}{figure.2.3}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Gradient Descent}}{14}{figure.2.4}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Binary cross entropy}}{17}{figure.2.5}%
 \addvspace {10pt}
 \contentsline {figure}{\numberline {3.1}{\ignorespaces AMT architecture}}{19}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces System model for \ac {NMF} \ac {AMT}}}{21}{figure.3.2}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces System model for NMF AMT}}{21}{figure.3.2}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces System model for \ac {NN} \ac {AMT}}}{22}{figure.3.3}%
 \addvspace {10pt}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Hyperparameter gridsearch}}{26}{figure.4.1}%
@@ -17,6 +17,6 @@
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Example of activation components}}{28}{figure.4.3}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces \ac {NN} model performance}}{30}{figure.4.4}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces instrumentation effects on waveforms}}{34}{figure.5.1}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Instrumentation effects on waveforms}}{34}{figure.5.1}%
 \addvspace {10pt}
 \addvspace {10pt}
