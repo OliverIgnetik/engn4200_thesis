@@ -7,7 +7,7 @@
 Despite significant progress in the field of \ac{AMT} as can be seen by inspecting
 the \ac{MIREX} results \cite{MIREX} of recent years. The performance of even the most
 recent systems falls well below that of a human expert particularly in symphonic
-music where this is many simultaneous instruments. \cite{roadmap-MIR:Serra2013}
+music where this is many simultaneous instruments \cite{roadmap-MIR:Serra2013}.
 
 \subsection{User Informed Transcription}
 
@@ -18,26 +18,26 @@ system to attain satisfactory results.
 
 Humans are extremely good at instrument identification, note onset detection,
 and segregation. While computers are capable of performing operations quickly on
-extremely large datasets. \cite{ISMIR-tut:Benetos} \emph{Semi automatic
+extremely large datasets \cite{ISMIR-tut:Benetos}. \emph{Semi automatic
     approaches} may be able to to obtain results faster then human transcription and
-more accurate then fully automatic approaches. \cite{ISMIR-tut:Benetos}
+more accurate then fully automatic approaches \cite{ISMIR-tut:Benetos}.
 
 Tha main effort in this research avenue should be to the type of input that
 users can provide which is most beneficial to the system and how to incorporate
 high level abstract musical concepts.
 
 One approach which incorporates user feedback requires the indentification of
-the type of instrument and scale or notes used. \cite{user-inform:Kirchoff2012}
+the type of instrument and scale or notes used \cite{user-inform:Kirchoff2012}.
 The technique used in this approach performed considerably better then a fully
 automatic approach using the same type of algorithm. Another approach required
 the user to hum the melody which was used to help extract it from the mixture
-signal. \cite{humming2009:Smaragdis}
+signal \cite{humming2009:Smaragdis}.
 
 \subsection{Score Informed Transcription}
 
 The musical score of a piece can provide invaluable information for \ac{AMT} systems
 to exploit. In certain situations, take for example classical performances, a
-method known as score-to-audio alignment can be used. \cite{Wang2017} Automatic
+method known as score-to-audio alignment can be used \cite{Wang2017}. Automatic
 music tutoring applications are becoming more popular in recent years with the
 advent of such programs as Fender Play, Yousician and more taking advantage of
 this idea. In the use cases correctly played passages need to be identified
@@ -59,7 +59,7 @@ knowledge of any contextual parameters such as instrumentation or recording
 conditions is not yet achievable. However, considerable progress has been made
 by incorporating contextual parameters into existing pitch detection algorithms.
 For example multipitch detection accuracy in context-specific piano
-transcription can now exceed 90\%. \cite{context-dependent2016:Cogliati}
+transcription can now exceed 90\% \cite{context-dependent2016:Cogliati}.
 
 Most transcription algorithms that are based on heuristic procedures even
 deliberately disregard specific timbral characteristics in order to enable
@@ -100,7 +100,7 @@ transcription accuracy. Take for example, a repeated missed note compared to a
 repeating jumping octave or a note in a completely different register. Some
 ideas that have been proposed include observing how music teachers grade music
 dictation exams and better understanding the cognitive processes behind
-processing music in humans. \cite{MIR-recent-dev:Schedl}
+processing music in humans \cite{MIR-recent-dev:Schedl}.
 
 \subsection{Music Language Models}
 
@@ -118,18 +118,17 @@ structure and modulations between keys. This alludes to the fact that most
 existing \ac{AMT} systems are data driven and often the errors they make are not
 musically meaningful. In the analogous field of Speech Recognition acoustic and
 language models are applied with great success. However these models can not be
-directly applied to \ac{AMT} systems because :
+directly applied to \ac{AMT} systems because:
 \begin{itemize}
     \item Music is polyphonic
     \item Music rhythm involves much longer temporal dependencies
-    \item Music harmony arrangement involves rich music theory \end{itemize}1
+    \item Music harmony arrangement involves rich music theory \end{itemize}
 
 Some of the most promising applications of these ideas made use of Recurrent
 Neural Networks which can better model long term dependencies in time. These
 approaches were noted to achieved 10\% improvements in frame-level transcription
 accuracy with respect to similar models that did make use of \ac{MLM}. Further work
-is needed to better encode high level musical structures into current systems.
-\cite{amt-note-to-audio:Lewandowski,end-to-end-nn-2016:Sigtia}
+is needed to better encode high level musical structures into current systems \cite{amt-note-to-audio:Lewandowski,end-to-end-nn-2016:Sigtia}.
 
 \subsection{Parameters for NNs}
 There needs to be substantial work in discovering appropriate loss functions to
@@ -143,8 +142,7 @@ However, by using a weighted function that takes into account this imbalance the
 model had stable loss curves. In recent times investigations in to recurrent neural networks have shown the
 most promise as they are believed to be modelling long term interdependencies in
 between notes which may be improving model performance by capturing harmonic
-relations in the deeper layers of the network.
-\cite{end-to-end-nn-2016:Sigtia,amt-note-to-audio:Lewandowski}
+relations in the deeper layers of the network \cite{end-to-end-nn-2016:Sigtia,amt-note-to-audio:Lewandowski}.
 
 
 \section{Conclusion}

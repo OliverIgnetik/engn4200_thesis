@@ -36,31 +36,31 @@
 \contentsline {subsection}{\numberline {3.2.3}Dataset}{23}{subsection.3.2.3}%
 \contentsline {subsubsection}{\numberline {3.2.3.1}Features}{23}{subsubsection.3.2.3.1}%
 \contentsline {subsubsection}{\numberline {3.2.3.2}Labels}{23}{subsubsection.3.2.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.3.3}Loss Function}{23}{subsubsection.3.2.3.3}%
+\contentsline {subsubsection}{\numberline {3.2.3.3}Loss Function}{24}{subsubsection.3.2.3.3}%
 \contentsline {subsubsection}{\numberline {3.2.3.4}Activation functions}{24}{subsubsection.3.2.3.4}%
 \contentsline {subsubsection}{\numberline {3.2.3.5}Evaluation}{24}{subsubsection.3.2.3.5}%
-\contentsline {chapter}{\chapternumberline {4}Results}{25}{chapter.4}%
-\contentsline {section}{\numberline {4.1}NMF approach to monophonic AMT}{25}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Discussion}{25}{subsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.1.1}Window Size}{25}{subsubsection.4.1.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.1.2}Peak Picking Threshold Value}{25}{subsubsection.4.1.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.1.3}Number of harmonics}{27}{subsubsection.4.1.1.3}%
-\contentsline {subsubsection}{\numberline {4.1.1.4}Number of attack frames}{27}{subsubsection.4.1.1.4}%
-\contentsline {subsection}{\numberline {4.1.2}Summary}{28}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}NN approach to polyphonic AMT}{29}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Discussion}{29}{subsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.1.1}Hyperparameter grid search}{29}{subsubsection.4.2.1.1}%
-\contentsline {subsubsection}{\numberline {4.2.1.2}loss function and metric of performance}{29}{subsubsection.4.2.1.2}%
-\contentsline {subsection}{\numberline {4.2.2}Summary}{31}{subsection.4.2.2}%
-\contentsline {chapter}{\chapternumberline {5}Conclusion}{32}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Future Research Directions}{32}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}User Informed Transcription}{32}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Score Informed Transcription}{33}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Context specific transcription}{33}{subsection.5.1.3}%
-\contentsline {subsection}{\numberline {5.1.4}Evaluation Metrics}{34}{subsection.5.1.4}%
-\contentsline {subsection}{\numberline {5.1.5}Music Language Models}{35}{subsection.5.1.5}%
-\contentsline {subsection}{\numberline {5.1.6}Parameters for NNs}{35}{subsection.5.1.6}%
-\contentsline {section}{\numberline {5.2}Conclusion}{36}{section.5.2}%
+\contentsline {chapter}{\chapternumberline {4}Results}{26}{chapter.4}%
+\contentsline {section}{\numberline {4.1}NMF approach to monophonic AMT}{26}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Discussion}{26}{subsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1.1}Window Size}{26}{subsubsection.4.1.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1.2}Peak Picking Threshold Value}{27}{subsubsection.4.1.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.1.3}Number of harmonics}{28}{subsubsection.4.1.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.1.4}Number of attack frames}{29}{subsubsection.4.1.1.4}%
+\contentsline {subsection}{\numberline {4.1.2}Summary}{29}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}NN approach to polyphonic AMT}{30}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Discussion}{30}{subsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.1.1}Hyperparameter grid search}{30}{subsubsection.4.2.1.1}%
+\contentsline {subsubsection}{\numberline {4.2.1.2}loss function and metric of performance}{32}{subsubsection.4.2.1.2}%
+\contentsline {subsection}{\numberline {4.2.2}Summary}{32}{subsection.4.2.2}%
+\contentsline {chapter}{\chapternumberline {5}Conclusion}{33}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Future Research Directions}{33}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}User Informed Transcription}{33}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Score Informed Transcription}{34}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Context specific transcription}{34}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Evaluation Metrics}{35}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.1.5}Music Language Models}{36}{subsection.5.1.5}%
+\contentsline {subsection}{\numberline {5.1.6}Parameters for NNs}{36}{subsection.5.1.6}%
+\contentsline {section}{\numberline {5.2}Conclusion}{37}{section.5.2}%
 \contentsline {chapter}{Bibliography}{38}{section*.25}%
 \contentsline {appendix}{\chapternumberline {A}Code for NMF approach}{42}{appendix.A}%
 \contentsline {section}{\numberline {A.1}Instructions}{42}{section.A.1}%

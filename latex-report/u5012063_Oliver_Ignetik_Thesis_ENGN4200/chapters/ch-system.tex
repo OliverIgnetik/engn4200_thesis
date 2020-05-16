@@ -9,13 +9,13 @@ detection, note onset/offset detection, loudness estimation and quantisation,
 instrument recognition, extraction of rhythmic information, and time
 quantisation. The core problem in automatic transcription is the estimation of
 concurrent pitches in a time frame, also called multiple-F0 or multi-pitch
-detection. \cite{amtfc2013:Benetos}
+detection \cite{amtfc2013:Benetos}.
 
 \begin{figure}
     \centering
     \includegraphics[width=.7\columnwidth]{\Pic{png}{model}}
     \vspace{\BeforeCaptionVSpace}
-    \caption[AMT architecture]{Typical architecture of an \ac{AMT} system. \cite{amtfc2013:Benetos}}
+    \caption[AMT architecture]{Typical architecture of an \ac{AMT} system \cite{amtfc2013:Benetos}}
     \label{system:fig:basic-model}
 \end{figure}
 
@@ -45,7 +45,7 @@ be presented in this section.
 The sample used in this analysis is a recording of a chromatic scale played on
 a Bechstein D 280 piano in a concert hall environment retrieved from the MAPS database \cite{MAPS:Emiya}.
 
-\begin{table}
+\begin{table}[!ht]
     \centering
     \begin{tabular}{|l|l|l|}
         \hline
@@ -63,8 +63,8 @@ passed to the \ac{NMF}\_model class which is the main class for performing the
 experiments in this investigation. As can be seen in
 \autoref{system:fig:nmf-model} the audio data is passed to the \ac{NMF} class where
 the constructor takes two important parameters to determine the spectrogram
-\emph{hop length} and \emph{window size}. The \ac{NMF} class has the following
-important methods :
+\emph{hop length} and \emph{window size}. A system diagram of the baseline model is shown in \autoref{system:fig:baseline-nmf}.
+The \ac{NMF} class has the following important methods :
 
 \begin{itemize}
     \item make\_stft - builds the spectrogram based on the hop length and window size
@@ -89,6 +89,14 @@ name and data keys to allow for flexible access. This dictionary is then
 iterated through and the models accuracy for each parameter is evaluated using
 the mir\_eval library.
 
+\begin{figure}
+    \centering
+    \includegraphics[width=.95\columnwidth]{\Pic{png}{NMF_baseline}}
+    \vspace{\BeforeCaptionVSpace}
+    \caption{Baseline model for NMF AMT}
+    \label{system:fig:baseline-nmf}
+\end{figure}
+
 \subsection{NN Application to polyphonic AMT}
 A feed forward \ac{NN} will be used to transcribe music from the musicnet database.
 The pieces are polyphonic which means the complexity is much higher due to
@@ -102,13 +110,21 @@ multiple instruments being played at the same time.
     \label{system:fig:nn-model}
 \end{figure}
 
-A baseline model is established which will be tuned by scanning the
+A baseline model shown in \autoref{system:fig:nn-baseline} is established which will be tuned by scanning the
 hyperparameters of the model. Once optimal parameters have been established the
 model will be trained for a larger number of epochs to learn the dataset more
 comprehensively. The model will be evaluated using an appropriate metric for
 multilabel classification tasks. The model will be implemented using Keras with a
-Tensorflow backend and a high level overview of the model is shown in \autoref{system:fig:nn-model}
+Tensorflow backend and a high level overview of the model is shown in \autoref{system:fig:nn-model}.
 The defining features of the model architecture are provided in \autoref{system:table:baseline-parameters}
+
+\begin{figure}[!b]
+    \centering
+    \includegraphics[width=.95\columnwidth]{\Pic{png}{NN_baseline}}
+    \vspace{\BeforeCaptionVSpace}
+    \caption{Baseline model for NN AMT}
+    \label{system:fig:nn-baseline}
+\end{figure}
 
 \begin{table}
     \centering

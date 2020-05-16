@@ -14,6 +14,22 @@ Generally the model performed well achieving and accuracy of 0.90 or higher
 dependent on the values of different parameters. The four most influential
 parameters tested in the model will be discussed in this section.
 
+
+\begin{table}[!ht]
+    \centering
+    \begin{tabular}{|l|c|}
+        \hline
+        \textbf{Parameters}       & \multicolumn{1}{l|}{\textbf{Value}} \\ \hline
+        Window size               & 3004                                \\ \hline
+        Threshold value           & 0.5                                 \\ \hline
+        harmonics                 & 5                                   \\ \hline
+        Attack frames             & 0                                   \\ \hline
+        \textbf{Overall Accuracy} & \multicolumn{1}{l|}{\textbf{1.00}}  \\ \hline
+    \end{tabular}
+    \caption{Optimal parameters for NMF model}
+    \label{results:table:nn-optimal}
+\end{table}
+
 \begin{figure}
     \centering
     \includegraphics[width=0.98\columnwidth]{\Pic{png}{NMF_tuning}}
@@ -110,13 +126,13 @@ discussed including the Hyperparameter tuning, choice of loss function and
 metric of performance. The optimal parameters are shown in \autoref{results:table:nn-optimal}.
 
 
-\begin{table}
+\begin{table}[!ht]
     \centering
     \begin{tabular}{|l|c|}
         \hline
         \textbf{Parameters} & \multicolumn{1}{l|}{\textbf{Value}} \\ \hline
         Neurons per layer   & 512                                 \\ \hline
-        Dropout Rate        & 0.91                                \\ \hline
+        Dropout Rate        & 0.1                                 \\ \hline
         Layers              & 3                                   \\ \hline
         \textbf{f1-score}   & \multicolumn{1}{l|}{\textbf{0.75}}  \\ \hline
     \end{tabular}
@@ -172,7 +188,7 @@ accuracy due to this class imbalance.
         256                               & 0.381                                           & 0.371                                    \\ \hline
         512                               & 0.399                                           & 0.346                                    \\ \hline
     \end{tabular}
-    \caption[Hyperparameter gridsearch \ac{NN}]{Hyperparameter tuning for \ac{NN} approach on polyphonic \ac{AMT}}
+    \caption[Hyperparameter gridsearch NN]{Hyperparameter tuning for \ac{NN} approach on polyphonic \ac{AMT}}
     \label{results:table:nn-grid}
 \end{table}
 

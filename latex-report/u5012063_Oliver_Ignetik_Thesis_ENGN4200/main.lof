@@ -10,13 +10,15 @@
 \addvspace {10pt}
 \contentsline {figure}{\numberline {3.1}{\ignorespaces AMT architecture}}{19}{figure.3.1}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces System model for NMF AMT}}{21}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces System model for NN AMT}}{22}{figure.3.3}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Baseline model for NMF AMT}}{22}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces System model for NN AMT}}{22}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Baseline model for NN AMT}}{23}{figure.3.5}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Hyperparameter gridsearch}}{26}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Example of dictionary components}}{27}{figure.4.2}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Example of activation components}}{28}{figure.4.3}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces NN model performance}}{30}{figure.4.4}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Hyperparameter gridsearch}}{27}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Example of dictionary components}}{28}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Example of activation components}}{29}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces NN model performance}}{31}{figure.4.4}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Instrumentation effects on waveforms}}{34}{figure.5.1}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Instrumentation effects on waveforms}}{35}{figure.5.1}%
 \addvspace {10pt}
 \addvspace {10pt}
