@@ -422,7 +422,7 @@
       \field{title}{Discrete-Time Signal Processing}
       \field{year}{2010}
     \endentry
-    \entry{LiDL2019}{article}{}
+    \entry{LiDL2019}{thesis}{}
       \name{author}{3}{}{%
         {{hash=4c305f909afd2192eedb6f46f0883d14}{%
            family={Li},
@@ -440,6 +440,9 @@
            given={L.},
            giveni={L\bibinitperiod}}}%
       }
+      \list{institution}{1}{%
+        {Stanford University}%
+      }
       \list{location}{1}{%
         {Stanford}%
       }
@@ -454,6 +457,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Music Transcription Using Deep Learning}
+      \field{type}{phdthesis}
       \field{year}{2019}
     \endentry
     \entry{MIR-recent-dev:Schedl}{article}{}

@@ -20,7 +20,7 @@ parameters tested in the model will be discussed in this section.
     \begin{tabular}{|l|c|}
         \hline
         \textbf{Parameters}       & \multicolumn{1}{l|}{\textbf{Value}} \\ \hline
-        Window size               & 3004                                \\ \hline
+        Window size               & 3000                                \\ \hline
         Threshold value           & 0.5                                 \\ \hline
         harmonics                 & 5                                   \\ \hline
         Attack frames             & 0                                   \\ \hline
@@ -42,10 +42,9 @@ Through inspecting \autoref{review:fig:NMF-tuning}~(a) it is shown that the
 overall accuracy of the model decreased as the window size increased. This can
 be explained by referring back to \autoref{review:eq:tradeoff} which
 encapsulates the concept of frequency time resolution trade off in spectrograms.
-The ideal time window size to use in this situation is 3004 samples as this
-translates to a frequency resolution of 14.68~$\si{\hertz}$. This is equivalent
-to a semi-tone in music which is part of the "equal tempered scale" as shown in
-\autoref{review:eq:equal-scale}.
+The ideal time window size to use in this situation is about 3004 samples as this
+translates to a frequency resolution of 14.68~$\si{\hertz}$. This approximately equivalent
+to a semi-tone for the mid-range of the piano as shown in \autoref{review:eq:equal-scale}.
 
 \subsubsection{Peak Picking Threshold Value}
 One of the crucial parameters in the model is the use of a peak picking

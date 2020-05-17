@@ -1,20 +1,20 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
-[1] Config.pm:307> INFO - Logfile is 'main.blg'
-[113] biber-MSWIN64:322> INFO - === 
+[0] Config.pm:307> INFO - Logfile is 'main.blg'
+[114] biber-MSWIN64:322> INFO - === 
 [141] Biber.pm:415> INFO - Reading 'main.bcf'
-[255] Biber.pm:943> INFO - Found 33 citekeys in bib section 0
-[275] Biber.pm:4256> INFO - Processing section 0
-[275] Utils.pm:75> INFO - Globbing data source 'references.bib'
-[349] Utils.pm:91> INFO - Globbed data source 'references.bib' to references.bib
-[417] Biber.pm:4455> INFO - Looking for bibtex format file 'references.bib' for section 0
-[438] bibtex.pm:1653> INFO - LaTeX decoding ...
-[543] bibtex.pm:1471> INFO - Found BibTeX data source 'references.bib'
-[666] Utils.pm:304> WARN - year field 'January 2019' in entry 'ISMIR-tut:Benetos' is not an integer - this will probably not sort properly.
-[699] Utils.pm:304> WARN - year field 'To be Published' in entry 'MAPS:Emiya' is not an integer - this will probably not sort properly.
-[992] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[992] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[992] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[992] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[1115] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1157] bbl.pm:755> INFO - Output to main.bbl
-[1172] Biber.pm:128> INFO - WARNINGS: 2
+[254] Biber.pm:943> INFO - Found 33 citekeys in bib section 0
+[273] Biber.pm:4256> INFO - Processing section 0
+[274] Utils.pm:75> INFO - Globbing data source 'references.bib'
+[284] Utils.pm:91> INFO - Globbed data source 'references.bib' to references.bib
+[301] Biber.pm:4455> INFO - Looking for bibtex format file 'references.bib' for section 0
+[320] bibtex.pm:1653> INFO - LaTeX decoding ...
+[425] bibtex.pm:1471> INFO - Found BibTeX data source 'references.bib'
+[486] Utils.pm:304> WARN - year field 'January 2019' in entry 'ISMIR-tut:Benetos' is not an integer - this will probably not sort properly.
+[531] Utils.pm:304> WARN - year field 'To be Published' in entry 'MAPS:Emiya' is not an integer - this will probably not sort properly.
+[763] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[763] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[763] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[764] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[807] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[846] bbl.pm:755> INFO - Output to main.bbl
+[860] Biber.pm:128> INFO - WARNINGS: 2
