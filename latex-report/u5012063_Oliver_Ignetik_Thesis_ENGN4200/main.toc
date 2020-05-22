@@ -4,11 +4,11 @@
 \contentsline {chapter}{List of Figures}{vi}{section*.6}%
 \contentsline {chapter}{List of Tables}{vii}{section*.8}%
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}What is Automatic transcription ?}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.1}What is Automatic Transcription ?}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Key Challenges}{1}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Commercial Applications}{3}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Overview}{3}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Research Question}{3}{subsection.1.4.1}%
+\contentsline {section}{\numberline {1.4}Overview}{4}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Research Question}{4}{subsection.1.4.1}%
 \contentsline {subsection}{\numberline {1.4.2}Project Scope}{4}{subsection.1.4.2}%
 \contentsline {section}{\numberline {1.5}Thesis Synopsis}{4}{section.1.5}%
 \contentsline {section}{\numberline {1.6}Resources}{4}{section.1.6}%
@@ -22,7 +22,7 @@
 \contentsline {subsection}{\numberline {2.2.3}Short-Time Fourier Transform}{9}{subsection.2.2.3}%
 \contentsline {subsubsection}{\numberline {2.2.3.1}Log-Frequency Spectrogram}{10}{subsubsection.2.2.3.1}%
 \contentsline {subsubsection}{\numberline {2.2.3.2}\ac {CQT}}{10}{subsubsection.2.2.3.2}%
-\contentsline {section}{\numberline {2.3}State of the Art Methods}{11}{section.2.3}%
+\contentsline {section}{\numberline {2.3}State-of-the-Art Methods}{11}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Non-negative Matrix Factorization}{11}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Neural Networks}{13}{subsection.2.3.2}%
 \contentsline {subsubsection}{\numberline {2.3.2.1}Important Features in \ac {NN}s}{16}{subsubsection.2.3.2.1}%
@@ -50,7 +50,7 @@
 \contentsline {section}{\numberline {4.2}NN approach to polyphonic AMT}{30}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Discussion}{30}{subsection.4.2.1}%
 \contentsline {subsubsection}{\numberline {4.2.1.1}Hyperparameter grid search}{30}{subsubsection.4.2.1.1}%
-\contentsline {subsubsection}{\numberline {4.2.1.2}loss function and metric of performance}{32}{subsubsection.4.2.1.2}%
+\contentsline {subsubsection}{\numberline {4.2.1.2}Loss function and metric of performance}{32}{subsubsection.4.2.1.2}%
 \contentsline {subsection}{\numberline {4.2.2}Summary}{32}{subsection.4.2.2}%
 \contentsline {chapter}{\chapternumberline {5}Conclusion}{33}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Future Research Directions}{33}{section.5.1}%

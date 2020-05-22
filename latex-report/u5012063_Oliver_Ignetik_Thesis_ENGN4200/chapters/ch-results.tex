@@ -10,9 +10,7 @@
 \subsection{Discussion}
 
 In this section the results obtained by the \ac{NMF} model will be discussed.
-Generally the model performed well achieving and accuracy of 0.90 or higher
-dependent on the values of different parameters. The four most influential
-parameters tested in the model will be discussed in this section.
+The four most influential parameters tested in the model will be discussed in this section.
 
 
 \begin{table}[!ht]
@@ -27,7 +25,7 @@ parameters tested in the model will be discussed in this section.
         \textbf{Overall Accuracy} & \multicolumn{1}{l|}{\textbf{1.00}}  \\ \hline
     \end{tabular}
     \caption{Optimal parameters for NMF model}
-    \label{results:table:nn-optimal}
+    \label{results:table:nmf-optimal}
 \end{table}
 
 \begin{figure}
@@ -41,7 +39,7 @@ parameters tested in the model will be discussed in this section.
 Through inspecting \autoref{review:fig:NMF-tuning}~(a) it is shown that the
 overall accuracy of the model decreased as the window size increased. This can
 be explained by referring back to \autoref{review:eq:tradeoff} which
-encapsulates the concept of frequency time resolution trade off in spectrograms.
+encapsulates the concept of time-frequency resolution trade off in spectrograms.
 The ideal time window size to use in this situation is about 3004 samples as this
 translates to a frequency resolution of 14.68~$\si{\hertz}$. This approximately equivalent
 to a semi-tone for the mid-range of the piano as shown in \autoref{review:eq:equal-scale}.
@@ -69,10 +67,10 @@ approximately 0.5.
 \end{figure}
 
 \subsubsection{Number of harmonics}
-The number of harmonics is another crucial parameters in finding the fundamental
+The number of harmonics is another crucial parameter in finding the fundamental
 frequency. As discussed in \autoref{subsection:pitch-harmony} a pitched sound
 comprises of a series of harmonics that are integer multiples of the fundamental
-frequency. Infact only a number of harmonics are needed for the pitch to be
+frequency. In fact only a number of harmonics are needed for the pitch to be
 percieved in the mind of the listener. By inspecting
 \autoref{review:fig:NMF-tuning}~(c), it is evident that only a small number of
 harmonics are needed for good performance in the model. However, it is noted
@@ -91,7 +89,7 @@ matrix showing the temporal evolution of the notes. Typical pitched events have 
 that musicians would be well aware of attack, decay, sustain and release. The pitched event
 will be best percieved in the mind of the listener during the sustain period as a stable frequency of
 oscillation will be achieved. This experiment, however, revealed that disregarding the attack frames
-infact increased the model performance as shown in \autoref{review:fig:NMF-tuning}~(d).
+in fact increased the model performance as shown in \autoref{review:fig:NMF-tuning}~(d).
 The number of attack frames also depends on the type of recording environment and the type of instrument used.
 So given a different instrument the number of attack frames may have to be changed.
 
@@ -109,7 +107,7 @@ appropriate for polyphonic transcription. The crucial points of discovery are:
 
 \begin{itemize}
     \item \ac{NMF} model provides high accuracy metrics for monophonic music
-    \item Fast performance and compile time
+    \item Fast compile time of \ac{STFT} and \ac{NMF} decomposition
     \item Needs fine tuning dependent on recording environment and instrument type
     \item The attack frames had a negligible effect on model performance
 \end{itemize}
@@ -119,7 +117,7 @@ appropriate for polyphonic transcription. The crucial points of discovery are:
 
 \subsection{Discussion}
 In this section the results obtained by the \ac{NN} model will be discussed.
-Generally the model performed well achieving a validation f1-score of 0.75 after
+Generally the model performed well achieving a validation f-measure of 0.75 after
 100 epochs performed on the training data. The most important insights will be
 discussed including the Hyperparameter tuning, choice of loss function and
 metric of performance. The optimal parameters are shown in \autoref{results:table:nn-optimal}.
@@ -133,7 +131,7 @@ metric of performance. The optimal parameters are shown in \autoref{results:tabl
         Neurons per layer   & 512                                 \\ \hline
         Dropout Rate        & 0.1                                 \\ \hline
         Layers              & 3                                   \\ \hline
-        \textbf{f1-score}   & \multicolumn{1}{l|}{\textbf{0.75}}  \\ \hline
+        \textbf{f-measure}  & \multicolumn{1}{l|}{\textbf{0.75}}  \\ \hline
     \end{tabular}
     \caption{Optimal parameters for model}
     \label{results:table:nn-optimal}
@@ -151,29 +149,30 @@ test its predictive power. This means the model is highly dependent to genre,
 recording environment and instrumentation. This model would not perform well on
 a music database that is vastly different as it would need to be retrained which
 takes considerably more time then using an NMF model which is one major
-drawback. Training this model for 100 epochs to achieve the observed f1-score
+drawback. Training this model for 100 epochs to achieve the observed f-measure
 had a relatively long time of completion.
 
 \begin{figure}
     \centering
     \includegraphics[width=0.98\columnwidth]{\Pic{png}{NN_perf}}
-    \caption[NN model performance]{Loss function and f1 measure curves for neural network model with optimal parameters}
+    \caption[NN model performance]{Loss function and f-measure curves for neural network model with optimal parameters}
     \label{results:fig:model-perf}
 \end{figure}
 
-\subsubsection{loss function and metric of performance}
+\subsubsection{Loss function and metric of performance}
 The behaviour of the curves in \autoref{results:fig:model-perf} indicates that
-the use of the weighted cross entropy function in combinations with the modified
-f1-score were well suited to this type of problem. Initially a regular binary cross entropy with binary accuracy was
-used however the model performed very poorly in that it overfit to inactive notes and provided a false sense of
+the use of the weighted cross entropy function in combination with the modified
+f-measure are well suited to this type of problem. Initially a regular binary
+cross entropy with binary accuracy was used however the model performed
+poorly in that it overfit to inactive notes and provided a false sense of
 accuracy due to this class imbalance.
 
 \begin{table}
     \centering
     \begin{tabular}{|l|c|c|}
         \hline
-                                          & \multicolumn{2}{c|}{\textbf{validation scores}}                                            \\ \hline
-        \textbf{Parameter}                & \multicolumn{1}{l|}{\textbf{f1-measure}}        & \multicolumn{1}{l|}{\textbf{loss score}} \\ \hline
+                                          & \multicolumn{2}{c|}{\textbf{Validation scores}}                                            \\ \hline
+        \textbf{Parameter}                & \multicolumn{1}{l|}{\textbf{f-measure}}         & \multicolumn{1}{l|}{\textbf{loss score}} \\ \hline
         \textbf{layers}                   & \multicolumn{1}{l|}{}                           & \multicolumn{1}{l|}{}                    \\ \hline
         2                                 & 0.374                                           & 0.374                                    \\ \hline
         3                                 & 0.382                                           & 0.368                                    \\ \hline
@@ -200,9 +199,9 @@ resembling a musical score which is the ultimate goal of AMT systems.
 The crucial points of discovery are:
 \begin{itemize}
     \item Stable loss curve illustrates use of proper accuracy metrics and loss functions
-    \item f1-score was suitable for polyphonic music case
+    \item f-measure was suitable for polyphonic music case
     \item Takes time to retrain data
-    \item Output is not yet in piano MIDI form
+    \item Output is not yet in piano \ac{MIDI} form
 \end{itemize}
 
 

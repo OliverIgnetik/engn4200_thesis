@@ -5,9 +5,9 @@
 \vspace{2em}
 
 The \ac{AMT} problem can be divided into several subtasks, which include: multipitch
-detection, note onset/offset detection, loudness estimation and quantisation,
+detection, note onset/offset detection, loudness estimation and quantization,
 instrument recognition, extraction of rhythmic information, and time
-quantisation. The core problem in automatic transcription is the estimation of
+quantization. The core problem in automatic transcription is the estimation of
 concurrent pitches in a time frame, also called multiple-F0 or multi-pitch
 detection \cite{amtfc2013:Benetos}.
 
@@ -61,7 +61,7 @@ the investigation as this is much more difficult to infer from the audio signal.
 The audio data is loaded into the python kernel using LibROSA and then it is
 passed to the \ac{NMF}\_model class which is the main class for performing the
 experiments in this investigation. As can be seen in
-\autoref{system:fig:nmf-model} the audio data is passed to the \ac{NMF} class where
+\autoref{system:fig:nmf-model}, the audio data is passed to the \ac{NMF} class where
 the constructor takes two important parameters to determine the spectrogram
 \emph{hop length} and \emph{window size}. A system diagram of the baseline model is shown in \autoref{system:fig:baseline-nmf}.
 The \ac{NMF} class has the following important methods :
@@ -111,7 +111,7 @@ multiple instruments being played at the same time.
 \end{figure}
 
 A baseline model shown in \autoref{system:fig:nn-baseline} is established which will be tuned by scanning the
-hyperparameters of the model. Once optimal parameters have been established the
+hyperparameters of the model. Once optimal parameters have been established, the
 model will be trained for a larger number of epochs to learn the dataset more
 comprehensively. The model will be evaluated using an appropriate metric for
 multilabel classification tasks. The model will be implemented using Keras with a
@@ -137,7 +137,7 @@ The defining features of the model architecture are provided in \autoref{system:
         Output activation                         & Sigmoid function \\ \hline
         Hidden activation                         & ReLU function    \\ \hline
     \end{tabular}
-    \caption{Critical Baseline model parameters}
+    \caption{Critical baseline model parameters}
     \label{system:table:baseline-parameters}
 \end{table}
 
@@ -165,8 +165,8 @@ with 1 representing active and 0 representing inactive.
 
 \subsubsection{Loss Function}
 
-A weighted binary cross entropy will is used as the loss function for optimizing
-the wieghts of the model. A normal binary cross entropy function (shown in \autoref{system:eq:bce-loss}) is not
+A weighted binary cross entropy is used as the loss function for optimizing
+the weights of the model. A normal binary cross entropy function (shown in \autoref{system:eq:bce-loss}) is not
 appropriate in this case as the ratio of inactive notes to active notes notes is
 on average 10-15 throughout the database.
 

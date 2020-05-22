@@ -3,7 +3,7 @@
 \chapter{Introduction}
 \vspace{2em}
 
-\section{What is Automatic transcription ?}
+\section{What is Automatic Transcription ?}
 The nature of music signals, which often contain several sound sources that are
 highly correlated over both time and frequency, means that \ac{AMT} is still
 considered an open problem in the literature. Usually an AMT system takes an
@@ -19,19 +19,16 @@ checking alternative hypotheses. AMT refers to the design of computational
 algorithms to convert acoustic music signals into some form of music notation.
 It is a challenging task and considered an unsolved problem in signal processing and
 artificial intelligence. This problem is particularly challenging in polyphonic
-music were even the most advanced systems are far behind meeting the accuracy of
+music where even the most advanced systems are far behind meeting the accuracy of
 trained musicians \cite{spma2011:Klapuri}.
-
-% It comprises several subtasks, including multipitch estimation (MPE), onset
-% and offset detection, instrument recognition, beat and rhythm tracking,
-% interpretation of expressive timing and dynamics and score typesetting. See
-% \autoref{ch:system} for a graphical representation of the sub systems that
-% make up typical AMT systems. \cite{amt2019:Benetos}
 
 \begin{figure}[!b]
       \centering
       \includegraphics[width=.6\linewidth]{\Pic{jpg}{AMT-process}}
-      \caption[Transcription Process]{\ac{AMT} process figure taken from NUS ISMIR 2019 tutorial \cite{ISMIR-tut:Benetos} }
+      \caption[Transcription Process]{\ac{AMT} process. AMT often involves the process
+            of converting audio waveform to mid-level representations such as the piano roll representation which
+            encode the pitch and timing of note onsets and offsets.
+            Taken from NUS ISMIR 2019 \cite{ISMIR-tut:Benetos} }
       \label{intro:fig:AMT-process}
 \end{figure}
 
@@ -41,22 +38,31 @@ Despite significant progress in \ac{AMT} research, there exists no end-user appl
 can accurately and realiably transcribe music containing the range of instrument combinations and
 genres found in recorded music.
 
-There are several factors that make AMT particularly challenging :
+There are several factors that make AMT particularly challenging:
 
 \begin{enumerate}
-      \item \emph{Polyphonic mixtures} - inferring musical attributes from a signal containing
-            multiple simultaneous sources with different pitch, loudness and sound quality is extremely difficult. Even the
-            task of disentangling the harmonics of two coinciding pitches is not trivial. For consonant intervals, which are often
-            seen in diatonic harmonies and form basic harmonic buidling blocks, the notes share many of the same harmonics making the
-            seperation of voices even more difficult \cite{ISMIR-tut:Benetos}.
-      \item \emph{Synchronous sound sources} - musicians pay close attention to metrical structure and rhythmic synchronicity,
-            which violates statistical independence between sources which is often used in Automatic Speech Recognition to facilitate seperation.
-      \item \emph{Lack of ground-truth transcriptions} - the annotation of polyphonic music
-            is extremely time consuming and requires high expertise especially in symphonic pieces were there
-            are many concurrent sound events. Even when there is sheet music available for a particular piece, they
-            are difficult to align with an audio signal. Sheet music at best is considered as a weak label due to the fact
-            subjective interpretation often plays a role. This is true even in the most prudent genres like classical music were musicians strive to pertain to the
-            score as much as possible \cite{ground-truths:Su}.
+      \item \emph{Polyphonic mixtures} - inferring musical attributes from a
+            signal containing multiple simultaneous sources with different
+            pitch, loudness and sound quality is extremely difficult. Even the
+            task of disentangling the harmonics of two coinciding pitches is not
+            trivial. For consonant intervals, which are often seen in diatonic
+            harmonies and form basic harmonic buidling blocks, the notes share
+            many of the same harmonics making the seperation of voices even more
+            difficult \cite{ISMIR-tut:Benetos}.
+      \item \emph{Synchronous sound sources} - musicians pay close attention to
+            metrical structure and rhythmic synchronicity, which violates
+            statistical independence between sources which is often used in
+            Automatic Speech Recognition to facilitate seperation.
+      \item \emph{Lack of ground-truth transcriptions} - the annotation of
+            polyphonic music is extremely time consuming and requires high
+            expertise especially in symphonic pieces were there are many
+            concurrent sound events. Even when there is sheet music available
+            for a particular piece, they are difficult to align with an audio
+            signal. Sheet music at best is considered as a weak label due to the
+            fact that subjective interpretation often plays a role. This is true
+            even in the most prudent genres like classical music were musicians
+            strive to pertain to the score as much as possible
+            \cite{ground-truths:Su}.
 \end{enumerate}
 
 \section{Commercial Applications}
@@ -69,7 +75,7 @@ analyzing jazz improvisations and other nonannotated music. Given the potential
 applications, the problem has attracted commerical interest and a number of AMT
 software exists \cite{amtfc2013:Benetos}.
 
-Commercially available applications include Melodyne (\url{http://www.celemony.com/en/melodyne }), Transcribe!(\url{https://www.seventhstring.com/xscribe/ })  and AudioScore exist.
+Commercially available applications include Melodyne (\url{http://www.celemony.com/en/melodyne }), Transcribe!(\url{https://www.seventhstring.com/xscribe/ })  and AudioScore.
 In context-specific transcription scenarios these applications can reach multipitch detection accuracies of 90\% or more. Even some open source
 academically produced applications can reach similar performance levels \cite{context-dependent2016:Cogliati}.
 However, given complex ensemble pieces with multiple instruments the performance of such systems
@@ -84,18 +90,17 @@ improve the performance of \ac{AMT} systems?
 
 \subsection{Project Scope}
 
-The scope of the thesis will focused on western music with its associated modes
-and scales. This paper will be restricted to approaches that analyze music
+The scope of the thesis will be focused on western music with its associated modes
+and scales. This thesis will be restricted to approaches that analyze music
 produced by pitched instruments such as pianos and guitars. Outside of the scope
-of the paper will be methods for transcribing percussive instruments such as
+of the thesis will be methods for transcribing percussive instruments such as
 drums.
 
 \section{Thesis Synopsis}
 
 \autoref{ch:review} serves as a review of important musical concepts and a
-literature review in music signal processing. Crucial Digital Signal Processing
-(DSP) techniques are relations are presented. Finally a number of state of the
-art methods and their characteristics are explored.
+literature review in music signal processing. Crucial digital signal processing
+techniques relations are presented. Finally a number of state-of-the-art methods and their characteristics are explored.
 
 \autoref{ch:system} provides details on the system architecture of the AMT
 systems used in this research project. \autoref{ch:results} presents the crucial
