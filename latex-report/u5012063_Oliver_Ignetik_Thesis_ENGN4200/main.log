@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.13)  22 MAY 2020 20:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.13)  25 MAY 2020 11:47
 entering extended mode
 **c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_Ignetik_Thesis_ENGN4200/main.tex
 (c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_Ignetik_Thesis_ENGN4200/main.tex
@@ -1426,7 +1426,7 @@ Package pdftex.def Info: pic/ch-System/NN_baseline.png  used on input line 123.
 (pdftex.def)             Requested size: 402.85602pt x 105.80508pt.
  [22 <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_Ignetik_Thesis_ENGN4200/pic/ch-System/NMF_baseline.png> <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_Ignetik_Thesis_ENGN4200/pic/ch-System/NN-system.png>] [23 <c:/Users/olli/Desktop/engn4200_thesis/latex-report/u5012063_Oliver_Ignetik_Thesis_ENGN4200/pic/ch-System/NN_baseline.png>]
 Package acronym Info: Label `acro:ReLU' newly defined as it shall be overridden
-although it is yet undefined on input line 184.
+although it is yet undefined on input line 185.
  [24]) (c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\chapters/ch-results.tex [25]
 <pic/ch-Results/NMF_tuning.png, id=637, 1140.26pt x 1079.03125pt>
 File: pic/ch-Results/NMF_tuning.png Graphic file (type png)
@@ -1500,7 +1500,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  49i,18n,53p,1240b,1801s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bera/fvmr8a.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/olli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.pdf (52 pages, 2507812 bytes).
+Output written on c:/Users\olli\Desktop\engn4200_thesis\latex-report\u5012063_Oliver_Ignetik_Thesis_ENGN4200\main.pdf (52 pages, 2507974 bytes).
 PDF statistics:
  1101 PDF objects out of 1200 (max. 8388607)
  272 named destinations out of 1000 (max. 500000)

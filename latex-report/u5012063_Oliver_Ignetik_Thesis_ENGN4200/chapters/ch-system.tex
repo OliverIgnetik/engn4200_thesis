@@ -177,7 +177,8 @@ on average 10-15 throughout the database.
 
 This means that the model would overfit to the inactive notes to minimize the loss function which is essentially
 the easy way out. A weighted binary cross entropy function accounts for this by
-informing the model to fit more for active notes.
+informing the model to fit more for active notes. The function used in this thesis is based on the sklearn function
+weighted\_cross\_entropy\_with\_logits modified for use in this type of classification problem.
 
 \subsubsection{Activation functions}
 
