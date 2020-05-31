@@ -31,7 +31,7 @@ The four most influential parameters tested in the model will be discussed in th
 \begin{figure}
     \centering
     \includegraphics[width=0.98\columnwidth]{\Pic{png}{NMF_tuning}}
-    \caption[Hyperparameter gridsearch]{Hyperparameter tuning with accuracy metrics for monophonic \ac{AMT} system}
+    \caption[Hyperparameter gridsearch]{Hyperparameter tuning with accuracy metrics for monophonic \ac{AMT} system. 5 epochs were used with a batch size of 32.}
     \label{review:fig:NMF-tuning}
 \end{figure}
 
@@ -40,8 +40,8 @@ Through inspecting \autoref{review:fig:NMF-tuning}~(a) it is shown that the
 overall accuracy of the model decreased as the window size increased. This can
 be explained by referring back to \autoref{review:eq:tradeoff} which
 encapsulates the concept of time-frequency resolution trade off in spectrograms.
-The ideal time window size to use in this situation is about 3004 samples as this
-translates to a frequency resolution of 14.68~$\si{\hertz}$. This approximately equivalent
+The ideal time window size to use in this situation is about 3000 samples as this
+translates to a frequency resolution of 14.68~$\si{\hertz}$. This is approximately equivalent
 to a semi-tone for the mid-range of the piano as shown in \autoref{review:eq:equal-scale}.
 
 \subsubsection{Peak Picking Threshold Value}
@@ -62,7 +62,7 @@ approximately 0.5.
 \begin{figure}
     \centering
     \includegraphics[width=0.98\columnwidth]{\Pic{png}{dictionary}}
-    \caption{Example of dictionary components}
+    \caption{Example of dictionary components obtained from NMF decomposition with a window size of 3000 samples, hop length of 512 and sampling frequency of 44.1 \si{\kilo\hertz}.}
     \label{results:fig:dictionary}
 \end{figure}
 
@@ -74,11 +74,11 @@ frequency. In fact only a number of harmonics are needed for the pitch to be
 percieved in the mind of the listener. By inspecting
 \autoref{review:fig:NMF-tuning}~(c), it is evident that only a small number of
 harmonics are needed for good performance in the model. However, it is noted
-that as the number of harmonics included in the calculation of the fundamental
+that the number of harmonics included in the calculation of the fundamental
 frequency has an inverse relationship with overall accuracy. This can be
 explained by a concept known as inharmonicity. This phenomenon is present in
 many pitched instruments where the harmonics are not perfect integer multiples
-of the fundamental frequency due to properties of the instrument that vary of
+of the fundamental frequency due to properties of the instrument that vary over
 time such as string tension and hammer velocity in pianos.
 
 \subsubsection{Number of attack frames}
@@ -86,7 +86,7 @@ The last important parameter that will be discussed in this section is the
 number of attack frames. This parameter is important for predicting the onset
 time of each note event. \autoref{results:fig:activations} is the activation
 matrix showing the temporal evolution of the notes. Typical pitched events have four phases
-that musicians would be well aware of attack, decay, sustain and release. The pitched event
+that musicians would be well aware of; attack, decay, sustain and release. The pitched event
 will be best percieved in the mind of the listener during the sustain period as a stable frequency of
 oscillation will be achieved. This experiment, however, revealed that disregarding the attack frames
 in fact increased the model performance as shown in \autoref{review:fig:NMF-tuning}~(d).
@@ -96,7 +96,7 @@ So given a different instrument the number of attack frames may have to be chang
 \begin{figure}
     \centering
     \includegraphics[width=0.98\columnwidth]{\Pic{png}{activations}}
-    \caption{Example of activation components}
+    \caption{Example of activation components obtained from NMF decomposition with a window size of 3000 samples, hop length of 512 and sampling frequency of 44.1 \si{\kilo\hertz}.}
     \label{results:fig:activations}
 \end{figure}
 
@@ -119,7 +119,7 @@ appropriate for polyphonic transcription. The crucial points of discovery are:
 In this section the results obtained by the \ac{NN} model will be discussed.
 Generally the model performed well achieving a validation f-measure of 0.75 after
 100 epochs performed on the training data. The most important insights will be
-discussed including the Hyperparameter tuning, choice of loss function and
+discussed including the hyperparameter tuning, choice of loss function and
 metric of performance. The optimal parameters are shown in \autoref{results:table:nn-optimal}.
 
 
@@ -141,11 +141,11 @@ metric of performance. The optimal parameters are shown in \autoref{results:tabl
 In order to investigate the effect of the model parameters on performance a
 number of parameters were investigated as shown in
 \autoref{results:table:nn-grid}. As the number of layers or number of neurons
-goes up the compile and training time of the model goes up so this must be
+goes up the compile and training time of the model goes up, so this must be
 carefully considered when using NN models. The dropout rate is important to set
 to a value of 0.1 to ensure that the model does not overfit to the training
 data. The ultimate goal of the model is to apply it to "unseen data" to fully
-test its predictive power. This means the model is highly dependent to genre,
+test its predictive power. This means the model is highly dependent on genre,
 recording environment and instrumentation. This model would not perform well on
 a music database that is vastly different as it would need to be retrained which
 takes considerably more time then using an NMF model which is one major
@@ -155,7 +155,7 @@ had a relatively long time of completion.
 \begin{figure}
     \centering
     \includegraphics[width=0.98\columnwidth]{\Pic{png}{NN_perf}}
-    \caption[NN model performance]{Loss function and f-measure curves for neural network model with optimal parameters}
+    \caption[NN model performance]{Loss function and f-measure curves for neural network model with optimal parameters. 100 epochs were used to train the data with a batch size of 32.}
     \label{results:fig:model-perf}
 \end{figure}
 

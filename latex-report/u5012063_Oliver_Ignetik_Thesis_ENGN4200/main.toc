@@ -32,7 +32,7 @@
 \contentsline {section}{\numberline {3.2}Methodology}{20}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}NMF application to monophonic AMT}{20}{subsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.1.1}Evaluation}{21}{subsubsection.3.2.1.1}%
-\contentsline {subsection}{\numberline {3.2.2}NN Application to polyphonic AMT}{21}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.2}NN Application to polyphonic AMT}{22}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Dataset}{23}{subsection.3.2.3}%
 \contentsline {subsubsection}{\numberline {3.2.3.1}Features}{23}{subsubsection.3.2.3.1}%
 \contentsline {subsubsection}{\numberline {3.2.3.2}Labels}{23}{subsubsection.3.2.3.2}%
@@ -61,8 +61,8 @@
 \contentsline {subsection}{\numberline {5.1.5}Music Language Models}{36}{subsection.5.1.5}%
 \contentsline {subsection}{\numberline {5.1.6}Parameters for NNs}{36}{subsection.5.1.6}%
 \contentsline {section}{\numberline {5.2}Conclusion}{37}{section.5.2}%
-\contentsline {chapter}{Bibliography}{38}{section*.25}%
-\contentsline {appendix}{\chapternumberline {A}Code for NMF approach}{42}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Instructions}{42}{section.A.1}%
-\contentsline {appendix}{\chapternumberline {B}Code for NN approach}{43}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Instructions}{43}{section.B.1}%
+\contentsline {chapter}{Bibliography}{39}{section*.25}%
+\contentsline {appendix}{\chapternumberline {A}Code for NMF approach}{43}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Instructions}{43}{section.A.1}%
+\contentsline {appendix}{\chapternumberline {B}Code for NN approach}{44}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Instructions}{44}{section.B.1}%

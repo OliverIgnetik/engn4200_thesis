@@ -6,15 +6,15 @@
 
 Despite significant progress in the field of \ac{AMT} as can be seen by inspecting
 the \ac{MIREX} results \cite{MIREX} of recent years, the performance of even the most
-recent systems falls well below that of a human expert. This is particularly in symphonic
+recent systems falls well below that of a human expert. This is particularly notable in symphonic
 music where there is many simultaneous instruments \cite{roadmap-MIR:Serra2013}.
 
 \subsection{User Informed Transcription}
 
-The fact that current \ac{AMT} systems do not reach the same level of precision in
-extracting information from music audio signals as trained musicians do,
-suggests that a human in the loop system whereby the user provides input to the
-system to attain satisfactory results.
+Current \ac{AMT} systems do not reach the same level of precision in
+extracting information from music audio signals as trained musicians do.
+As such human in the loop systems have been proposed, whereby the user provides input to the
+system, to attain satisfactory results.
 
 Humans are extremely good at instrument identification, note onset detection,
 and segregation. While computers are capable of performing operations quickly on
@@ -22,11 +22,9 @@ extremely large datasets \cite{ISMIR-tut:Benetos}. \emph{Semi automatic
     approaches} may be able to to obtain results faster then human transcription and
 more accurate then fully automatic approaches \cite{ISMIR-tut:Benetos}.
 
-Tha main effort in this research avenue should be to the type of input that
+Tha main effort in this research avenue should be focused towards the type of input that
 users can provide which is most beneficial to the system and how to incorporate
-high level abstract musical concepts.
-
-One approach which incorporates user feedback requires the indentification of
+high level abstract musical concepts. One approach which incorporates user feedback requires the indentification of
 the type of instrument and scale or notes used \cite{user-inform:Kirchoff2012}.
 The technique used in this approach performed considerably better then a fully
 automatic approach using the same type of algorithm. Another approach required
@@ -40,15 +38,16 @@ to exploit. In certain situations, take for example classical performances, a
 method known as score-to-audio alignment can be used \cite{Wang2017}. Automatic
 music tutoring applications are becoming more popular in recent years with the
 advent of such programs as Fender Play, Yousician and more taking advantage of
-this idea. In the use cases correctly played passages need to be identified
+this idea. In these cases correctly played passages need to be identified
 along with mistakes made by the student. However, these applications are based
 around correcting local mistakes in pieces and do not correct major changes in
-performances such as the form of a piece.  Finally, the more challenging problem
-of lead-sheet informed transcription is almost unexplored with no notable
+performances such as the form of a piece.
+
+Finally, the more challenging problem of lead-sheet informed transcription is almost unexplored with no notable
 published papers at this time. A lead sheet can be thought of as a blueprint to
 an improvisor indicating only the melody and harmonic progression. These are
 very weak labels and make incorporating the information they provide extremely
-difficult. To conclude while this problem has been explored for certain
+difficult. To conclude, while this problem has been explored for certain
 instruments such as the piano there are many other instruments still yet
 unexplored and the task of lead-sheet informed transcription remains unexplored.
 
@@ -58,7 +57,7 @@ The ultimate goal of a complete multi-instrument \ac{AMT} system without specifi
 knowledge of any contextual parameters such as instrumentation or recording
 conditions is not yet achievable. However, considerable progress has been made
 by incorporating contextual parameters into existing pitch detection algorithms.
-For example multipitch detection accuracy in context-specific piano
+For example \ac{MPE} accuracy in context-specific piano
 transcription can now exceed 90\% \cite{context-dependent2016:Cogliati}.
 
 Most transcription algorithms that are based on heuristic procedures even
@@ -73,9 +72,9 @@ different kinds of instruments and situations. The \ac{NMF} approach presented i
 this paper had no information about instrument-specific harmonic profiles
 incorporated into the model. Depending on the sound production mechanism of
 instruments, the the characteristics of the harmonics require the introduction
-of instrument specific parameters in the common models used. For example the
+of instrument specific parameters in the common models used. For example, the
 spectral characteristics of a note produced on a violin are quite different to
-those produced on a piano.
+those produced on a piano (see \autoref{conc:fig:violin-vs-piano}).
 
 \begin{figure}
     \centering
@@ -93,7 +92,7 @@ Some notes are more musically important than others and as such some errors are
 more noticable to human listeners then others. For example, in certain genres
 like pop music, wrong notes within the scale are less noticable then those from
 notes outside the scale with alot of tension. Most \ac{AMT} approaches are evaluated
-using the set of metrics proposed for the \ac{MIREX} Mutliple-F0 Estimation and Note
+using the set of metrics proposed for the \ac{MIREX} Multiple-F0 Estimation and Note
 Tracking public evaluation tasks.  While the metrics do provide insight into
 building successful \ac{AMT} systems they do not correspond with human perception of
 transcription accuracy. Take for example, a repeated missed note compared to a
@@ -155,7 +154,7 @@ directions for future work.
 A potential way forward in the field is to make use of more information in the
 form of incorporating high-level musical conventions, instrumental
 characteristics or explicit user input to resolve ambiguties. In
-\autoref{ch:results} it was discussed how context can be used to inform high-level models
+\autoref{ch:concl} it was discussed how context can be used to inform high-level models
 that are more powerful then generalized models as they can encode important
 information about key, instrument identities and metrical structure that can
 inform the pitch detection algorithms.

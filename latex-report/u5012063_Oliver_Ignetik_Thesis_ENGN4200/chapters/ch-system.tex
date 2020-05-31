@@ -34,7 +34,7 @@ be presented in this section.
     \item \ac{NN} applied to a large music database
           \begin{enumerate}
               \item Dataset MusicNet recordings and active frame note labels \cite{thickstun2018invariances}
-              \item Type of architecture - Feed Forward neural network with mutli-label classification
+              \item Type of architecture - feed forward \ac{NN} with multi-label classification
           \end{enumerate}
 \end{enumerate}
 
@@ -98,7 +98,7 @@ the mir\_eval library.
 \end{figure}
 
 \subsection{NN Application to polyphonic AMT}
-A feed forward \ac{NN} will be used to transcribe music from the musicnet database.
+A feed forward \ac{NN} will be used to transcribe music from the MusicNet database.
 The pieces are polyphonic which means the complexity is much higher due to
 multiple instruments being played at the same time.
 
@@ -114,7 +114,7 @@ A baseline model shown in \autoref{system:fig:nn-baseline} is established which 
 hyperparameters of the model. Once optimal parameters have been established, the
 model will be trained for a larger number of epochs to learn the dataset more
 comprehensively. The model will be evaluated using an appropriate metric for
-multilabel classification tasks. The model will be implemented using Keras with a
+multi-label classification tasks. The model will be implemented using Keras with a
 Tensorflow backend and a high level overview of the model is shown in \autoref{system:fig:nn-model}.
 The defining features of the model architecture are provided in \autoref{system:table:baseline-parameters}
 
@@ -143,7 +143,7 @@ The defining features of the model architecture are provided in \autoref{system:
 
 \subsection{Dataset}
 
-All of the data for the model comes from the musicnet database \cite{thickstun2018invariances}.
+All of the data for the model comes from the MusicNet database \cite{thickstun2018invariances}.
 The outstanding feature of this dataset is that each audio signal comes with the associated ground truth
 onset and offset times and pitches. The data is split into training, validation and test sets based on a 60-20-20
 percentage ratio.
@@ -160,7 +160,7 @@ features per frame. Therefore, a data matrix with the size of $252 \times
 \subsubsection{Labels}
 The ground truth labels are sampled at each frame to determine the active notes
 in the audio. There are 88 possible notes on the piano and as such an array with
-length 88 constitues the active and inactive notes at each frame in the audio,
+length 88 constitutes the active and inactive notes at each frame in the audio,
 with 1 representing active and 0 representing inactive.
 
 \subsubsection{Loss Function}
@@ -175,7 +175,7 @@ on average 10-15 throughout the database.
     \label{system:eq:bce-loss}
 \end{equation}
 
-This means that the model would overfit to the inactive notes to minimize the loss function which is essentially
+This means that the model would overfit to the inactive notes to minimize the loss function, which is essentially
 the easy way out. A weighted binary cross entropy function accounts for this by
 informing the model to fit more for active notes. The function used in this thesis is based on the sklearn function
 weighted\_cross\_entropy\_with\_logits modified for use in this type of classification problem.
@@ -184,7 +184,7 @@ weighted\_cross\_entropy\_with\_logits modified for use in this type of classifi
 
 \ac{ReLU} functions will be used as the
 activation function for the hidden layers and a sigmoid activation function will
-be used on the output layer as is required in multilabel classification tasks. The sigmoid
+be used on the output layer as is required in multi-label classification tasks. The sigmoid
 activation function is shown in \autoref{system:eq:sigmoid}.
 
 \begin{equation}
@@ -193,7 +193,7 @@ activation function is shown in \autoref{system:eq:sigmoid}.
 \end{equation}
 
 \subsubsection{Evaluation}
-Accuracy is not an appropriate metric in this kind of multilabel classifiction task due to the
+Accuracy is not an appropriate metric in this kind of multi-label classifiction task due to the
 imbalance between inactive and active notes. A better measure to use that takes into account both the
 precision and recall of the model is the f-measure as shown in \autoref{system:eq:f-score}. The f-measure used in this experiment is based on the
 f1-score from the sklearn.metrics libary but is modified so it is appropriate for the
