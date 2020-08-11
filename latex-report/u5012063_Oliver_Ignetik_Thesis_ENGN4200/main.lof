@@ -15,8 +15,8 @@
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Baseline model for NN AMT}}{23}{figure.3.5}%
 \addvspace {10pt}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Hyperparameter gridsearch}}{27}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Example of dictionary components obtained from NMF decomposition with a window size of 3000 samples, hop length of 512 and sampling frequency of 44.1 \si {\kilo \hertz }.}}{28}{figure.4.2}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Example of activation components obtained from NMF decomposition with a window size of 3000 samples, hop length of 512 and sampling frequency of 44.1 \si {\kilo \hertz }.}}{29}{figure.4.3}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Example dictionary components}}{28}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Example activation components}}{29}{figure.4.3}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces NN model performance}}{31}{figure.4.4}%
 \addvspace {10pt}
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Instrumentation effects on waveforms}}{35}{figure.5.1}%
